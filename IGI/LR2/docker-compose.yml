@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+
+  php:
+    image: php-app
+    ports:
+      - 8081:80
+
+  db:
+    image: mariadb:10.6
+    restart: always
+    volumes:
+      - voldb:/data
+    environment:
+      MYSQL_ROOT_PASSWORD: notSecureChangeMe
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - voldb:/data
+    environment:
+      - PMA_ARBITRARY=1
+
+volumes:
+  voldb:

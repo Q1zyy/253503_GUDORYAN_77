@@ -14,11 +14,10 @@ class Student:
 
 class GTOData:
     
-    __jump_norm = 0
-    __sprint_norm = 0
-    
     def __init__(self):
         self.students = []
+        self.__jump_norm = 0
+        self.__sprint_norm = 0
     
     @property
     def jump_norm(self):
@@ -155,8 +154,7 @@ def task1():
     }
     
     gto_data = GTOData()
-    
-    
+       
     while(True):
         print('1 - deserialize from dict')
         print('2 - cerialize csv')

@@ -168,6 +168,7 @@ def task1():
         print('10 - print students by name')
         print('11 - get top3 students')
         print('12 - add student')
+        print('13 - exit')
         t = utility.get_int_from_input('option')
         if t == 1:
             gto_data.deserialize_from_dict(students)
@@ -246,7 +247,9 @@ def task1():
             sprint = utility.get_float_from_input('sprint time')
             jump = utility.get_int_from_input('jump time')
             gto_data.add_student(name, sprint, jump)
-                
+               
+        if t == 13:
+            break 
     
     
 task1()

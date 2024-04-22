@@ -1,4 +1,4 @@
-from random import uniform
+import random
 
 def is_float(x) -> bool:
     """Check if number is float"""
@@ -46,7 +46,7 @@ def get_list_of_floats_from_keyboard(n:int) -> list[float]:
 def random_generator(n:int):
     """Return random float number from -50 to 50"""
     for i in range(n):
-        yield uniform(-50, 50)
+        yield random.randint(-50, 50)
 
 def get_list_random(n:int) -> list[float]:
     """Return list with random items with lenght n"""

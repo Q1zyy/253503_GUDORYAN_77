@@ -49,14 +49,14 @@ class Hexagon(GeometricalFigure):
         plt.show()
         
     def __str__(self):
-        return "{} color {} side {} area {}".format(self.name, self.color.color, self.side, self.area())
+        return "{} color: {} side: {} area: {}".format(self.name, self.color.color, self.side, self.area())
     
 
 def main():
     while True:
         side = utility.get_float_from_input('side')
         color = input('Input color\n')
-        while not color in ['black', 'red', 'blue', 'green']:
+        while not color in ['black', 'red', 'blue', 'green', 'grey', 'yellow']:
             color = input('Input color\n')
         text = input('Input label text\n')
         hex = Hexagon(side, color)

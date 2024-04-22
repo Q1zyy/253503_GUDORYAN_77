@@ -2,7 +2,9 @@ import numpy as np
 import utility
 
 class MatrixStatisticMixin:
+    """Mixin for matrix statistic"""
     def stats(self):
+        """Method for printing stats for matrix"""
         mean = np.mean(self.matrix)
         median = np.median(self.matrix)
         corcroef = np.corrcoef(self.matrix)
@@ -15,13 +17,14 @@ class MatrixStatisticMixin:
         print('Stdev:', stdev)
 
 class MatrixOperations(MatrixStatisticMixin):
-    
+    """Class for matrix operations"""
     def __init__(self, n, m):
         self.n = n
         self.m = m
         self.matrix = np.full((n, m), 0)
     
     def create_random_matrix(self):
+        """Method for creating random matrix"""
         gen = utility.random_generator(self.n * self.m)
         for i in range(self.n):
             tmp = []
@@ -29,6 +32,7 @@ class MatrixOperations(MatrixStatisticMixin):
                 self.matrix[i][j] = next(gen)
                 
     def min_side_diagonal(self):
+        """Method for finding min in side diagonal"""
         x = 0
         y = self.m - 1
         elems = []
@@ -39,6 +43,7 @@ class MatrixOperations(MatrixStatisticMixin):
         return min(elems)
     
     def variance_side_diagonal_my(self):
+        """Method for finding variance on side diagonal"""
         x = 0
         y = self.m - 1
         elems = []
@@ -58,6 +63,7 @@ class MatrixOperations(MatrixStatisticMixin):
         return np.round(res / c, 2)
         
     def variance_side_diagonal(self):
+        """Method for finding variance on side diagonal using numpy"""
         x = 0
         y = self.m - 1
         elems = []
@@ -93,6 +99,7 @@ def main():
         print('4 - variance on side diagonal my')
         print('5 - statistic')
         print('6 - swap min elements of first and last rows')
+        print('7 - exit')
         t = utility.get_int_from_input('option')
         if t == 1:
             n = utility.get_int_from_input('N')
@@ -111,6 +118,8 @@ def main():
         if t == 6:
             matrix.swap_min_elements()
             print(matrix)
+        if t == 6:
+            break
             
 
 if __name__ =="__main__":

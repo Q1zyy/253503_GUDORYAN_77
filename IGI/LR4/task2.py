@@ -2,20 +2,24 @@ import re
 import zipfile
 
 class MyTextAnalyzerMixin:
+    """Mixin for text analyzing"""
     def words_lowercase_diggits(self):
         """Method for finding words consisting of lowercase letters and diggits"""
         words = re.findall(r'\b[а-яa-z0-9]*[а-яa-z][0-9][a-zа-я0-9]*\b|\b[0-9][a-zа-я0-9]*[a-zа-я][a-zа-я0-9]*\b', self.text)
         return words
     
     def ipv4(self):
+        """Method for finding ipv4"""
         ips = re.findall(r'\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\b', self.text)
         return ips
     
     def count_short_words(self):
+        """Method for counting short words"""
         words = re.findall('[a-zA-Zа-яА-Я0-9]{6,}', self.text)
         return len(words)
     
     def shortest_word_with_last_w(self):
+        """Method for finding shortest word ending w"""
         words = re.findall('[а-яА-Яa-zA-Z0-9]*w', self.text)
         best = 1e9
         result = ''
@@ -26,11 +30,12 @@ class MyTextAnalyzerMixin:
         return result
     
     def all_words(self):
+        """Method for finding all words"""
         words = re.findall('[a-zA-Zа-яА-Я0-9]+', self.text)
         return sorted(words, key=len)
 
 class TextAnalyzer(MyTextAnalyzerMixin):
-    
+    """Class for text analyzing"""
     def __init__(self, text):
         self.text = text
 
@@ -77,7 +82,7 @@ class TextAnalyzer(MyTextAnalyzerMixin):
         return len(smiles) 
 
 class Archiever:
-    
+    """Class for archieve data"""
     @staticmethod
     def archieve(filename, filename_zip, results):
         """Method for zipping results"""
@@ -110,7 +115,7 @@ class Archiever:
             print(f"An error occurred: {e}")
     
 
-def task2():
+def main():
     filename = 'LR4/text.txt'
     try:
         with open(filename, 'r', encoding='utf-8') as file:
@@ -197,4 +202,5 @@ def task2():
     Archiever.archieve(filename_output, filename_output_zip, results)
     Archiever.get_info(filename_output_zip)
 
-task2()
+if __name__ =="__main__":
+    main()

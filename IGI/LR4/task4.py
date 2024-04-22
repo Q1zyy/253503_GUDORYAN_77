@@ -5,12 +5,13 @@ import numpy as np
 import utility
 
 class GeometricalFigure(ABC):
+    """Class base figure"""
     @abstractmethod
     def area(self):
         pass
 
 class Color:
-    
+    """Class for color"""
     def __init__(self, color):
         self.color = color
 
@@ -23,6 +24,7 @@ class Color:
         self._color = value
         
 class Hexagon(GeometricalFigure):
+    """Class for hexagon"""
     name = 'hexagon'
     
     def __init__(self, side, color):
@@ -30,9 +32,11 @@ class Hexagon(GeometricalFigure):
         self.color = Color(color)
     
     def area(self):
+        """Method for finding area"""
         return 3.0 * math.sqrt(3) / 2.0 * math.pow(self.side, 2)
     
     def plot(self, label):
+        """Method for building plot"""
         angles = np.linspace(0, 2*np.pi, 7)
         x = self.side * np.cos(angles)
         y = self.side * np.sin(angles)

@@ -4,6 +4,7 @@ import utility
 from functools import cmp_to_key
 
 class Student:
+    """Class student"""
     def __init__(self, name, sprint, jump):
         self.name = name
         self.sprint = sprint
@@ -13,7 +14,7 @@ class Student:
         return f'Name: {self.name} Sprint: {self.sprint} Jump: {self.jump}'
 
 class GTOData:
-    
+    """Class for GTO data"""
     def __init__(self):
         self.students = []
         self.__jump_norm = 0
@@ -93,14 +94,7 @@ class GTOData:
             print(f"An error occurred: {e}")
             
     def not_complete_gto(self):
-        result = []
-        for student in self.students:
-            if student.sprint > self.sprint_norm or student.jump < self.jump_norm:
-                result.append(student)
-        return result
-    
-    
-    def not_complete_gto(self):
+        """Method for finding students dont complete gto"""
         result = []
         for student in self.students:
             if student.sprint > self.sprint_norm or student.jump < self.jump_norm:
@@ -108,6 +102,7 @@ class GTOData:
         return result
          
     def complete_gto(self):
+        """Method for finding students complete gto"""
         result = []
         for student in self.students:
             if student.sprint <= self.sprint_norm and student.jump >= self.jump_norm:
@@ -115,11 +110,13 @@ class GTOData:
         return result
     
     def get_student(self, name):
+        """Method for getting all students"""
         for student in self.students:
             if student.name == name:
                 return student
             
     def top3(self):
+        """Method for finding top3 students"""        
         result = []
         temp = self.complete_gto()
         temp.sort(key=cmp_to_key(comparator))
@@ -128,11 +125,13 @@ class GTOData:
         return result
     
     def add_student(self, *args):
+        """Method for adding student"""
         print(args)
         self.students.append(Student(*args))
             
          
 def comparator(one, two):
+    """Student comparator"""
     if one.sprint < two.sprint:
         return -1
     if one.sprint > two.sprint:
@@ -144,7 +143,7 @@ def comparator(one, two):
     return 0
     
 
-def task1():
+def main():
     students = {
         "Zhenya" : [10.2, 250],
         "Kirill" : [15.1, 200],
@@ -252,6 +251,7 @@ def task1():
             break 
     
     
-task1()
+if __name__ =="__main__":
+    main()
     
     

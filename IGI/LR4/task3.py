@@ -5,7 +5,7 @@ import statistics
 import utility
 
 class Approximation:
-    
+    """Class for approximation"""
     def __init__(self, x, eps = 1e-9, max_iterations = 500):
         self.x = x
         self.eps = eps
@@ -34,7 +34,7 @@ class Approximation:
         return result, my_result, n
 
 class PlotApproximation(Approximation):
-    
+    """Class for approximation and building"""
     def __init__(self, x, eps=1e-9, max_iterations=500):
         super().__init__(x, eps, max_iterations)
         
@@ -70,7 +70,7 @@ class PlotApproximation(Approximation):
         plt.show()
 
 
-def task3():
+def main():
     
     while True:
         x = utility.get_float_from_input('x')
@@ -88,4 +88,5 @@ def task3():
         if t == 'y':
             break
 
-task3()
+if __name__ =="__main__":
+    main()

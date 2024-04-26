@@ -26,6 +26,7 @@ class Approximation:
         n = 0
         result = math.cos(self.x)
         my_result = 0
+        self.results.append(my_result)
         gen = self.power_series_generator(self.x)
         while n <= 500 and math.fabs(result - my_result) > self.eps:
             my_result = next(gen)
@@ -49,20 +50,24 @@ class PlotApproximation(Approximation):
     
     def plot_approximation(self):
         """Method for drawing plot"""
+        points = np.linspace(-np.pi, np.pi, 100)
         X = []
-        Y = []
-        count = 0
-        res = []
-        for y in self.results:
-            X.append(count)
-            Y.append(y)
-            res.append(math.cos(self.x))
-            count += 1 
-            print(count, Y)
-        plt.plot(X, Y)
-        plt.plot(X, res)
-        plt.xlabel('N')
-        plt.ylabel('Value')
+        Y1 = []
+        Y2 = []
+        dot = self.x
+        y_dot = 0
+        for x in points:
+            self.x = x
+            y1, y2, n = self.approximation()
+            y_dot = y2 if dot == x else y_dot
+            X.append(x)
+            Y1.append(y1)
+            Y2.append(y2)
+        plt.plot(X, Y1, label="math")
+        plt.plot(X, Y2, label="my")
+        plt.scatter(dot, np.cos(dot), color='red', label='x')
+        plt.xlabel('X')
+        plt.ylabel('Y')
         plt.legend()
         plt.grid(True)
         plt.savefig('LR4/plot.png')

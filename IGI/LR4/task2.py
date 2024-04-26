@@ -15,12 +15,12 @@ class MyTextAnalyzerMixin:
     
     def count_short_words(self):
         """Method for counting short words"""
-        words = re.findall('[a-zA-Zа-яА-Я0-9]{6,}', self.text)
+        words = re.findall(r'\b([a-zA-Zа-яА-Я0-9]{1,5})\b', self.text)
         return len(words)
     
     def shortest_word_with_last_w(self):
         """Method for finding shortest word ending w"""
-        words = re.findall('[а-яА-Яa-zA-Z0-9]*w', self.text)
+        words = re.findall(r'[а-яА-Яa-zA-Z0-9]*w', self.text)
         best = 1e9
         result = ''
         for word in words:
@@ -31,7 +31,7 @@ class MyTextAnalyzerMixin:
     
     def all_words(self):
         """Method for finding all words"""
-        words = re.findall('[a-zA-Zа-яА-Я0-9]+', self.text)
+        words = re.findall(r'[a-zA-Zа-яА-Я0-9]+', self.text)
         return sorted(words, key=len)
 
 class TextAnalyzer(MyTextAnalyzerMixin):

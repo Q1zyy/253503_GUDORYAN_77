@@ -34,4 +34,6 @@ urlpatterns += [
     path('news', views.news, name='news'),
     path('faq', views.faq, name='faq'),
     path('register', RegisterView.as_view(), name='register'),
+    path('suppliers', views.supplier_list, name='supplier_list'),
+    path('store', views.store_view, name='store'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

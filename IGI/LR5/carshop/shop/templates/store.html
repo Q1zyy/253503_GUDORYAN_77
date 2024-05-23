@@ -1,0 +1,21 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+<h1>Магазин</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Деталь</th>
+            <th>Количество</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in store_items %}
+        <tr>
+            <td>{{ item.detail.name }}</td>
+            <td>{{ item.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

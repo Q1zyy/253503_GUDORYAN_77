@@ -12,6 +12,8 @@ from django.views.generic import FormView
 from .forms import RegisterForm
 from .models import Client
 from django.db.models import Sum, Count
+from django.contrib.auth.decorators import login_required, permission_required
+
 
 
 def index(request):
@@ -33,6 +35,9 @@ def faq(request):
 def profile(request):
     return render(request, 'profile.html')
 
+
+@login_required
+@permission_required('shop.employee', raise_exception=False)
 def supplier_list(request):
     suppliers = Supplier.objects.all()
     supplier_detail = SupplierDetail.objects.select_related('supplier', 'detail')
@@ -81,12 +86,22 @@ class RegisterView(FormView):
 
         dob = form.cleaned_data.get('date_of_birth')
         phone = form.cleaned_data.get('phone_number')
+        fn = form.cleaned_data.get('first_name')
+        ln = form.cleaned_data.get('last_name')
         
-        client = Client(user=user, date_of_birth=dob, phone_number=phone)
+        client = Client(user=user, first_name=fn, last_name=ln, date_of_birth=dob, phone_number=phone)
         client.save()
 
         return super().form_valid(form)
-    
+
+@login_required
+@permission_required('shop.employee', raise_exception=False)
+def orders_supplier(request):
+    orders = Order.objects.filter(user__is_superuser=True)
+    context = {
+        'orders': orders
+    }
+    return render(request, 'orders_supplier.html', context)  
 
 def store_view(request):
     store_items = Store.objects.all()
@@ -94,3 +109,7 @@ def store_view(request):
         'store_items': store_items
     }
     return render(request, 'store.html', context)
+
+def logout_view(request):
+    logout(request)
+    return redirect('login')

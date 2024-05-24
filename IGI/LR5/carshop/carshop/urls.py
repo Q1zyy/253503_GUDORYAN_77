@@ -25,6 +25,7 @@ from django.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
+    path('logout', views.logout_view, name='logout'),
     path('profile', views.profile)
 ]
 
@@ -36,4 +37,5 @@ urlpatterns += [
     path('register', RegisterView.as_view(), name='register'),
     path('suppliers', views.supplier_list, name='supplier_list'),
     path('store', views.store_view, name='store'),
+    path('orders_supplier', views.orders_supplier, name='orders_supplier'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

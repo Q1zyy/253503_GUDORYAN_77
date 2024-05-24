@@ -26,7 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
     path('logout', views.logout_view, name='logout'),
-    path('profile', views.profile)
+    path('profile', views.profile, name='profile')
 ]
 
 urlpatterns += [
@@ -40,4 +40,12 @@ urlpatterns += [
     path('orders_supplier', views.orders_supplier, name='orders_supplier'),
     path('promocodes', views.promocodes, name='promocodes'),
     path('purchase/', views.purchase_view, name='purchase'),
+    path('all_orders/', views.all_orders, name='all_orders'),
+    path('review_create', views.review_create, name='review_create'),
+    path('reviews/', views.review_list, name='reviews'),
+    path('reviews/<int:pk>/delete/', views.review_delete, name='review_delete'),
+    path('reviews/<int:pk>/update/', views.review_update, name='review_update'),
+    path('employees', views.employee_list, name='employees'),
+    path('jobs', views.job_list_view, name='job_list'),
+    path('stats', views.stats, name='stats'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

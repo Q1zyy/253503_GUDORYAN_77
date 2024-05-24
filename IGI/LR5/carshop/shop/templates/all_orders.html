@@ -1,14 +1,14 @@
-{% extends "navbar.html" %}
+{% extends 'navbar.html' %}
 
 {% block content %}
-  <h1>Your Profile</h1>
+  <h1>All Store Orders</h1>
 
-  <h2>Your Store Orders</h2>
   {% if store_orders %}
     <table>
       <thead>
         <tr>
           <th>ID</th>
+          <th>User</th>
           <th>Quantity</th>
           <th>Location</th>
           <th>Promo</th>
@@ -20,6 +20,7 @@
         {% for order in store_orders %}
           <tr>
             <td>{{ order.id }}</td>
+            <td>{{ order.user.username }}</td>
             <td>{{ order.quantity }}</td>
             <td>{{ order.location.name }}</td>
             <td>
@@ -36,6 +37,7 @@
       </tbody>
     </table>
   {% else %}
-    <p>You haven't placed any orders yet.</p>
+    <p>No store orders found.</p>
   {% endif %}
-{% endblock %}
+
+  {% endblock %}

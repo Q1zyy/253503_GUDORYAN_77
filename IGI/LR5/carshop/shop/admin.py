@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee, Promocode, Location, StoreOrder
+from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee, Promocode, Location, StoreOrder, Review, Job
 from django.contrib.auth.models import Permission
 
 
@@ -67,8 +67,8 @@ class StoreAdmin(admin.ModelAdmin):
     
 @admin.register(Employee)
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display = ('user_username', 'user_first_name', 'user_last_name', 'user_email')
-    search_fields = ('user_username', 'user_first_name', 'user_last_name', 'user_email')
+    list_display = ('user_username', 'user_first_name', 'user_last_name', 'user_email', 'position', 'job_description', 'phone')
+    search_fields = ('user__username', 'user__first_name', 'user__last_name', 'user__email', 'position', 'job_description', 'phone')
     
     def save_model(self, request, obj, form, change):
         super().save_model(request, obj, form, change)
@@ -119,3 +119,16 @@ class StoreOrderAdmin(admin.ModelAdmin):
     list_display = ('user', 'quantity', 'location', 'created_at', 'total_price')
     list_filter = ('user', 'location', 'created_at')
     search_fields = ('user__username', 'location__name')
+    
+@admin.register(Review)
+class ReviewAdmin(admin.ModelAdmin):
+    list_display = ('user', 'rating', 'text', 'created_at')
+    list_filter = ('user', 'rating', 'created_at')
+    search_fields = ('user__username', 'text')
+    readonly_fields = ('created_at',)
+    
+@admin.register(Job)
+class JobAdmin(admin.ModelAdmin):
+    list_display = ('title', 'description')
+    search_fields = ('title', 'description')
+    ordering = ('title',)

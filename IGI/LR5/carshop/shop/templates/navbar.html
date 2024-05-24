@@ -7,6 +7,9 @@
     <nav>
         <ul>
             <li>
+                <a href="{% url 'home' %}">Home</a>
+            </li>
+            <li>
                 <a href="{% url 'about' %}">About</a>
             </li>
             <li>
@@ -18,27 +21,67 @@
             <li>
                 <a href="{% url 'faq' %}">FAQ</a>
             </li>
+            {% if not request.user.is_authenticated %}
             <li>
                 <a href="{% url 'register'%}">Register</a>
             </li>
             <li>
                 <a href="{% url 'login'%}">Login</a>
             </li>
+            {% endif %}
+            {% if request.user.is_authenticated %}
             <li>
                 <a href="{% url 'logout'%}">Logout</a>
             </li>
+            {% endif %}
+            {% if perms.shop.employee %}
             <li>
                 <a href="{% url 'supplier_list'%}">Suppliers</a>
             </li>
+            {% endif %}
             <li>
                 <a href="{% url 'store'%}">Store</a>
             </li>
+            {% if perms.shop.employee %}
             <li>
                 <a href="{% url 'orders_supplier'%}">OrdersSupplier</a>
             </li>
+            {% endif %}
             <li>
                 <a href="{% url 'promocodes'%}">Promocodes</a>
             </li>
+            {% if request.user.is_authenticated %}
+            <li>
+                <a href="{% url 'profile'%}">Profile</a>
+            </li>
+            <li>
+                <a href="{% url 'purchase'%}">Purchase</a>
+            </li>
+            {% endif %}
+            {% if perms.shop.employee %}
+            <li>
+                <a href="{% url 'all_orders'%}">AllOrders</a>
+            </li>
+            {% endif %}
+            {% if request.user.is_authenticated %}
+            <li>
+                <a href="{% url 'review_create'%}">CreateReview</a>
+            </li>
+            {% endif %}
+            <li>
+                <a href="{% url 'reviews'%}">Reviews</a>
+            </li>
+            <li>
+                <a href="{% url 'employees'%}">Employees</a>
+            </li>
+            <li>
+                <a href="{% url 'job_list'%}">AllJobs</a>
+            </li>
+            {% if user.is_staff %}
+            <li>
+                <a href="{% url 'stats'%}">Stats</a>
+            </li>
+            {% endif %}
         </ul>
     </nav>
     <div>{% block content%}{% endblock content %}</div>

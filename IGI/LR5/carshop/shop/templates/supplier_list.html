@@ -18,18 +18,20 @@
     <tbody>
       {% for supplier_detail in supplier_details %}
       <tr>
-        <td>{{ supplier_detail.detail.name }}</td>
-        <td>{{ supplier_detail.detail.article }}</td>
-        <td>{{ supplier_detail.price }}</td>
-        <td>{{ supplier_detail.quantity }}</td>
-        <td>
-          <form method="post">
-            {% csrf_token %}
-            <input type="hidden" name="supplier_detail_id" value="{{ supplier_detail.id }}">
-            <input type="number" name="quantity" min="1" max="{{ supplier_detail.quantity }}" value="1">
-            <button type="submit">Buy</button>
-          </form>
-        </td>
+        {% if supplier_detail.supplier.name == supplier.name%}
+          <td>{{ supplier_detail.detail.name }}</td>
+          <td>{{ supplier_detail.detail.article }}</td>
+          <td>{{ supplier_detail.price }}</td>
+          <td>{{ supplier_detail.quantity }}</td>
+          <td>
+            <form method="post">
+              {% csrf_token %}
+              <input type="hidden" name="supplier_detail_id" value="{{ supplier_detail.id }}">
+              <input type="number" name="quantity" min="1" max="{{ supplier_detail.quantity }}" value="1">
+              <button type="submit">Buy</button>
+            </form>
+          </td>
+        {% endif %}
       </tr>
     {% endfor %}
     </tbody>

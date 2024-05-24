@@ -38,4 +38,6 @@ urlpatterns += [
     path('suppliers', views.supplier_list, name='supplier_list'),
     path('store', views.store_view, name='store'),
     path('orders_supplier', views.orders_supplier, name='orders_supplier'),
+    path('promocodes', views.promocodes, name='promocodes'),
+    path('purchase/', views.purchase_view, name='purchase'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

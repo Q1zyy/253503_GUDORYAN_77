@@ -71,6 +71,25 @@ class Employee(models.Model):
 class Store(models.Model):
     detail = models.ForeignKey(Detail, on_delete=models.CASCADE, related_name='store_items')
     quantity = models.PositiveIntegerField(default=0)
-
+    price = models.DecimalField(max_digits=10, decimal_places=2)
     def __str__(self):
         return f"{self.detail.name} - {self.quantity}"
+
+
+class Promocode(models.Model):
+    code = models.CharField(max_length=10)
+    discount = models.DecimalField(max_digits=10, decimal_places=2)
+
+    def __str__(self):
+        return self.code
+    
+class Location(models.Model):
+    name = models.CharField(max_length=100)
+    
+class StoreOrder(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='store_orders')
+    quantity = models.PositiveIntegerField()
+    location = models.ForeignKey(Location, on_delete=models.CASCADE, related_name='store_orders')
+    promo = models.ForeignKey(Promocode, on_delete=models.CASCADE, related_name='store_orders')
+    created_at = models.DateTimeField(auto_now_add=True)
+    total_price = models.DecimalField(max_digits=10, decimal_places=2)

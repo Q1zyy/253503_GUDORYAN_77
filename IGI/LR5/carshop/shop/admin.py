@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee
+from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee, Promocode, Location, StoreOrder
 from django.contrib.auth.models import Permission
 
 
@@ -103,3 +103,19 @@ class EmployeeAdmin(admin.ModelAdmin):
         return obj.user.last_name
 
     user_first_name.short_description = 'Last name' 
+    
+@admin.register(Promocode)
+class PromocodeAdmin(admin.ModelAdmin):
+    list_display = ('code', 'discount')
+    pass
+
+
+@admin.register(Location)
+class LocationAdmin(admin.ModelAdmin):
+    pass
+
+@admin.register(StoreOrder)
+class StoreOrderAdmin(admin.ModelAdmin):
+    list_display = ('user', 'quantity', 'location', 'created_at', 'total_price')
+    list_filter = ('user', 'location', 'created_at')
+    search_fields = ('user__username', 'location__name')

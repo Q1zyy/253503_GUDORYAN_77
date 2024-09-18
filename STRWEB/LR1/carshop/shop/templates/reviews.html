@@ -1,0 +1,32 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+    <h1>Reviews</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Rating</th>
+                <th>Text</th>
+                <th>Date</th>
+                <th>  </th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for review in reviews %}
+                <tr>
+                    <td>{{ review.user.username }}</td>
+                    <td>{{ review.rating }}</td>
+                    <td>{{ review.text }}</td>
+                    <td>{{ review.created_at }}</td>
+                    <td>
+                        {% if review.user == request.user %}
+                            <a href="{% url 'review_update' review.pk %}">Edit</a>
+                            <a href="{% url 'review_delete' review.pk %}">Delete</a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

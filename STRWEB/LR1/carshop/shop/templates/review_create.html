@@ -1,0 +1,21 @@
+{% extends 'navbar.html' %}
+
+{% block content %}
+    <h1>Написать отзыв</h1>
+    <form method="post" action="{% url 'review_create' %}">
+        {% csrf_token %}
+        <div>
+            <label for="rating">Оценка:</label>
+            <select id="rating" name="rating">
+                {% for i in ratings %}
+                    <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div>
+            <label for="review_text">Отзыв:</label>
+            <textarea id="review_text" name="review_text" rows="5"></textarea>
+        </div>
+        <button type="submit">Сохранить</button>
+    </form>
+{% endblock %}

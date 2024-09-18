@@ -1,0 +1,1188 @@
+2024-05-24 21:51:20 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:51:23 INFO [django.server:212] "GET / HTTP/1.1" 200 2422
+2024-05-24 21:51:33 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:51:33 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:51:36 INFO [django.server:212] "GET /about HTTP/1.1" 200 2675
+2024-05-24 21:51:41 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 21:51:41 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 21:51:42 INFO [django.server:212] "GET /faq HTTP/1.1" 200 1382
+2024-05-24 21:51:59 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:52:02 INFO [django.server:212] "GET / HTTP/1.1" 200 1873
+2024-05-24 21:52:07 INFO [django.server:212] "GET / HTTP/1.1" 200 1911
+2024-05-24 21:52:09 INFO [django.server:212] "GET /about HTTP/1.1" 200 2162
+2024-05-24 21:52:17 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:52:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:52:22 INFO [django.server:212] "GET / HTTP/1.1" 200 1948
+2024-05-24 21:52:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:52:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:52:45 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\carshop\settings.py changed, reloading.
+2024-05-24 21:52:46 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:52:49 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\carshop\settings.py changed, reloading.
+2024-05-24 21:52:49 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:54:45 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\carshop\settings.py changed, reloading.
+2024-05-24 21:54:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:54:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:54:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:54:56 INFO [django.server:212] "GET / HTTP/1.1" 200 1888
+2024-05-24 21:54:59 INFO [django.server:212] "GET /about HTTP/1.1" 200 2162
+2024-05-24 21:55:07 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:55:07 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:55:10 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:55:11 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:55:13 INFO [shop:39] index
+2024-05-24 21:55:14 INFO [django.server:212] "GET / HTTP/1.1" 200 1909
+2024-05-24 21:55:25 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:55:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:56:00 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 21:56:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 21:58:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:07:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:07:03 INFO [shop:33] index
+2024-05-24 22:07:04 INFO [django.server:212] "GET / HTTP/1.1" 200 1974
+2024-05-24 22:07:09 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-05-24 22:07:09 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+2024-05-24 22:07:18 INFO [django.server:212] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-05-24 22:07:18 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15519
+2024-05-24 22:07:32 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 13566
+2024-05-24 22:07:32 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:07:34 INFO [django.server:212] "GET /admin/shop/detail/add/ HTTP/1.1" 200 13522
+2024-05-24 22:07:34 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:07:47 INFO [django.server:212] "POST /admin/shop/detail/add/ HTTP/1.1" 302 0
+2024-05-24 22:07:47 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 14074
+2024-05-24 22:07:47 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:07:49 INFO [django.server:212] "GET /admin/shop/detail/add/ HTTP/1.1" 200 13522
+2024-05-24 22:07:49 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:02 INFO [django.server:212] "POST /admin/shop/detail/add/ HTTP/1.1" 302 0
+2024-05-24 22:08:02 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 14394
+2024-05-24 22:08:02 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:03 INFO [django.server:212] "GET /admin/shop/detail/add/ HTTP/1.1" 200 13522
+2024-05-24 22:08:03 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:16 INFO [django.server:212] "POST /admin/shop/detail/add/ HTTP/1.1" 302 0
+2024-05-24 22:08:16 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 14714
+2024-05-24 22:08:16 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:17 INFO [django.server:212] "GET /admin/shop/detail/add/ HTTP/1.1" 200 13522
+2024-05-24 22:08:17 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:22 INFO [django.server:212] "POST /admin/shop/detail/add/ HTTP/1.1" 302 0
+2024-05-24 22:08:22 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15015
+2024-05-24 22:08:22 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:24 INFO [django.server:212] "GET /admin/shop/detail/add/ HTTP/1.1" 200 13522
+2024-05-24 22:08:33 INFO [django.server:212] "GET /admin/shop/employee/ HTTP/1.1" 200 14822
+2024-05-24 22:08:33 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:36 INFO [django.server:212] "GET /admin/shop/client/ HTTP/1.1" 200 15024
+2024-05-24 22:08:36 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:40 INFO [django.server:212] "GET /admin/shop/faq/ HTTP/1.1" 200 12990
+2024-05-24 22:08:40 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:47 INFO [django.server:212] "GET /admin/shop/supplier/ HTTP/1.1" 200 13864
+2024-05-24 22:08:47 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:08:49 INFO [django.server:212] "GET /admin/shop/supplier/add/ HTTP/1.1" 200 13506
+2024-05-24 22:08:49 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:16 INFO [django.server:212] "POST /admin/shop/supplier/add/ HTTP/1.1" 302 0
+2024-05-24 22:09:16 INFO [django.server:212] "GET /admin/shop/supplier/ HTTP/1.1" 200 14452
+2024-05-24 22:09:16 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:17 INFO [django.server:212] "GET /admin/shop/supplier/add/ HTTP/1.1" 200 13506
+2024-05-24 22:09:17 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:42 INFO [django.server:212] "POST /admin/shop/supplier/add/ HTTP/1.1" 302 0
+2024-05-24 22:09:42 INFO [django.server:212] "GET /admin/shop/supplier/ HTTP/1.1" 200 14825
+2024-05-24 22:09:42 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:45 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 14592
+2024-05-24 22:09:45 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:51 INFO [django.server:212] "GET /admin/shop/supplierdetail/2/change/ HTTP/1.1" 200 14861
+2024-05-24 22:09:51 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:09:55 INFO [django.server:212] "POST /admin/shop/supplierdetail/2/change/ HTTP/1.1" 302 0
+2024-05-24 22:09:55 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 14826
+2024-05-24 22:09:55 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:02 INFO [django.server:212] "GET /admin/shop/supplierdetail/3/change/ HTTP/1.1" 200 14861
+2024-05-24 22:10:02 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:04 INFO [django.server:212] "POST /admin/shop/supplierdetail/3/change/ HTTP/1.1" 302 0
+2024-05-24 22:10:04 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 14826
+2024-05-24 22:10:05 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:08 INFO [django.server:212] "GET /admin/shop/supplierdetail/add/ HTTP/1.1" 200 14400
+2024-05-24 22:10:08 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:11 INFO [django.server:212] "GET /admin/shop/supplier/?_to_field=id&_popup=1 HTTP/1.1" 200 5840
+2024-05-24 22:10:14 INFO [django.server:212] "GET /admin/shop/detail/?_to_field=id&_popup=1 HTTP/1.1" 200 5802
+2024-05-24 22:10:31 INFO [django.server:212] "POST /admin/shop/supplierdetail/add/ HTTP/1.1" 302 0
+2024-05-24 22:10:31 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 15252
+2024-05-24 22:10:31 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:32 INFO [django.server:212] "GET /admin/shop/supplierdetail/add/ HTTP/1.1" 200 14400
+2024-05-24 22:10:32 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:33 INFO [django.server:212] "GET /admin/shop/supplier/?_to_field=id&_popup=1 HTTP/1.1" 200 5840
+2024-05-24 22:10:35 INFO [django.server:212] "GET /admin/shop/detail/?_to_field=id&_popup=1 HTTP/1.1" 200 5802
+2024-05-24 22:10:46 INFO [django.server:212] "POST /admin/shop/supplierdetail/add/ HTTP/1.1" 302 0
+2024-05-24 22:10:46 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 15680
+2024-05-24 22:10:46 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:47 INFO [django.server:212] "GET /admin/shop/supplierdetail/add/ HTTP/1.1" 200 14400
+2024-05-24 22:10:47 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:10:48 INFO [django.server:212] "GET /admin/shop/supplier/?_to_field=id&_popup=1 HTTP/1.1" 200 5840
+2024-05-24 22:10:50 INFO [django.server:212] "GET /admin/shop/detail/?_to_field=id&_popup=1 HTTP/1.1" 200 5802
+2024-05-24 22:11:03 INFO [django.server:212] "POST /admin/shop/supplierdetail/add/ HTTP/1.1" 302 0
+2024-05-24 22:11:03 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16108
+2024-05-24 22:11:03 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:11:04 INFO [django.server:212] "GET /admin/shop/supplierdetail/add/ HTTP/1.1" 200 14400
+2024-05-24 22:11:04 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:11:05 INFO [django.server:212] "GET /admin/shop/supplier/?_to_field=id&_popup=1 HTTP/1.1" 200 5840
+2024-05-24 22:11:07 INFO [django.server:212] "GET /admin/shop/detail/?_to_field=id&_popup=1 HTTP/1.1" 200 5802
+2024-05-24 22:11:23 INFO [django.server:212] "POST /admin/shop/supplierdetail/add/ HTTP/1.1" 302 0
+2024-05-24 22:11:23 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16537
+2024-05-24 22:11:23 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:11:24 INFO [django.server:212] "GET /admin/shop/supplierdetail/add/ HTTP/1.1" 200 14400
+2024-05-24 22:11:24 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:11:26 INFO [django.server:212] "GET /admin/shop/supplier/?_to_field=id&_popup=1 HTTP/1.1" 200 5840
+2024-05-24 22:11:28 INFO [django.server:212] "GET /admin/shop/detail/?_to_field=id&_popup=1 HTTP/1.1" 200 5802
+2024-05-24 22:11:40 INFO [django.server:212] "POST /admin/shop/supplierdetail/add/ HTTP/1.1" 302 0
+2024-05-24 22:11:40 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16965
+2024-05-24 22:11:40 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:11:44 INFO [shop:33] index
+2024-05-24 22:11:45 INFO [django.server:212] "GET / HTTP/1.1" 200 2628
+2024-05-24 22:11:46 INFO [shop:89] supplier_list
+2024-05-24 22:11:46 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:12:04 INFO [shop:89] supplier_list
+2024-05-24 22:12:04 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:12:04 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181712
+2024-05-24 22:12:17 INFO [shop:89] supplier_list
+2024-05-24 22:12:17 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:12:17 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181712
+2024-05-24 22:12:58 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-05-24 22:12:59 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:13:04 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15806
+2024-05-24 22:13:08 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16733
+2024-05-24 22:13:08 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:13:13 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-05-24 22:13:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:13:15 INFO [shop:33] index
+2024-05-24 22:13:16 INFO [django.server:212] "GET / HTTP/1.1" 200 2515
+2024-05-24 22:13:18 INFO [shop:89] supplier_list
+2024-05-24 22:13:18 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:13:21 INFO [shop:89] supplier_list
+2024-05-24 22:13:21 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:13:21 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181712
+2024-05-24 22:14:14 INFO [shop:89] supplier_list
+2024-05-24 22:14:14 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:14:14 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181713
+2024-05-24 22:14:47 INFO [shop:33] index
+2024-05-24 22:14:48 INFO [django.server:212] "GET / HTTP/1.1" 200 2491
+2024-05-24 22:14:49 INFO [shop:89] supplier_list
+2024-05-24 22:14:49 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:14:56 INFO [shop:89] supplier_list
+2024-05-24 22:14:56 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:14:56 INFO [shop:89] supplier_list
+2024-05-24 22:14:56 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:15:12 INFO [shop:89] supplier_list
+2024-05-24 22:15:12 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:15:12 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181579
+2024-05-24 22:15:17 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:15:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:15:21 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15806
+2024-05-24 22:15:23 INFO [django.server:212] "GET /admin/shop/supplier/ HTTP/1.1" 200 14612
+2024-05-24 22:15:23 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:15:25 INFO [django.server:212] "GET /admin/shop/supplier/1/change/ HTTP/1.1" 200 13828
+2024-05-24 22:15:25 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:15:26 INFO [django.server:212] "GET /admin/shop/supplier/ HTTP/1.1" 200 14612
+2024-05-24 22:15:29 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16733
+2024-05-24 22:15:29 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:15:34 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:15:34 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:15:36 INFO [shop:33] index
+2024-05-24 22:15:37 INFO [django.server:212] "GET / HTTP/1.1" 200 2511
+2024-05-24 22:15:39 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 200 3231
+2024-05-24 22:15:41 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 4413
+2024-05-24 22:16:06 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:16:07 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:16:38 INFO [django.server:212] "GET /store HTTP/1.1" 200 3129
+2024-05-24 22:17:18 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:17:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:17:20 INFO [shop:33] index
+2024-05-24 22:17:22 INFO [django.server:212] "GET / HTTP/1.1" 200 2490
+2024-05-24 22:17:23 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 4413
+2024-05-24 22:17:27 INFO [shop:89] supplier_list
+2024-05-24 22:17:27 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:17:33 INFO [shop:89] supplier_list
+2024-05-24 22:17:33 ERROR [django.request:241] Internal Server Error: /suppliers
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 948, in get_or_create
+    return self.get(**kwargs), False
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+shop.models.Store.DoesNotExist: Store matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: shop_store.price
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py", line 107, in supplier_list
+    store_item, created = Store.objects.get_or_create(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 955, in get_or_create
+    return self.create(**params), True
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 679, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1071, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\base.py", line 1112, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1847, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\compiler.py", line 1823, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
+2024-05-24 22:17:33 ERROR [django.server:212] "POST /suppliers HTTP/1.1" 500 181617
+2024-05-24 22:18:26 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:18:26 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:18:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:18:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:18:35 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:18:36 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:18:39 INFO [shop:33] index
+2024-05-24 22:18:41 INFO [django.server:212] "GET / HTTP/1.1" 200 2545
+2024-05-24 22:18:44 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 4602
+2024-05-24 22:18:49 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3241
+2024-05-24 22:18:50 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 4602
+2024-05-24 22:18:51 INFO [shop:89] supplier_list
+2024-05-24 22:18:51 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8405
+2024-05-24 22:18:53 INFO [shop:89] supplier_list
+2024-05-24 22:18:53 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:18:53 INFO [shop:89] supplier_list
+2024-05-24 22:18:53 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8403
+2024-05-24 22:19:04 INFO [django.server:212] "GET /store HTTP/1.1" 200 3244
+2024-05-24 22:19:09 INFO [shop:89] supplier_list
+2024-05-24 22:19:09 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8403
+2024-05-24 22:19:14 INFO [shop:89] supplier_list
+2024-05-24 22:19:14 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:19:15 INFO [shop:89] supplier_list
+2024-05-24 22:19:15 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8403
+2024-05-24 22:19:18 INFO [shop:89] supplier_list
+2024-05-24 22:19:18 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:19:18 INFO [shop:89] supplier_list
+2024-05-24 22:19:18 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8401
+2024-05-24 22:19:26 INFO [shop:89] supplier_list
+2024-05-24 22:19:26 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:19:27 INFO [shop:89] supplier_list
+2024-05-24 22:19:27 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8401
+2024-05-24 22:19:30 INFO [shop:89] supplier_list
+2024-05-24 22:19:30 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:19:30 INFO [shop:89] supplier_list
+2024-05-24 22:19:30 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8401
+2024-05-24 22:19:33 INFO [shop:89] supplier_list
+2024-05-24 22:19:33 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-24 22:19:33 INFO [shop:89] supplier_list
+2024-05-24 22:19:33 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8399
+2024-05-24 22:19:35 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 200 3231
+2024-05-24 22:19:37 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5741
+2024-05-24 22:19:41 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15806
+2024-05-24 22:19:44 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16730
+2024-05-24 22:19:44 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:19:45 INFO [django.server:212] "GET /admin/shop/supplierdetail/5/change/ HTTP/1.1" 200 14860
+2024-05-24 22:19:45 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:19:48 INFO [django.server:212] "POST /admin/shop/supplierdetail/5/change/ HTTP/1.1" 302 0
+2024-05-24 22:19:48 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16965
+2024-05-24 22:19:48 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:19:50 INFO [django.server:212] "GET /admin/shop/supplierdetail/5/change/ HTTP/1.1" 200 14861
+2024-05-24 22:19:50 INFO [django.server:212] "GET /admin/shop/supplierdetail/ HTTP/1.1" 200 16731
+2024-05-24 22:20:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:20:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:20:06 INFO [shop:33] index
+2024-05-24 22:20:08 INFO [django.server:212] "GET / HTTP/1.1" 200 2550
+2024-05-24 22:20:10 INFO [shop:78] profile
+2024-05-24 22:20:10 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-05-24 22:20:13 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2796
+2024-05-24 22:20:19 INFO [django.server:212] "POST /review_create HTTP/1.1" 302 0
+2024-05-24 22:20:19 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3505
+2024-05-24 22:20:24 INFO [shop:78] profile
+2024-05-24 22:20:24 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-05-24 22:20:25 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 2297
+2024-05-24 22:20:27 INFO [shop:33] index
+2024-05-24 22:20:28 INFO [django.server:212] "GET / HTTP/1.1" 200 2593
+2024-05-24 22:20:39 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 22:20:39 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:20:40 INFO [django.server:212] "GET /register HTTP/1.1" 200 3074
+2024-05-24 22:21:06 INFO [django.server:212] "POST /register HTTP/1.1" 302 0
+2024-05-24 22:21:06 INFO [shop:33] index
+2024-05-24 22:21:07 INFO [django.server:212] "GET / HTTP/1.1" 200 2002
+2024-05-24 22:21:10 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:21:20 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:21:20 INFO [shop:78] profile
+2024-05-24 22:21:20 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1547
+2024-05-24 22:21:42 INFO [django.server:212] "GET /store HTTP/1.1" 200 3227
+2024-05-24 22:21:55 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3671
+2024-05-24 22:22:00 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-05-24 22:22:00 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3682
+2024-05-24 22:22:09 INFO [django.server:212] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-05-24 22:22:09 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15836
+2024-05-24 22:22:20 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 15817
+2024-05-24 22:22:20 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:22 INFO [django.server:212] "GET /admin/shop/store/6/change/ HTTP/1.1" 200 15051
+2024-05-24 22:22:23 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:28 INFO [django.server:212] "POST /admin/shop/store/6/change/ HTTP/1.1" 302 0
+2024-05-24 22:22:28 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16038
+2024-05-24 22:22:28 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:29 INFO [django.server:212] "GET /admin/shop/store/5/change/ HTTP/1.1" 200 15055
+2024-05-24 22:22:29 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:33 INFO [django.server:212] "POST /admin/shop/store/5/change/ HTTP/1.1" 302 0
+2024-05-24 22:22:33 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16039
+2024-05-24 22:22:33 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:34 INFO [django.server:212] "GET /admin/shop/store/4/change/ HTTP/1.1" 200 14994
+2024-05-24 22:22:34 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:37 INFO [django.server:212] "POST /admin/shop/store/4/change/ HTTP/1.1" 302 0
+2024-05-24 22:22:37 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16019
+2024-05-24 22:22:37 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:38 INFO [django.server:212] "GET /admin/shop/store/3/change/ HTTP/1.1" 200 14994
+2024-05-24 22:22:38 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:42 INFO [django.server:212] "POST /admin/shop/store/3/change/ HTTP/1.1" 302 0
+2024-05-24 22:22:42 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16019
+2024-05-24 22:22:42 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:44 INFO [django.server:212] "GET /admin/shop/store/2/change/ HTTP/1.1" 200 15019
+2024-05-24 22:22:44 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:22:46 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 15817
+2024-05-24 22:22:46 INFO [django.server:212] "GET /admin/shop/store/3/change/ HTTP/1.1" 200 14995
+2024-05-24 22:22:46 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 15817
+2024-05-24 22:22:47 INFO [django.server:212] "GET /admin/shop/store/4/change/ HTTP/1.1" 200 14994
+2024-05-24 22:22:48 INFO [shop:33] index
+2024-05-24 22:22:48 INFO [shop:33] index
+2024-05-24 22:22:49 INFO [django.server:212] "GET / HTTP/1.1" 200 2685
+2024-05-24 22:22:49 INFO [django.server:212] "GET / HTTP/1.1" 200 2520
+2024-05-24 22:22:52 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 22:22:52 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:23:01 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:23:01 INFO [shop:78] profile
+2024-05-24 22:23:01 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1547
+2024-05-24 22:23:12 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-24 22:23:19 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-24 22:23:19 INFO [shop:78] profile
+2024-05-24 22:23:19 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2105
+2024-05-24 22:23:23 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-24 22:23:35 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-24 22:23:35 INFO [shop:78] profile
+2024-05-24 22:23:35 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2426
+2024-05-24 22:23:36 INFO [django.server:212] "GET /store HTTP/1.1" 200 3228
+2024-05-24 22:24:06 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 22:24:06 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:24:12 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:24:12 INFO [shop:78] profile
+2024-05-24 22:24:12 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-05-24 22:24:13 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2591
+2024-05-24 22:24:13 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 23109
+2024-05-24 22:24:37 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:24:39 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:24:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:24:57 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:25:08 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:25:08 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:26:35 INFO [shop:33] index
+2024-05-24 22:26:36 INFO [django.server:212] "GET / HTTP/1.1" 200 2485
+2024-05-24 22:26:36 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 304 0
+2024-05-24 22:26:40 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 200 3935
+2024-05-24 22:26:46 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 4073
+2024-05-24 22:26:58 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-24 22:27:00 INFO [django.server:212] "POST /admin/logout/ HTTP/1.1" 200 3553
+2024-05-24 22:27:04 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-05-24 22:27:04 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+2024-05-24 22:27:04 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 302 0
+2024-05-24 22:27:04 INFO [django.server:212] "GET /login/?next=/purchase/ HTTP/1.1" 200 2014
+2024-05-24 22:27:18 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:27:18 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-24 22:27:19 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-24 22:27:22 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-24 22:27:22 INFO [shop:78] profile
+2024-05-24 22:27:22 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2746
+2024-05-24 22:29:21 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:29:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:29:30 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:29:30 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:29:32 INFO [shop:33] index
+2024-05-24 22:29:33 INFO [django.server:212] "GET / HTTP/1.1" 200 2135
+2024-05-24 22:29:39 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-24 22:29:46 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-24 22:29:46 INFO [shop:78] profile
+2024-05-24 22:29:46 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3056
+2024-05-24 22:29:54 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-05-24 22:29:54 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3682
+2024-05-24 22:30:00 INFO [django.server:212] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-05-24 22:30:00 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-24 22:30:12 INFO [shop:33] index
+2024-05-24 22:30:32 INFO [django.server:212] "GET / HTTP/1.1" 200 2718
+2024-05-24 22:30:36 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2591
+2024-05-24 22:30:36 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 23076
+2024-05-24 22:30:56 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2796
+2024-05-24 22:31:00 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2796
+2024-05-24 22:31:02 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3505
+2024-05-24 22:31:05 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 22:31:05 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:31:11 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:31:11 INFO [shop:78] profile
+2024-05-24 22:31:11 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3056
+2024-05-24 22:31:13 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2395
+2024-05-24 22:31:18 INFO [django.server:212] "POST /review_create HTTP/1.1" 302 0
+2024-05-24 22:31:18 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3395
+2024-05-24 22:31:24 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 1896
+2024-05-24 22:31:26 INFO [django.server:212] "GET /employees HTTP/1.1" 200 2798
+2024-05-24 22:31:26 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 304 0
+2024-05-24 22:31:42 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:31:44 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:32:02 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 302 0
+2024-05-24 22:32:02 INFO [django.server:212] "GET /login/?next=/all_orders/ HTTP/1.1" 200 2297
+2024-05-24 22:32:11 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2190
+2024-05-24 22:32:20 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-05-24 22:32:20 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3682
+2024-05-24 22:32:28 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-24 22:32:28 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-24 22:32:33 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-24 22:32:33 INFO [shop:78] profile
+2024-05-24 22:32:33 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-05-24 22:32:36 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 200 4627
+2024-05-24 22:32:51 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5741
+2024-05-24 22:32:59 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-05-24 22:33:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:35:59 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:35:59 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:37:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:37:14 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:37:24 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:37:24 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:37:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:37:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:38:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:38:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:38:13 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:38:14 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:38:17 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:38:17 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:38:45 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:38:46 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:42:42 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:42:43 INFO [shop:33] index
+2024-05-24 22:42:45 INFO [django.server:212] "GET / HTTP/1.1" 200 2541
+2024-05-24 22:42:46 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-24 22:42:48 INFO [django.server:212] "GET /admin/shop/client/ HTTP/1.1" 200 15433
+2024-05-24 22:42:48 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:42:50 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-24 22:42:51 INFO [django.server:212] "GET /admin/shop/employee/ HTTP/1.1" 200 14822
+2024-05-24 22:42:51 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:42:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:42:56 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:43:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:43:04 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:45:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-24 22:45:24 INFO [shop:33] index
+2024-05-24 22:45:25 INFO [django.server:212] "GET / HTTP/1.1" 200 2526
+2024-05-24 22:45:27 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-24 22:45:29 INFO [django.server:212] "GET /admin/shop/client/ HTTP/1.1" 200 15433
+2024-05-24 22:45:29 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-05-24 22:45:41 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\tests.py changed, reloading.
+2024-05-24 22:45:42 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-25 09:01:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-25 09:01:28 INFO [shop:33] index
+2024-05-25 09:01:29 INFO [django.server:212] "GET / HTTP/1.1" 200 2654
+2024-05-25 09:01:30 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 304 0
+2024-05-25 09:01:30 WARNING [django.request:241] Not Found: /favicon.ico
+2024-05-25 09:01:30 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6277
+2024-05-25 09:01:59 INFO [shop:62] about
+2024-05-25 09:01:59 INFO [django.server:212] "GET /about HTTP/1.1" 200 2766
+2024-05-25 09:02:01 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/css/base.css HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+2024-05-25 09:02:01 INFO [django.server:212] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+2024-05-25 09:02:05 INFO [shop:67] news
+2024-05-25 09:02:05 INFO [django.server:212] "GET /news HTTP/1.1" 200 2344
+2024-05-25 09:02:05 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 304 0
+2024-05-25 09:02:05 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 304 0
+2024-05-25 09:02:11 INFO [shop:33] index
+2024-05-25 09:02:14 INFO [django.server:212] "GET / HTTP/1.1" 200 2493
+2024-05-25 09:02:25 INFO [shop:72] faq
+2024-05-25 09:02:25 INFO [django.server:212] "GET /faq HTTP/1.1" 200 1986
+2024-05-25 09:02:27 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-25 09:02:27 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-25 09:02:45 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-25 09:02:45 INFO [shop:78] profile
+2024-05-25 09:02:45 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2416
+2024-05-25 09:02:47 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-25 09:03:01 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-25 09:03:01 INFO [shop:78] profile
+2024-05-25 09:03:01 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2737
+2024-05-25 09:03:12 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 1896
+2024-05-25 09:03:17 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-25 09:03:30 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-05-25 09:03:30 INFO [shop:78] profile
+2024-05-25 09:03:30 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3061
+2024-05-25 09:04:07 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 3672
+2024-05-25 09:04:13 INFO [django.server:212] "GET /store HTTP/1.1" 200 3228
+2024-05-25 09:04:20 INFO [django.server:212] "GET /store?sort=quantity HTTP/1.1" 200 3228
+2024-05-25 09:04:20 INFO [django.server:212] "GET /store?sort=quantity HTTP/1.1" 200 3228
+2024-05-25 09:04:21 INFO [django.server:212] "GET /store?sort=quantity HTTP/1.1" 200 3228
+2024-05-25 09:04:22 INFO [django.server:212] "GET /store?sort=quantity HTTP/1.1" 200 3228
+2024-05-25 09:04:23 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3228
+2024-05-25 09:04:31 INFO [django.server:212] "GET /store?min_price=7&max_price= HTTP/1.1" 200 2837
+2024-05-25 09:04:39 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2395
+2024-05-25 09:04:45 INFO [django.server:212] "POST /review_create HTTP/1.1" 302 0
+2024-05-25 09:04:45 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3843
+2024-05-25 09:04:47 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3843
+2024-05-25 09:04:52 INFO [django.server:212] "GET /employees HTTP/1.1" 200 2798
+2024-05-25 09:04:52 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 304 0
+2024-05-25 09:04:52 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 304 0
+2024-05-25 09:04:54 INFO [django.server:212] "GET /employees HTTP/1.1" 200 2798
+2024-05-25 09:04:54 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3843
+2024-05-25 09:05:03 INFO [django.server:212] "GET /reviews/3/update/ HTTP/1.1" 200 2434
+2024-05-25 09:05:10 INFO [django.server:212] "POST /reviews/3/update/ HTTP/1.1" 302 0
+2024-05-25 09:05:10 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3843
+2024-05-25 09:05:17 INFO [django.server:212] "GET /employees HTTP/1.1" 200 2798
+2024-05-25 09:05:18 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 1896
+2024-05-25 09:05:23 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-25 09:05:23 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-25 09:05:31 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-25 09:05:31 INFO [shop:78] profile
+2024-05-25 09:05:31 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1857
+2024-05-25 09:05:33 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5650
+2024-05-25 09:05:35 INFO [shop:89] supplier_list
+2024-05-25 09:05:35 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8310
+2024-05-25 09:05:49 INFO [shop:89] supplier_list
+2024-05-25 09:05:49 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-25 09:05:49 INFO [shop:89] supplier_list
+2024-05-25 09:05:49 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8310
+2024-05-25 09:05:52 INFO [django.server:212] "GET /store HTTP/1.1" 200 3659
+2024-05-25 09:06:00 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5650
+2024-05-25 09:06:12 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5650
+2024-05-25 09:06:23 INFO [shop:89] supplier_list
+2024-05-25 09:06:23 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8310
+2024-05-25 09:06:27 INFO [shop:89] supplier_list
+2024-05-25 09:06:27 INFO [django.server:212] "POST /suppliers HTTP/1.1" 302 0
+2024-05-25 09:06:27 INFO [shop:89] supplier_list
+2024-05-25 09:06:27 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8310
+2024-05-25 09:06:31 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5650
+2024-05-25 09:07:38 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 4384
+2024-05-25 09:07:54 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-25 09:07:54 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-25 09:07:59 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-05-25 09:07:59 INFO [shop:78] profile
+2024-05-25 09:07:59 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-05-25 09:08:01 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2591
+2024-05-25 09:08:01 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 24198
+2024-05-25 09:10:19 INFO [shop:33] index
+2024-05-25 09:10:21 INFO [django.server:212] "GET / HTTP/1.1" 200 2638
+2024-05-25 09:12:52 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-05-25 09:12:52 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-05-25 09:12:53 INFO [django.server:212] "GET /register HTTP/1.1" 200 3074
+2024-05-25 09:13:01 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\forms.py changed, reloading.
+2024-05-25 09:13:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-05-25 09:13:09 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\forms.py changed, reloading.
+2024-05-25 09:13:10 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-13 01:27:20 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-13 01:27:23 INFO [shop:33] index
+2024-09-13 01:27:25 INFO [django.server:212] "GET / HTTP/1.1" 200 1899
+2024-09-13 01:27:25 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-09-13 01:27:25 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-13 01:27:25 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6277
+2024-09-13 01:27:34 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-09-13 01:27:44 INFO [django.server:212] "POST /login/ HTTP/1.1" 200 2039
+2024-09-13 01:27:48 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-13 01:27:48 INFO [shop:78] profile
+2024-09-13 01:27:48 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3061
+2024-09-13 01:27:57 INFO [django.server:212] "GET /store HTTP/1.1" 200 3464
+2024-09-13 01:28:09 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 4074
+2024-09-13 01:32:46 INFO [django.server:212] "POST /purchase/ HTTP/1.1" 302 0
+2024-09-13 01:32:46 INFO [shop:78] profile
+2024-09-13 01:32:46 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3372
+2024-09-13 01:34:24 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-13 01:34:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-13 01:35:58 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 1896
+2024-09-18 11:48:51 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 11:48:55 INFO [shop:33] index
+2024-09-18 11:48:57 INFO [django.server:212] "GET / HTTP/1.1" 200 2211
+2024-09-18 11:48:57 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-09-18 11:48:58 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-18 11:48:58 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6277
+2024-09-18 11:49:06 INFO [shop:33] index
+2024-09-18 11:49:07 INFO [django.server:212] "GET / HTTP/1.1" 200 2154
+2024-09-18 11:49:20 INFO [shop:62] about
+2024-09-18 11:49:20 INFO [django.server:212] "GET /about HTTP/1.1" 200 2365
+2024-09-18 11:49:21 INFO [shop:33] index
+2024-09-18 11:49:22 INFO [django.server:212] "GET / HTTP/1.1" 200 2101
+2024-09-18 11:49:25 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-09-18 11:49:25 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3679
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+2024-09-18 11:49:25 INFO [django.server:212] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-09-18 11:50:00 INFO [shop:67] news
+2024-09-18 11:50:00 INFO [django.server:212] "GET /news HTTP/1.1" 200 1943
+2024-09-18 11:50:00 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-09-18 11:50:00 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-09-18 11:50:06 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 1896
+2024-09-18 11:50:07 INFO [shop:78] profile
+2024-09-18 11:50:07 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3372
+2024-09-18 11:50:15 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3843
+2024-09-18 11:50:22 INFO [django.server:212] "GET /employees HTTP/1.1" 200 2798
+2024-09-18 11:50:22 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-09-18 11:50:22 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-09-18 11:50:28 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 1896
+2024-09-18 11:50:34 INFO [shop:62] about
+2024-09-18 11:50:34 INFO [django.server:212] "GET /about HTTP/1.1" 200 2365
+2024-09-18 11:50:35 INFO [shop:33] index
+2024-09-18 11:50:36 INFO [django.server:212] "GET / HTTP/1.1" 200 2155
+2024-09-18 11:53:47 INFO [shop:62] about
+2024-09-18 11:53:47 INFO [django.server:212] "GET /about HTTP/1.1" 200 2365
+2024-09-18 11:53:47 INFO [shop:33] index
+2024-09-18 11:53:49 INFO [django.server:212] "GET / HTTP/1.1" 200 2066
+2024-09-18 11:53:54 INFO [django.server:212] "GET /store HTTP/1.1" 200 3464
+2024-09-18 11:55:39 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-09-18 11:55:40 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-09-18 11:55:41 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-09-18 11:55:49 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-18 11:55:49 INFO [shop:78] profile
+2024-09-18 11:55:49 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-09-18 11:55:52 INFO [shop:89] supplier_list
+2024-09-18 11:55:52 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8401
+2024-09-18 11:55:59 INFO [django.server:212] "GET /orders_supplier HTTP/1.1" 200 5741
+2024-09-18 11:56:10 INFO [django.server:212] "GET /all_orders/ HTTP/1.1" 200 5667
+2024-09-18 11:56:20 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2592
+2024-09-18 11:56:20 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 24173
+2024-09-18 11:56:20 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2796
+2024-09-18 11:56:23 INFO [shop:72] faq
+2024-09-18 11:56:23 INFO [django.server:212] "GET /faq HTTP/1.1" 200 1986
+2024-09-18 11:56:30 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-09-18 11:56:30 INFO [django.server:212] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-09-18 11:56:30 INFO [django.server:212] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-09-18 11:56:30 INFO [django.server:212] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-09-18 12:00:03 INFO [shop:33] index
+2024-09-18 12:00:05 INFO [django.server:212] "GET / HTTP/1.1" 200 2581
+2024-09-18 12:00:12 INFO [shop:78] profile
+2024-09-18 12:00:12 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-09-18 12:00:19 INFO [shop:78] profile
+2024-09-18 12:00:19 INFO [django.server:212] "GET /profile HTTP/1.1" 200 1948
+2024-09-18 12:00:22 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-09-18 12:00:23 INFO [django.server:212] "GET /admin/auth/user/ HTTP/1.1" 200 18456
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+2024-09-18 12:00:23 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2024-09-18 12:00:23 INFO [django.server:212] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-09-18 12:00:31 INFO [django.server:212] "GET /admin/auth/user/8/change/ HTTP/1.1" 200 29571
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+2024-09-18 12:00:31 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+2024-09-18 12:00:31 INFO [django.server:212] "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+2024-09-18 12:00:42 INFO [django.server:212] "GET /admin/auth/user/ HTTP/1.1" 200 18456
+2024-09-18 12:00:45 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-09-18 12:00:50 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-09-18 12:00:50 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 1955
+2024-09-18 12:00:59 INFO [django.server:212] "POST /login/ HTTP/1.1" 200 2039
+2024-09-18 12:01:15 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-18 12:01:15 INFO [shop:78] profile
+2024-09-18 12:01:15 INFO [django.server:212] "GET /profile HTTP/1.1" 200 3372
+2024-09-18 12:08:12 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\views.py changed, reloading.
+2024-09-18 12:08:14 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:31:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-18 15:31:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:39:05 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-18 15:39:06 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:39:09 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-18 15:39:09 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:39:12 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-18 15:39:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:41:49 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
+2024-09-18 15:41:49 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader

@@ -1,0 +1,9 @@
+{% extends "navbar.html" %}
+
+{% block content%}
+{% for f in faq  %}
+    <h1>{{f.question}}</h1>
+    <p>{{f.answer|truncatewords:15 }}</p>
+    <p>{{f.date_added}}</p>
+{% endfor %}
+{% endblock%}

@@ -3650,3 +3650,99 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', p
 2024-09-19 18:39:18 INFO [django.server:212] "GET /about HTTP/1.1" 200 14353
 2024-09-19 18:39:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
 2024-09-19 18:39:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62601)
+2024-09-19 23:56:49 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 23:56:51 INFO [shop:33] index
+2024-09-19 23:56:52 INFO [django.server:212] "GET / HTTP/1.1" 200 3462
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-19 23:56:52 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-19 23:56:54 INFO [shop:70] news
+2024-09-19 23:56:54 INFO [django.server:212] "GET /news HTTP/1.1" 200 2908
+2024-09-19 23:56:54 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 304 0
+2024-09-19 23:56:54 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 304 0
+2024-09-19 23:56:55 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 2550
+2024-09-19 23:56:57 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 2555
+2024-09-19 23:56:58 INFO [django.server:212] "GET /store HTTP/1.1" 200 4022
+2024-09-19 23:56:59 INFO [shop:33] index
+2024-09-19 23:57:00 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5577
+2024-09-19 23:57:01 INFO [django.server:212] "GET / HTTP/1.1" 200 3471
+2024-09-19 23:57:01 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 23:57:01 INFO [shop:70] news
+2024-09-19 23:57:01 INFO [django.server:212] "GET /news HTTP/1.1" 200 2908
+2024-09-19 23:57:02 INFO [shop:75] faq
+2024-09-19 23:57:02 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2715
+2024-09-19 23:57:02 INFO [django.server:212] "GET /store HTTP/1.1" 200 4022
+2024-09-19 23:57:05 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2847
+2024-09-19 23:57:05 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 24173
+2024-09-19 23:57:06 INFO [shop:33] index
+2024-09-19 23:57:07 INFO [django.server:212] "GET / HTTP/1.1" 200 3580
+2024-09-19 23:57:08 INFO [shop:65] about
+2024-09-19 23:57:08 INFO [django.server:212] "GET /about HTTP/1.1" 200 14591
+2024-09-19 23:57:08 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 23:57:09 INFO [shop:33] index
+2024-09-19 23:57:11 INFO [django.server:212] "GET / HTTP/1.1" 200 3434
+2024-09-19 23:57:16 INFO [django.server:212] "GET /news/3 HTTP/1.1" 200 2826
+2024-09-19 23:57:18 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-09-19 23:57:18 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2197
+2024-09-19 23:57:19 INFO [django.server:212] "GET /store HTTP/1.1" 200 3418
+2024-09-19 23:57:20 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2197
+2024-09-19 23:57:29 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-19 23:57:29 INFO [shop:81] profile
+2024-09-19 23:57:29 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2197
+2024-09-19 23:57:31 INFO [shop:33] index
+2024-09-19 23:57:32 INFO [django.server:212] "GET / HTTP/1.1" 200 3462
+2024-09-19 23:57:37 INFO [shop:75] faq
+2024-09-19 23:57:37 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2715
+2024-09-19 23:57:38 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-09-19 23:57:38 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2197
+2024-09-19 23:57:38 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 57880)
+2024-09-19 23:57:39 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2197
+2024-09-19 23:57:46 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-19 23:57:46 INFO [shop:81] profile
+2024-09-19 23:57:46 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2197
+2024-09-20 00:06:16 INFO [shop:33] index
+2024-09-20 00:06:17 INFO [django.server:212] "GET / HTTP/1.1" 200 3414
+2024-09-20 00:16:56 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5832
+2024-09-20 00:19:18 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 6955
+2024-09-20 00:19:18 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-20 00:33:55 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-20 00:41:03 INFO [shop:65] about
+2024-09-20 00:41:03 INFO [django.server:212] "GET /about HTTP/1.1" 200 14887
+2024-09-20 00:41:03 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:41:17 INFO [shop:65] about
+2024-09-20 00:41:17 INFO [django.server:212] "GET /about HTTP/1.1" 200 14891
+2024-09-20 00:41:17 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58346)
+2024-09-20 00:41:17 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:41:19 INFO [shop:65] about
+2024-09-20 00:41:19 INFO [django.server:212] "GET /about HTTP/1.1" 200 14891
+2024-09-20 00:41:19 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58347)
+2024-09-20 00:41:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:41:28 INFO [shop:65] about
+2024-09-20 00:41:28 INFO [django.server:212] "GET /about HTTP/1.1" 200 14900
+2024-09-20 00:41:28 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58354)
+2024-09-20 00:41:28 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:41:41 INFO [shop:65] about
+2024-09-20 00:41:41 INFO [django.server:212] "GET /about HTTP/1.1" 200 14872
+2024-09-20 00:41:41 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58356)
+2024-09-20 00:41:41 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:41:42 INFO [shop:65] about
+2024-09-20 00:41:42 INFO [django.server:212] "GET /about HTTP/1.1" 200 14872
+2024-09-20 00:41:42 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58360)
+2024-09-20 00:41:42 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:42:02 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58363)
+2024-09-20 00:45:06 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 7391
+2024-09-20 00:47:02 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 7391
+2024-09-20 00:47:05 INFO [shop:65] about
+2024-09-20 00:47:05 INFO [django.server:212] "GET /about HTTP/1.1" 200 14884
+2024-09-20 00:47:05 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 00:47:20 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 58394)
+2024-09-20 01:03:28 INFO [shop:65] about
+2024-09-20 01:03:28 INFO [django.server:212] "GET /about HTTP/1.1" 200 14890
+2024-09-20 01:03:29 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-20 01:03:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 8010
+2024-09-20 01:04:02 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 8007
+2024-09-20 01:04:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 8006
+2024-09-20 01:04:37 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50436)

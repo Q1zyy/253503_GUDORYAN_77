@@ -1,9 +1,12 @@
 {% extends "navbar.html" %}
-
+{% block title %}Новости{% endblock title %}
 {% block content%}
 {% for n in news  %}
-    <h1>{{n.title}}</h1>
-    <p>{{n.content|truncatewords:15 }}</p>
-    <img src={{n.image.url}}></img>
+    <article>
+        <h1>{{n.title}}</h1>
+        <p>{{n.content|truncatewords:15 }}</p>
+        <img src={{n.image.url}}>
+        <a tabindex="n.id" href="{% url 'single_news' n.id %}">Читать далее</a>
+    </article>
 {% endfor %}
-{% endblock%}
+{% endblock%} 

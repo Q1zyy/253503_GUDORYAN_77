@@ -1,0 +1,107 @@
+
+{% extends "navbar.html" %}
+{% block title %}Политика{% endblock title %}
+{% block content%}
+
+<style>
+    th, td {
+        border: 1px solid #ddd;
+    }
+</style>
+
+<h1>Четверостишие</h1>
+<p>Первый Первый Первый Первый Первый Первый<wbr> Первый<wbr> стих,<br>
+Второй Второй Второй Второй Второй Второй<wbr> Второй<wbr> стих,<br>
+Третий Третий Третий Третий Третий Третий<wbr> Третий<wbr> стих,<br>
+Четвертый Четвертый Четвертый Четвертый<wbr> Четвертый<wbr> Четвертый<wbr> Четвертый<wbr> Четвертый стих.</p>
+<a href='/media/logo.jpg' download='logo.pjg'>Скачать лого</a>
+
+<table style='border-collapse: collapse;'>
+    <thead>
+        <tr>
+            <th rowspan='2'>ID</th>
+            <th colspan="2">Информация</th>
+            <th rowspan="2">Цена</th>
+        </tr>
+        <tr>
+            <th>Название</th>
+            <th>Описание</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Товар 5htrg4324gtrA</td>
+            <td>Описание ggerasgsearfgesgergтовара A</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Тоgrsegsergварgersger B</td>
+            <td>Описанrgsergsrие товарgsregseа B</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">Товар C (объединенная ячейка)</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Товарrgessregresg D</td>
+            <td>Описание sgrfegsgseтовара D</td>
+            <td>250</td>
+        </tr>
+    </tbody>
+</table>
+
+<p translate="yes" spellcheck="true" contenteditable="true">It is raining</p>
+
+<audio controls>
+    <source src="/media/audio.mp3" type="audio/mpeg">
+</audio>
+
+<form>
+    <label>Текст:</label>
+    <input type="text" id="text" name="text" required>
+
+    <label>Пароль:</label>
+    <input type="password" id="password" name="password" required minlength="6">
+
+    <label>Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label>Телефон:</label>
+    <input type="tel" id="phone" name="phone" required pattern="\+?[0-9]{1,15}">
+
+    <label>Дата:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label>Число:</label>
+    <input type="number" id="number" name="number" required min="1" max="100">
+
+    <label>Выберите файл:</label>
+    <input type="file" id="file" name="file" accept=".jpg, .png, .pdf" required>
+
+    <label>
+        <input type="radio" name="gender" value="male" required> Мужчина
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female"> Женщина
+    </label>
+    <label>
+        <input type="checkbox" name="subscribe" value="yes"> Подписаться на рассылку
+    </label>
+
+    <button type="submit">Отправить</button>
+</form>
+
+    <p><a href="https://example.com" target="_blank" >Site</a></p>
+    <p><a href="mailto:gudoryanjackson@mail.ru">Email</a></p>
+    <p><a href="tel:+375445894444">Call</a></p>
+<div>
+    <iframe src='https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0' width="800" height="600"></iframe>
+</div>
+
+
+{% endblock %}

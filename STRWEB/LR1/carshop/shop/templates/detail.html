@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+{% extends 'navbar.html' %}
+
+{% block title %}Деталь{% endblock title %}
+
+{% block content %}
+    <h1>Detail</h1>
+    <p>{{detail.name}}</p>
+    <p>{{detail.description}}</p>
+    <p>{{detail_info.price}}</p>
+    <p>{{detail_info.quantity}}</p>
+    <a><i class="fas fa-shopping-cart"></i></a>  
+{% endblock %}

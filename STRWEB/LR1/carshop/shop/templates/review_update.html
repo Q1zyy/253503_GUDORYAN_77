@@ -1,5 +1,5 @@
 {% extends 'navbar.html' %}
-
+{% block title %}Обновить отзыв{% endblock title %}
 {% block content %}
     <h1>Обновить отзыв</h1>
     <form method="post" action="{% url 'review_update' review.id %}">

@@ -108,3 +108,8 @@ class Job(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Partner(models.Model):
+    name = models.CharField(max_length=200)
+    photo = models.ImageField(upload_to='partners', null=True, blank=True)
+    site = models.URLField(max_length = 200, null=True) 

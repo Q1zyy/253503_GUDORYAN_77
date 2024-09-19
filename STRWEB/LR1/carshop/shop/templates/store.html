@@ -1,5 +1,5 @@
 {% extends 'navbar.html' %}
-
+{% block title %}Магазин{% endblock title %}
 {% block content %}
 <h1>Магазин</h1>
 
@@ -31,7 +31,7 @@
     <tbody>
         {% for item in store_items %}
         <tr>
-            <td>{{ item.detail.name }}</td>
+            <td><a href="/detail/{{item.id}}">{{ item.detail.name }}</a></td>
             <td>{{ item.quantity }}</td>
             <td>{{ item.price }}</td>
         </tr>

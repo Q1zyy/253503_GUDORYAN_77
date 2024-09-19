@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee, Promocode, Location, StoreOrder, Review, Job
+from .models import News, CompanyInfo, FAQ, Client, Supplier, Detail, SupplierDetail, Order, Store, Employee, Promocode, Location, StoreOrder, Review, Job, Partner
 from django.contrib.auth.models import Permission
 
 
@@ -132,3 +132,7 @@ class JobAdmin(admin.ModelAdmin):
     list_display = ('title', 'description')
     search_fields = ('title', 'description')
     ordering = ('title',)
+    
+@admin.register(Partner)
+class PartnerAdmin(admin.ModelAdmin):
+    pass

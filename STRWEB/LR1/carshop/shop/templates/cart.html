@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+{% extends 'navbar.html' %}
+
+{% block title %}Корзина{% endblock title %}
+
+{% block content %}
+    <h1>Корзина</h1>
+    <ul>
+        {% for i in detail_info %}
+            <li>
+                <p>{{i.detail.name}}</p>
+                <p>{{i.quantity}}</p>
+                <button class="icon-button">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button class="icon-button">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </li>
+        {% endfor %}
+    </ul>
+    <a  href="{% url 'payment' %}">Оплатить</a>
+
+{% endblock %}

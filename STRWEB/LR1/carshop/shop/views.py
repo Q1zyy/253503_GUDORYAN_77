@@ -7,7 +7,7 @@ import requests
 from django.contrib.auth.decorators import user_passes_test
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-from .models import CompanyInfo, News, FAQ, Detail, Supplier, SupplierDetail, Order, Store, Promocode, Location, StoreOrder, Review, Employee, Job
+from .models import CompanyInfo, News, FAQ, Detail, Supplier, SupplierDetail, Order, Store, Promocode, Location, StoreOrder, Review, Employee, Job, Partner
 from django.views.generic import FormView
 from .forms import RegisterForm
 from .models import Client
@@ -39,6 +39,8 @@ def index(request):
         dog_photo = response.json()
         
     latest_news = News.objects.order_by('-id').first()
+    
+    partners = Partner.objects.all()
         
     tz = tzlocal.get_localzone()
     local_time = datetime.now(tz)
@@ -54,6 +56,7 @@ def index(request):
         'current_date_formatted': now_time.strftime("%m-%d-%Y %H:%M:%S %Z"),
         'calendar_text': text_cal,
         'utc_time': utc_time.strftime("%m-%d-%Y %H:%M:%S %Z"),
+        'partners': partners
     }
     
     return render(request, 'index.html', context)
@@ -356,3 +359,54 @@ def stats(request):
         'plot_url': os.path.join(settings.MEDIA_URL, 'orders_by_price_range.png')
     }
     return render(request, 'stats.html', context)
+
+def detail(request, id):
+    cur_detail = Detail.objects.get(id=id)
+    detail_info = Store.objects.get(detail__id=id)
+    context = {
+        'detail': cur_detail,
+        'detail_info': detail_info
+    }
+    return render(request, "detail.html", context)
+
+def cart(request):
+    cur_detail = Detail.objects.all()[:3]
+    detail_info = Store.objects.all()[:3] 
+    total_price = 0
+    for i in range(len(cur_detail)):
+        total_price += detail_info[i].price * detail_info[i].quantity
+    
+    
+    request.session['total_price'] = float(total_price)
+    
+    context = {
+        'detail': cur_detail,
+        'detail_info': detail_info,
+    }
+    
+    return render(request, "cart.html", context)
+    
+    
+def payment(request):
+    total_price = request.session.get('total_price')
+    context = {
+        'total_price': total_price
+    }
+    return render(request, 'payment.html', context)
+
+def news_detail(request, id):
+    cur_news = News.objects.get(id=id)
+    context = {
+        'cur_news': cur_news
+    }
+    return render(request, 'single_news.html', context)
+
+def faq_detail(request, id):
+    cur_faq = FAQ.objects.get(id=id)
+    context = {
+        'cur_faq': cur_faq
+    }
+    return render(request, 'single_faq.html', context)
+
+def privacy(request):
+    return render(request, 'privacy.html')

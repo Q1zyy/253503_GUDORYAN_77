@@ -26,10 +26,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('django.contrib.auth.urls')),
     path('logout', views.logout_view, name='logout'),
-    path('profile', views.profile, name='profile')
-]
-
-urlpatterns += [
+    path('profile', views.profile, name='profile'),
     path('', views.index, name='home'),
     path('about', views.about, name='about'),
     path('news', views.news, name='news'),
@@ -48,4 +45,10 @@ urlpatterns += [
     path('employees', views.employee_list, name='employees'),
     path('jobs', views.job_list_view, name='job_list'),
     path('stats', views.stats, name='stats'),
+    path("detail/<int:id>", views.detail, name='detail'),
+    path('cart', views.cart, name='cart'),
+    path('payment', views.payment, name='payment'),
+    path('news/<int:id>', views.news_detail, name='single_news'),
+    path('faq/<int:id>', views.faq_detail, name='single_faq'),
+    path('privacy', views.privacy, name='privacy')
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

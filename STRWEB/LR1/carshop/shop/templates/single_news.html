@@ -1,0 +1,7 @@
+{% extends 'navbar.html' %}
+{% block title %}Новость{% endblock title %}
+{% block content %}
+    <h1>{{cur_news.title}}</h1>
+    <p>{{cur_news.content}}</p>
+    <img src="{{cur_news.image.url}}">
+{% endblock %}

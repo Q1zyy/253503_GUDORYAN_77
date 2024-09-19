@@ -1186,3 +1186,2467 @@ django.db.utils.IntegrityError: NOT NULL constraint failed: shop_store.price
 2024-09-18 15:39:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
 2024-09-18 15:41:49 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\IGI\LR5\carshop\shop\models.py changed, reloading.
 2024-09-18 15:41:49 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:53:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 15:53:21 INFO [shop:33] index
+2024-09-18 15:53:22 INFO [django.server:212] "GET / HTTP/1.1" 200 2225
+2024-09-18 16:04:38 INFO [shop:33] index
+2024-09-18 16:04:39 INFO [django.server:212] "GET / HTTP/1.1" 200 2265
+2024-09-18 16:04:42 INFO [shop:33] index
+2024-09-18 16:04:43 INFO [django.server:212] "GET / HTTP/1.1" 200 2097
+2024-09-18 16:05:51 INFO [django.server:212] "GET /store HTTP/1.1" 200 3464
+2024-09-18 16:15:43 INFO [shop:33] index
+2024-09-18 16:15:44 INFO [django.server:212] "GET / HTTP/1.1" 200 2155
+2024-09-18 16:18:50 INFO [shop:33] index
+2024-09-18 16:18:51 INFO [django.server:212] "GET / HTTP/1.1" 200 2164
+2024-09-18 16:18:51 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:18:51 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:18:56 INFO [shop:33] index
+2024-09-18 16:18:57 INFO [django.server:212] "GET / HTTP/1.1" 200 2136
+2024-09-18 16:18:57 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:18:57 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:19:00 INFO [shop:33] index
+2024-09-18 16:19:01 INFO [django.server:212] "GET / HTTP/1.1" 200 2211
+2024-09-18 16:19:01 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:19:01 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:21:42 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:21:42 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:21:43 INFO [shop:33] index
+2024-09-18 16:21:44 INFO [django.server:212] "GET / HTTP/1.1" 200 2137
+2024-09-18 16:21:44 WARNING [django.request:241] Not Found: /logo.png
+2024-09-18 16:21:44 WARNING [django.server:212] "GET /logo.png HTTP/1.1" 404 6268
+2024-09-18 16:23:40 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\settings.py changed, reloading.
+2024-09-18 16:23:40 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:23:59 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:24:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:24:05 INFO [shop:33] index
+2024-09-18 16:24:06 INFO [django.server:212] "GET / HTTP/1.1" 200 2131
+2024-09-18 16:24:06 WARNING [django.request:241] Not Found: /logo.png
+2024-09-18 16:24:06 WARNING [django.server:212] "GET /logo.png HTTP/1.1" 404 6268
+2024-09-18 16:24:18 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:24:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:24:23 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:24:24 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:24:29 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:24:30 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:24:31 INFO [shop:33] index
+2024-09-18 16:24:32 INFO [django.server:212] "GET / HTTP/1.1" 200 2162
+2024-09-18 16:24:32 WARNING [django.request:241] Not Found: /logo.png
+2024-09-18 16:24:32 WARNING [django.server:212] "GET /logo.png HTTP/1.1" 404 6268
+2024-09-18 16:24:35 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:24:36 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:25:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\settings.py changed, reloading.
+2024-09-18 16:25:15 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:25:19 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:25:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:25:22 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 16:25:23 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 16:26:07 INFO [shop:33] index
+2024-09-18 16:26:08 INFO [django.server:212] "GET / HTTP/1.1" 200 2193
+2024-09-18 16:26:08 WARNING [django.request:241] Not Found: /logo.png
+2024-09-18 16:26:08 WARNING [django.server:212] "GET /logo.png HTTP/1.1" 404 6268
+2024-09-18 16:26:27 INFO [shop:33] index
+2024-09-18 16:26:28 INFO [django.server:212] "GET / HTTP/1.1" 200 2180
+2024-09-18 16:26:28 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:26:28 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:26:32 INFO [shop:33] index
+2024-09-18 16:26:33 INFO [django.server:212] "GET / HTTP/1.1" 200 2175
+2024-09-18 16:26:33 WARNING [django.request:241] Not Found: /media/logo.png
+2024-09-18 16:26:33 WARNING [django.server:212] "GET /media/logo.png HTTP/1.1" 404 6490
+2024-09-18 16:27:00 INFO [shop:33] index
+2024-09-18 16:27:01 INFO [django.server:212] "GET / HTTP/1.1" 200 2150
+2024-09-18 16:27:01 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-09-18 17:42:09 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 17:42:12 INFO [shop:33] index
+2024-09-18 17:42:21 INFO [django.server:212] "GET / HTTP/1.1" 200 2108
+2024-09-18 17:42:21 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 17:42:24 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-18 17:42:24 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6277
+2024-09-18 17:43:13 INFO [shop:33] index
+2024-09-18 17:43:21 INFO [django.server:212] "GET / HTTP/1.1" 200 2238
+2024-09-18 17:43:21 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-09-18 17:43:21 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-09-18 17:44:02 INFO [shop:33] index
+2024-09-18 17:44:11 INFO [django.server:212] "GET / HTTP/1.1" 200 2258
+2024-09-18 17:45:03 INFO [shop:33] index
+2024-09-18 17:45:15 INFO [django.server:212] "GET / HTTP/1.1" 200 2453
+2024-09-18 17:46:04 INFO [shop:33] index
+2024-09-18 17:46:13 INFO [django.server:212] "GET / HTTP/1.1" 200 2511
+2024-09-18 17:55:31 INFO [django.server:212] "GET /admin/ HTTP/1.1" 302 0
+2024-09-18 17:55:31 INFO [django.server:212] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3679
+2024-09-18 17:55:32 INFO [django.server:212] "GET /static/admin/css/login.css HTTP/1.1" 200 958
+2024-09-18 17:55:37 INFO [django.server:212] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2024-09-18 17:55:37 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15795
+2024-09-18 18:00:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:00:07 INFO [shop:33] index
+2024-09-18 18:00:18 INFO [django.server:212] "GET / HTTP/1.1" 200 2850
+2024-09-18 18:00:18 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 18:00:18 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 18:00:18 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 18:00:21 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16214
+2024-09-18 18:00:32 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\admin.py changed, reloading.
+2024-09-18 18:00:33 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:00:43 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\admin.py changed, reloading.
+2024-09-18 18:00:44 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:01:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:01:15 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:01:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:01:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:01:39 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:01:42 INFO [shop:33] index
+2024-09-18 18:01:50 INFO [django.server:212] "GET / HTTP/1.1" 200 2781
+2024-09-18 18:01:52 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16214
+2024-09-18 18:01:59 INFO [django.server:212] "GET /admin/shop/partner/add/ HTTP/1.1" 200 13142
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-09-18 18:02:00 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+2024-09-18 18:02:00 INFO [django.server:212] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-09-18 18:03:28 INFO [django.server:212] "POST /admin/shop/partner/add/ HTTP/1.1" 302 0
+2024-09-18 18:03:28 INFO [django.server:212] "GET /admin/shop/partner/add/ HTTP/1.1" 200 13387
+2024-09-18 18:03:28 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:03:38 INFO [django.server:212] "POST /admin/shop/partner/add/ HTTP/1.1" 302 0
+2024-09-18 18:03:38 INFO [django.server:212] "GET /admin/shop/partner/add/ HTTP/1.1" 200 13387
+2024-09-18 18:03:38 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:03:52 INFO [django.server:212] "POST /admin/shop/partner/add/ HTTP/1.1" 302 0
+2024-09-18 18:03:52 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13834
+2024-09-18 18:03:52 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:03:52 INFO [django.server:212] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+2024-09-18 18:03:52 INFO [django.server:212] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-09-18 18:03:52 INFO [django.server:212] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-09-18 18:03:53 INFO [django.server:212] "GET /admin/shop/partner/1/change/ HTTP/1.1" 200 13643
+2024-09-18 18:03:53 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:03:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:03:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:04:06 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:04:07 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:04:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:04:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:05:12 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:05:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:05:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:05:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:07:57 INFO [shop:33] index
+2024-09-18 18:08:06 INFO [django.server:212] "GET / HTTP/1.1" 200 3188
+2024-09-18 18:08:06 WARNING [django.request:241] Not Found: /partners/vk.jfif
+2024-09-18 18:08:06 WARNING [django.request:241] Not Found: /partners/aviasales.jpg
+2024-09-18 18:08:06 WARNING [django.server:212] "GET /partners/vk.jfif HTTP/1.1" 404 6292
+2024-09-18 18:08:06 WARNING [django.server:212] "GET /partners/aviasales.jpg HTTP/1.1" 404 6310
+2024-09-18 18:08:06 WARNING [django.request:241] Not Found: /partners/tbank.jfif
+2024-09-18 18:08:06 WARNING [django.server:212] "GET /partners/tbank.jfif HTTP/1.1" 404 6301
+2024-09-18 18:09:33 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:09:34 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:09:55 INFO [shop:33] index
+2024-09-18 18:10:03 INFO [django.server:212] "GET / HTTP/1.1" 200 3164
+2024-09-18 18:10:03 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 18:10:03 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 18:10:03 WARNING [django.request:241] Not Found: /media//media/partners/vk.jfif
+2024-09-18 18:10:03 WARNING [django.server:212] "GET /media//media/partners/vk.jfif HTTP/1.1" 404 6549
+2024-09-18 18:10:03 WARNING [django.request:241] Not Found: /media//media/partners/aviasales.jpg
+2024-09-18 18:10:03 WARNING [django.server:212] "GET /media//media/partners/aviasales.jpg HTTP/1.1" 404 6573
+2024-09-18 18:10:03 WARNING [django.request:241] Not Found: /media//media/partners/tbank.jfif
+2024-09-18 18:10:03 WARNING [django.server:212] "GET /media//media/partners/tbank.jfif HTTP/1.1" 404 6561
+2024-09-18 18:10:19 INFO [shop:33] index
+2024-09-18 18:10:26 INFO [django.server:212] "GET / HTTP/1.1" 200 3039
+2024-09-18 18:10:26 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-09-18 18:10:26 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-09-18 18:10:26 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-09-18 18:12:23 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:12:24 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:13:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:13:09 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16148
+2024-09-18 18:13:18 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13624
+2024-09-18 18:13:18 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:19 INFO [django.server:212] "GET /admin/shop/partner/1/change/ HTTP/1.1" 200 14259
+2024-09-18 18:13:19 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:36 INFO [django.server:212] "POST /admin/shop/partner/1/change/ HTTP/1.1" 302 0
+2024-09-18 18:13:36 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13836
+2024-09-18 18:13:36 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:37 INFO [django.server:212] "GET /admin/shop/partner/2/change/ HTTP/1.1" 200 14278
+2024-09-18 18:13:37 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:47 INFO [django.server:212] "POST /admin/shop/partner/2/change/ HTTP/1.1" 302 0
+2024-09-18 18:13:47 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13836
+2024-09-18 18:13:47 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:50 INFO [django.server:212] "GET /admin/shop/partner/3/change/ HTTP/1.1" 200 14268
+2024-09-18 18:13:50 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:58 INFO [django.server:212] "POST /admin/shop/partner/3/change/ HTTP/1.1" 302 0
+2024-09-18 18:13:58 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13836
+2024-09-18 18:13:58 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:13:59 INFO [django.server:212] "GET /admin/shop/partner/2/change/ HTTP/1.1" 200 14420
+2024-09-18 18:13:59 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:14:02 INFO [django.server:212] "POST /admin/shop/partner/2/change/ HTTP/1.1" 302 0
+2024-09-18 18:14:02 INFO [django.server:212] "GET /admin/shop/partner/ HTTP/1.1" 200 13836
+2024-09-18 18:14:02 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:14:03 INFO [django.server:212] "GET /admin/shop/partner/1/change/ HTTP/1.1" 200 14368
+2024-09-18 18:14:03 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 18:14:09 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-18 18:14:10 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:14:54 INFO [shop:33] index
+2024-09-18 18:15:07 INFO [django.server:212] "GET / HTTP/1.1" 200 3190
+2024-09-18 18:15:07 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 18:15:08 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 18:15:08 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 18:15:08 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 18:22:27 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16083
+2024-09-18 18:24:40 INFO [django.server:212] "GET /store HTTP/1.1" 200 3865
+2024-09-18 18:24:43 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:44 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:44 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:45 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:45 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:45 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:45 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:46 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:47 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:47 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:47 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:47 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3865
+2024-09-18 18:24:48 INFO [django.server:212] "GET /store?sort=quantity HTTP/1.1" 200 3865
+2024-09-18 18:25:04 INFO [django.server:212] "GET /store HTTP/1.1" 200 3865
+2024-09-18 18:25:07 INFO [django.server:212] "GET /stats HTTP/1.1" 200 2592
+2024-09-18 18:25:07 INFO [django.server:212] "GET /media/orders_by_price_range.png HTTP/1.1" 200 24173
+2024-09-18 18:25:11 INFO [shop:65] about
+2024-09-18 18:25:11 INFO [django.server:212] "GET /about HTTP/1.1" 200 2766
+2024-09-18 18:25:44 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16083
+2024-09-18 18:33:16 INFO [django.server:212] "GET /store HTTP/1.1" 200 3993
+2024-09-18 18:34:32 INFO [django.server:212] "GET /store HTTP/1.1" 200 4089
+2024-09-18 18:35:21 INFO [django.server:212] "GET /store HTTP/1.1" 200 4105
+2024-09-18 18:37:43 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 18:39:06 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:39:08 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:39:09 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 18:39:13 WARNING [django.request:241] Not Found: /detail/1
+2024-09-18 18:39:13 WARNING [django.server:212] "GET /detail/1 HTTP/1.1" 404 6268
+2024-09-18 18:39:22 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:39:23 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:41:21 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:41:22 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:41:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 18:41:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:42:17 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 18:42:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:42:20 INFO [shop:33] index
+2024-09-18 18:42:28 INFO [django.server:212] "GET / HTTP/1.1" 200 3167
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 18:42:28 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 18:42:31 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 18:42:32 ERROR [django.request:241] Internal Server Error: /detail/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: detail() got an unexpected keyword argument 'id'
+2024-09-18 18:42:32 ERROR [django.server:212] "GET /detail/1 HTTP/1.1" 500 63910
+2024-09-18 18:43:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:43:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:43:07 ERROR [django.request:241] Internal Server Error: /detail/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 364, in detail
+    return render(request, "detail.htmp")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: detail.htmp
+2024-09-18 18:43:07 ERROR [django.server:212] "GET /detail/1 HTTP/1.1" 500 82587
+2024-09-18 18:43:11 ERROR [django.request:241] Internal Server Error: /detail/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 364, in detail
+    return render(request, "detail.htmp")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: detail.htmp
+2024-09-18 18:43:11 ERROR [django.server:212] "GET /detail/1 HTTP/1.1" 500 82450
+2024-09-18 18:43:23 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:43:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 18:43:26 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 1863
+2024-09-18 18:43:31 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 18:43:32 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:01:41 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:01:42 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:03:19 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:03:20 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:03:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:03:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:05:16 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:05:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:06:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:06:15 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:06:26 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:06:27 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:06:30 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:06:31 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:07:42 INFO [shop:33] index
+2024-09-18 19:07:42 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000010D24BAFEF0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000010D24BAFEF0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000010D24BAFEF0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:07:42 ERROR [django.server:212] "GET / HTTP/1.1" 500 163793
+2024-09-18 19:08:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:08:04 INFO [shop:33] index
+2024-09-18 19:08:04 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001C22E93B230>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C22E93B230>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C22E93B230>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:08:04 ERROR [django.server:212] "GET / HTTP/1.1" 500 163793
+2024-09-18 19:08:51 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:08:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:09:16 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 19:09:17 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:09:19 INFO [shop:33] index
+2024-09-18 19:09:19 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002280ED3F890>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002280ED3F890>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002280ED3F890>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:09:19 ERROR [django.server:212] "GET / HTTP/1.1" 500 163793
+2024-09-18 19:09:44 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 19:09:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:10:57 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:11:06 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 19:11:07 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:11:18 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:11:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:11:22 INFO [shop:33] index
+2024-09-18 19:11:29 INFO [shop:33] index
+2024-09-18 19:11:35 INFO [django.server:212] "GET / HTTP/1.1" 200 3212
+2024-09-18 19:11:35 INFO [django.server:212] "GET / HTTP/1.1" 200 3143
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 19:11:35 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 19:12:07 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 19:12:09 ERROR [django.request:241] Internal Server Error: /detail/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 364, in detail
+    cur_detail = Detail.objects.get(id)
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1613, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1645, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\sql\query.py", line 1492, in build_filter
+    arg, value = filter_expr
+    ^^^^^^^^^^
+TypeError: cannot unpack non-iterable int object
+2024-09-18 19:12:09 ERROR [django.server:212] "GET /detail/1 HTTP/1.1" 500 105370
+2024-09-18 19:13:07 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:13:08 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:13:11 INFO [shop:33] index
+2024-09-18 19:13:34 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:13:35 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:13:36 INFO [shop:33] index
+2024-09-18 19:13:36 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000019877AD4E30>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019877AD4E30>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019877AD4E30>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:13:36 ERROR [django.server:212] "GET / HTTP/1.1" 500 163793
+2024-09-18 19:13:51 INFO [shop:33] index
+2024-09-18 19:13:59 INFO [django.server:212] "GET / HTTP/1.1" 200 3202
+2024-09-18 19:14:01 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 19:14:03 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 1888
+2024-09-18 19:14:08 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:14:09 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:16:07 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:16:08 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:16:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:16:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:18:42 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:18:43 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:19:19 ERROR [django.request:241] Internal Server Error: /detail/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 365, in detail
+    detail_info = Store.objects.get(detail__id=id)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\db\models\query.py", line 652, in get
+    raise self.model.MultipleObjectsReturned(
+shop.models.Store.MultipleObjectsReturned: get() returned more than one Store -- it returned 2!
+2024-09-18 19:19:19 ERROR [django.server:212] "GET /detail/1 HTTP/1.1" 500 77161
+2024-09-18 19:19:37 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16083
+2024-09-18 19:19:41 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:19:41 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:19:41 INFO [django.server:212] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-09-18 19:19:41 INFO [django.server:212] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+2024-09-18 19:19:43 INFO [django.server:212] "GET /admin/shop/store/1/change/ HTTP/1.1" 200 15303
+2024-09-18 19:19:43 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:19:48 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:19:49 INFO [django.server:212] "GET /admin/shop/store/2/change/ HTTP/1.1" 200 15309
+2024-09-18 19:19:49 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:19:51 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:19:53 INFO [django.server:212] "GET /admin/shop/store/3/change/ HTTP/1.1" 200 15285
+2024-09-18 19:19:53 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:19:54 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:19:55 INFO [django.server:212] "GET /admin/shop/store/8/change/ HTTP/1.1" 200 15284
+2024-09-18 19:19:55 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:19:57 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:19:59 INFO [django.server:212] "GET /admin/shop/store/3/change/ HTTP/1.1" 200 15285
+2024-09-18 19:19:59 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:20:03 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:20:22 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16083
+2024-09-18 19:20:24 INFO [django.server:212] "GET /store HTTP/1.1" 200 4057
+2024-09-18 19:21:17 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16083
+2024-09-18 19:21:27 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:21:27 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:21:33 INFO [django.server:212] "GET /admin/shop/store/7/change/ HTTP/1.1" 200 15302
+2024-09-18 19:21:33 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:21:35 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:21:36 INFO [django.server:212] "GET /admin/shop/store/1/change/ HTTP/1.1" 200 15303
+2024-09-18 19:21:36 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:21:38 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:23:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:23:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:23:55 INFO [django.server:212] "GET /admin/shop/store/8/change/ HTTP/1.1" 200 15284
+2024-09-18 19:23:55 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:23:58 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16741
+2024-09-18 19:24:00 INFO [django.server:212] "GET /admin/shop/store/3/change/ HTTP/1.1" 200 15285
+2024-09-18 19:24:00 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:03 INFO [django.server:212] "POST /admin/shop/store/3/change/ HTTP/1.1" 302 0
+2024-09-18 19:24:03 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16943
+2024-09-18 19:24:03 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:04 INFO [django.server:212] "GET /admin/shop/store/8/change/ HTTP/1.1" 200 15284
+2024-09-18 19:24:04 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:05 INFO [django.server:212] "GET /admin/shop/store/8/delete/ HTTP/1.1" 200 11712
+2024-09-18 19:24:05 INFO [django.server:212] "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+2024-09-18 19:24:07 INFO [django.server:212] "POST /admin/shop/store/8/delete/ HTTP/1.1" 302 0
+2024-09-18 19:24:07 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16587
+2024-09-18 19:24:07 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:12 INFO [django.server:212] "GET /admin/shop/store/7/change/ HTTP/1.1" 200 15302
+2024-09-18 19:24:12 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:14 INFO [django.server:212] "GET /admin/shop/store/7/delete/ HTTP/1.1" 200 11730
+2024-09-18 19:24:15 INFO [django.server:212] "POST /admin/shop/store/7/delete/ HTTP/1.1" 302 0
+2024-09-18 19:24:15 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16273
+2024-09-18 19:24:15 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:17 INFO [django.server:212] "GET /admin/shop/store/1/change/ HTTP/1.1" 200 15303
+2024-09-18 19:24:17 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:20 INFO [django.server:212] "POST /admin/shop/store/1/change/ HTTP/1.1" 302 0
+2024-09-18 19:24:20 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16315
+2024-09-18 19:24:20 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:22 INFO [django.server:212] "GET /admin/shop/store/1/change/ HTTP/1.1" 200 15303
+2024-09-18 19:24:22 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16107
+2024-09-18 19:24:23 INFO [django.server:212] "GET /admin/shop/store/7/delete/ HTTP/1.1" 302 0
+2024-09-18 19:24:23 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16154
+2024-09-18 19:24:23 INFO [django.server:212] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2024-09-18 19:24:23 INFO [django.server:212] "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+2024-09-18 19:24:25 INFO [django.server:212] "GET /admin/shop/store/7/change/ HTTP/1.1" 302 0
+2024-09-18 19:24:25 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16154
+2024-09-18 19:24:26 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16107
+2024-09-18 19:24:30 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 19:24:33 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 19:24:40 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16107
+2024-09-18 19:24:44 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-09-18 19:24:44 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-18 19:24:46 INFO [django.server:212] "GET /admin/shop/store/ HTTP/1.1" 200 16107
+2024-09-18 19:24:47 INFO [django.server:212] "GET /admin/shop/store/8/delete/ HTTP/1.1" 302 0
+2024-09-18 19:24:47 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 16154
+2024-09-18 19:24:56 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 19:24:58 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 1964
+2024-09-18 19:26:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 19:26:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:32:59 INFO [django.server:212] "GET /store?sort=price HTTP/1.1" 200 3773
+2024-09-18 19:34:55 INFO [shop:33] index
+2024-09-18 19:35:05 INFO [django.server:212] "GET / HTTP/1.1" 200 3151
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 19:35:05 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 19:35:34 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 19:35:41 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 2118
+2024-09-18 19:36:10 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 19:36:20 INFO [shop:33] index
+2024-09-18 19:36:20 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002502ECD7C20>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002502ECD7C20>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002502ECD7C20>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:36:21 ERROR [django.server:212] "GET / HTTP/1.1" 500 163793
+2024-09-18 19:36:27 INFO [shop:33] index
+2024-09-18 19:36:27 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002502ED668A0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002502ED668A0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002502ED668A0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-18 19:36:27 ERROR [django.server:212] "GET / HTTP/1.1" 500 163930
+2024-09-18 19:36:50 INFO [shop:33] index
+2024-09-18 19:36:52 INFO [django.server:212] "GET / HTTP/1.1" 200 3139
+2024-09-18 19:36:59 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 19:37:01 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 2125
+2024-09-18 19:54:24 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 2126
+2024-09-18 20:03:47 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 20:03:48 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 20:04:44 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 20:04:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 20:05:35 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 20:05:36 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 20:05:41 INFO [shop:33] index
+2024-09-18 20:05:43 INFO [django.server:212] "GET / HTTP/1.1" 200 3187
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 20:05:43 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 20:05:50 INFO [django.server:212] "GET /cart HTTP/1.1" 200 1847
+2024-09-18 22:05:59 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 22:06:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:19:58 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:19:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:22:39 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:22:39 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:23:02 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:23:02 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:27:17 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:27:17 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:27:22 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:27:22 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:28:26 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:28:26 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:28:50 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:28:51 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:33:08 INFO [shop:33] index
+2024-09-18 22:33:10 INFO [django.server:212] "GET / HTTP/1.1" 200 3299
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-18 22:33:10 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-18 22:33:18 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 387, in cart
+    return render(request, "cart.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(len(detail))' from 'range(len(detail))'
+2024-09-18 22:33:18 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 181754
+2024-09-18 22:33:44 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:33:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:34:23 INFO [shop:33] index
+2024-09-18 22:34:24 INFO [django.server:212] "GET / HTTP/1.1" 200 3180
+2024-09-18 22:34:32 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 387, in cart
+    return render(request, "cart.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(len({{detail}}))' from 'range(len({{detail}}))'
+2024-09-18 22:34:32 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 181834
+2024-09-18 22:35:06 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:35:12 INFO [shop:33] index
+2024-09-18 22:35:14 INFO [django.server:212] "GET / HTTP/1.1" 200 3152
+2024-09-18 22:35:17 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 387, in cart
+    return render(request, "cart.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 860, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(len(detail_info))' from 'range(len(detail_info))'
+2024-09-18 22:35:17 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 181854
+2024-09-18 22:37:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:37:33 INFO [shop:33] index
+2024-09-18 22:37:34 INFO [django.server:212] "GET / HTTP/1.1" 200 3127
+2024-09-18 22:37:42 INFO [django.server:212] "GET /store HTTP/1.1" 200 3773
+2024-09-18 22:37:45 INFO [django.server:212] "GET /cart HTTP/1.1" 200 2255
+2024-09-18 22:40:40 INFO [shop:33] index
+2024-09-18 22:40:41 INFO [django.server:212] "GET / HTTP/1.1" 200 3146
+2024-09-18 22:40:43 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3444
+2024-09-18 22:43:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:43:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:43:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 22:43:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:44:00 INFO [shop:33] index
+2024-09-18 22:44:01 INFO [django.server:212] "GET / HTTP/1.1" 200 3179
+2024-09-18 22:44:03 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-18 22:44:04 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:46:08 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:46:09 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:46:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:46:14 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:46:35 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:46:36 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:46:39 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:46:39 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:47:03 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:47:04 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:47:27 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:47:27 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:47:29 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:47:30 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:48:18 INFO [shop:33] index
+2024-09-18 22:48:20 INFO [django.server:212] "GET / HTTP/1.1" 200 3131
+2024-09-18 22:48:21 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 82, in save
+    obj = self.create_model_instance(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 69, in create_model_instance
+    session_data=self.encode(data),
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\base.py", line 94, in encode
+    return signing.dumps(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 152, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 250, in sign_object
+    data = serializer().dumps(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 127, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Decimal is not JSON serializable
+2024-09-18 22:48:21 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 113397
+2024-09-18 22:48:21 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 82, in save
+    obj = self.create_model_instance(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 69, in create_model_instance
+    session_data=self.encode(data),
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\base.py", line 94, in encode
+    return signing.dumps(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 152, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 250, in sign_object
+    data = serializer().dumps(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 127, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Decimal is not JSON serializable
+2024-09-18 22:48:21 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 113123
+2024-09-18 22:48:29 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 82, in save
+    obj = self.create_model_instance(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 69, in create_model_instance
+    session_data=self.encode(data),
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\base.py", line 94, in encode
+    return signing.dumps(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 152, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 250, in sign_object
+    data = serializer().dumps(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 127, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Decimal is not JSON serializable
+2024-09-18 22:48:29 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 113260
+2024-09-18 22:48:45 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:48:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:48:47 INFO [shop:33] index
+2024-09-18 22:48:49 INFO [django.server:212] "GET / HTTP/1.1" 200 3127
+2024-09-18 22:48:52 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3451
+2024-09-18 22:48:56 INFO [django.server:212] "GET /payment HTTP/1.1" 200 1860
+2024-09-18 22:49:00 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:49:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:49:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:49:15 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:49:47 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:49:48 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:49:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:49:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:50:00 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:50:00 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:50:02 INFO [shop:33] index
+2024-09-18 22:50:03 INFO [django.server:212] "GET / HTTP/1.1" 200 3150
+2024-09-18 22:50:07 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 82, in save
+    obj = self.create_model_instance(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 69, in create_model_instance
+    session_data=self.encode(data),
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\base.py", line 94, in encode
+    return signing.dumps(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 152, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 250, in sign_object
+    data = serializer().dumps(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 127, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Decimal is not JSON serializable
+2024-09-18 22:50:07 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 113397
+2024-09-18 22:50:08 ERROR [django.request:241] Internal Server Error: /cart
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 82, in save
+    obj = self.create_model_instance(data)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\db.py", line 69, in create_model_instance
+    session_data=self.encode(data),
+                 ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\contrib\sessions\backends\base.py", line 94, in encode
+    return signing.dumps(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 152, in dumps
+    return TimestampSigner(key=key, salt=salt).sign_object(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 250, in sign_object
+    data = serializer().dumps(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\signing.py", line 127, in dumps
+    return json.dumps(obj, separators=(",", ":")).encode("latin-1")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Decimal is not JSON serializable
+2024-09-18 22:50:08 ERROR [django.server:212] "GET /cart HTTP/1.1" 500 113123
+2024-09-18 22:50:46 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:50:46 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:50:48 INFO [shop:33] index
+2024-09-18 22:50:49 INFO [django.server:212] "GET / HTTP/1.1" 200 3127
+2024-09-18 22:50:50 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3451
+2024-09-18 22:50:53 INFO [django.server:212] "GET /payment HTTP/1.1" 200 1862
+2024-09-18 22:51:02 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-18 22:51:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-18 22:52:11 INFO [shop:33] index
+2024-09-18 22:52:12 INFO [django.server:212] "GET / HTTP/1.1" 200 3095
+2024-09-18 22:52:14 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3451
+2024-09-18 22:52:16 INFO [django.server:212] "GET /payment HTTP/1.1" 200 2005
+2024-09-18 22:57:07 INFO [shop:33] index
+2024-09-18 22:57:08 INFO [django.server:212] "GET / HTTP/1.1" 200 3257
+2024-09-18 22:57:09 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3527
+2024-09-18 22:57:11 INFO [django.server:212] "GET /payment HTTP/1.1" 200 2081
+2024-09-18 22:57:14 INFO [shop:33] index
+2024-09-18 22:57:15 INFO [django.server:212] "GET / HTTP/1.1" 200 3382
+2024-09-18 22:58:47 INFO [shop:65] about
+2024-09-18 22:58:47 INFO [django.server:212] "GET /about HTTP/1.1" 200 2842
+2024-09-18 23:05:10 INFO [shop:65] about
+2024-09-18 23:05:10 INFO [django.server:212] "GET /about HTTP/1.1" 200 2975
+2024-09-18 23:05:10 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:05:20 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50186)
+2024-09-18 23:05:47 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:05:49 INFO [shop:65] about
+2024-09-18 23:05:49 INFO [django.server:212] "GET /about HTTP/1.1" 200 3009
+2024-09-18 23:05:49 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50187)
+2024-09-18 23:05:49 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:05:52 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-18 23:05:52 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6653
+2024-09-18 23:05:57 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50206)
+2024-09-18 23:06:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:06:23 INFO [shop:65] about
+2024-09-18 23:06:23 INFO [django.server:212] "GET /about HTTP/1.1" 200 3034
+2024-09-18 23:06:23 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50212)
+2024-09-18 23:06:23 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:06:26 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50217)
+2024-09-18 23:11:32 INFO [shop:33] index
+2024-09-18 23:11:33 INFO [django.server:212] "GET / HTTP/1.1" 200 2687
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-09-18 23:11:33 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-09-18 23:11:34 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-18 23:11:34 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6653
+2024-09-18 23:11:37 INFO [shop:65] about
+2024-09-18 23:11:37 INFO [django.server:212] "GET /about HTTP/1.1" 200 2227
+2024-09-18 23:11:38 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:11:54 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50459)
+2024-09-18 23:16:01 INFO [shop:65] about
+2024-09-18 23:16:01 INFO [django.server:212] "GET /about HTTP/1.1" 200 3756
+2024-09-18 23:16:02 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:16:18 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50460)
+2024-09-18 23:20:00 INFO [shop:65] about
+2024-09-18 23:20:00 INFO [django.server:212] "GET /about HTTP/1.1" 200 10101
+2024-09-18 23:20:00 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:20:02 INFO [shop:65] about
+2024-09-18 23:20:02 INFO [django.server:212] "GET /about HTTP/1.1" 200 10101
+2024-09-18 23:20:02 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50603)
+2024-09-18 23:20:02 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-18 23:20:18 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50604)
+2024-09-19 00:29:57 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:31:08 INFO [shop:33] index
+2024-09-19 00:31:10 INFO [django.server:212] "GET / HTTP/1.1" 200 3192
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-19 00:31:10 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-19 00:31:11 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-19 00:31:11 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6653
+2024-09-19 00:31:15 INFO [shop:65] about
+2024-09-19 00:31:15 INFO [django.server:212] "GET /about HTTP/1.1" 200 10705
+2024-09-19 00:31:16 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 00:31:31 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50350)
+2024-09-19 00:37:17 INFO [shop:65] about
+2024-09-19 00:37:17 INFO [django.server:212] "GET /about HTTP/1.1" 200 11421
+2024-09-19 00:37:17 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 00:38:28 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50603)
+2024-09-19 00:43:18 INFO [shop:33] index
+2024-09-19 00:43:19 INFO [shop:65] about
+2024-09-19 00:43:19 INFO [django.server:212] "GET /about HTTP/1.1" 200 11991
+2024-09-19 00:43:19 INFO [django.server:212] "GET / HTTP/1.1" 200 3159
+2024-09-19 00:43:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 00:43:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50734)
+2024-09-19 00:51:02 INFO [shop:70] news
+2024-09-19 00:51:02 INFO [django.server:212] "GET /news HTTP/1.1" 200 2420
+2024-09-19 00:51:02 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-09-19 00:51:02 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-09-19 00:52:33 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:52:33 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:53:03 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:53:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:53:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 00:53:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:54:02 INFO [shop:33] index
+2024-09-19 00:54:04 INFO [django.server:212] "GET / HTTP/1.1" 200 3227
+2024-09-19 00:54:07 ERROR [django.request:241] Internal Server Error: /news
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: news() missing 1 required positional argument: 'id'
+2024-09-19 00:54:07 ERROR [django.server:212] "GET /news HTTP/1.1" 500 63938
+2024-09-19 00:54:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 00:54:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:55:03 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:55:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:55:05 INFO [shop:33] index
+2024-09-19 00:55:07 INFO [django.server:212] "GET / HTTP/1.1" 200 3278
+2024-09-19 00:55:08 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3527
+2024-09-19 00:55:09 INFO [shop:70] news
+2024-09-19 00:55:09 INFO [django.server:212] "GET /news HTTP/1.1" 200 2420
+2024-09-19 00:55:12 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 1919
+2024-09-19 00:55:14 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:55:15 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:55:19 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:55:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:55:57 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:55:57 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:56:28 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 00:56:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:57:01 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-19 00:57:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 00:57:38 INFO [shop:70] news
+2024-09-19 00:57:38 INFO [django.server:212] "GET /news HTTP/1.1" 200 2420
+2024-09-19 00:57:40 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 2609
+2024-09-19 00:57:43 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 2697
+2024-09-19 00:57:45 INFO [django.server:212] "GET /news/3 HTTP/1.1" 200 2653
+2024-09-19 01:05:01 INFO [shop:70] news
+2024-09-19 01:05:01 INFO [django.server:212] "GET /news HTTP/1.1" 200 2468
+2024-09-19 01:05:02 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 2609
+2024-09-19 01:05:04 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 2697
+2024-09-19 01:05:06 INFO [shop:33] index
+2024-09-19 01:05:07 INFO [django.server:212] "GET / HTTP/1.1" 200 3327
+2024-09-19 01:05:45 INFO [shop:33] index
+2024-09-19 01:05:46 INFO [django.server:212] "GET / HTTP/1.1" 200 3290
+2024-09-19 01:05:49 INFO [django.server:212] "GET /news/3 HTTP/1.1" 200 2653
+2024-09-19 01:06:28 INFO [shop:33] index
+2024-09-19 01:06:29 INFO [django.server:212] "GET / HTTP/1.1" 200 3386
+2024-09-19 01:06:30 INFO [shop:75] faq
+2024-09-19 01:06:30 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2062
+2024-09-19 11:37:18 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:37:47 INFO [shop:33] index
+2024-09-19 11:37:49 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 62, in index
+    return render(request, 'index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'single_news' with arguments '('',)' not found. 1 pattern(s) tried: ['news/(?P<id>[0-9]+)\\Z']
+2024-09-19 11:37:49 ERROR [django.server:212] "GET / HTTP/1.1" 500 173752
+2024-09-19 11:37:49 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-19 11:37:49 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6792
+2024-09-19 11:38:10 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:38:11 INFO [shop:33] index
+2024-09-19 11:38:12 INFO [django.server:212] "GET / HTTP/1.1" 200 3260
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-19 11:38:12 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-19 11:38:18 INFO [shop:65] about
+2024-09-19 11:38:18 INFO [django.server:212] "GET /about HTTP/1.1" 200 11991
+2024-09-19 11:38:18 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 11:38:19 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15986
+2024-09-19 11:38:21 INFO [shop:70] news
+2024-09-19 11:38:21 INFO [django.server:212] "GET /news HTTP/1.1" 200 2552
+2024-09-19 11:38:21 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 304 0
+2024-09-19 11:38:21 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 304 0
+2024-09-19 11:38:23 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 2609
+2024-09-19 11:38:25 INFO [shop:33] index
+2024-09-19 11:38:27 INFO [django.server:212] "GET / HTTP/1.1" 200 3306
+2024-09-19 11:39:27 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49806)
+2024-09-19 11:40:46 INFO [shop:75] faq
+2024-09-19 11:40:46 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2062
+2024-09-19 11:42:33 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:42:34 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:47:12 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:47:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:47:44 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 11:47:45 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:47:59 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 11:47:59 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:51:47 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:51:47 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:52:43 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:52:43 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:53:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:53:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:57:18 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:57:19 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:58:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:58:20 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:58:29 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:58:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:58:31 INFO [shop:33] index
+2024-09-19 11:58:32 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 1423, in getresponse
+    response.begin()
+  File "C:\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 1423, in getresponse
+    response.begin()
+  File "C:\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\http\client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 37, in index
+    response = requests.get('https://dog.ceo/api/breeds/image/random')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-09-19 11:58:32 ERROR [django.server:212] "GET / HTTP/1.1" 500 179844
+2024-09-19 11:58:35 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:58:35 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:58:50 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:58:50 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:58:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:58:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:59:00 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:59:01 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:59:03 INFO [shop:33] index
+2024-09-19 11:59:04 INFO [django.server:212] "GET / HTTP/1.1" 200 3301
+2024-09-19 11:59:07 INFO [shop:65] about
+2024-09-19 11:59:07 INFO [django.server:212] "GET /about HTTP/1.1" 200 11991
+2024-09-19 11:59:07 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 11:59:08 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15986
+2024-09-19 11:59:10 INFO [shop:75] faq
+2024-09-19 11:59:10 ERROR [django.request:241] Internal Server Error: /faq
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 77, in faq
+    return render(request, 'faq.html', {'faq': faq_list})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'single_faq' not found. 'single_faq' is not a valid view function or pattern name.
+2024-09-19 11:59:10 ERROR [django.server:212] "GET /faq HTTP/1.1" 500 158688
+2024-09-19 11:59:21 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:59:22 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 11:59:43 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 11:59:43 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 12:00:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 12:00:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 12:00:06 INFO [shop:33] index
+2024-09-19 12:00:07 INFO [django.server:212] "GET / HTTP/1.1" 200 3250
+2024-09-19 12:00:10 INFO [shop:75] faq
+2024-09-19 12:00:10 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2104
+2024-09-19 12:00:12 ERROR [django.request:241] Internal Server Error: /faq/1
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 409, in faq_detail
+    return render(request, 'single_faq.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 7: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+2024-09-19 12:00:12 ERROR [django.server:212] "GET /faq/1 HTTP/1.1" 500 164505
+2024-09-19 12:00:16 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 12:00:16 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 12:00:22 INFO [shop:33] index
+2024-09-19 12:00:23 INFO [django.server:212] "GET / HTTP/1.1" 200 3243
+2024-09-19 12:01:21 INFO [shop:65] about
+2024-09-19 12:01:21 INFO [django.server:212] "GET /about HTTP/1.1" 200 11991
+2024-09-19 12:01:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 12:01:22 INFO [shop:75] faq
+2024-09-19 12:01:22 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2104
+2024-09-19 12:01:23 INFO [django.server:212] "GET /faq/1 HTTP/1.1" 200 1991
+2024-09-19 12:01:24 INFO [django.server:212] "GET /faq/2 HTTP/1.1" 200 1986
+2024-09-19 12:01:26 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15986
+2024-09-19 12:02:26 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50341)
+2024-09-19 12:04:12 INFO [django.server:212] "GET /admin/shop/faq/ HTTP/1.1" 200 13280
+2024-09-19 12:04:12 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-19 12:04:13 INFO [django.server:212] "GET /admin/shop/faq/1/change/ HTTP/1.1" 200 13421
+2024-09-19 12:04:13 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-19 12:04:17 INFO [django.server:212] "POST /admin/shop/faq/1/change/ HTTP/1.1" 302 0
+2024-09-19 12:04:17 INFO [django.server:212] "GET /admin/shop/faq/ HTTP/1.1" 200 13480
+2024-09-19 12:04:17 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-19 12:04:18 INFO [django.server:212] "GET /admin/shop/faq/2/change/ HTTP/1.1" 200 13416
+2024-09-19 12:04:18 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-19 12:04:23 INFO [django.server:212] "POST /admin/shop/faq/2/change/ HTTP/1.1" 302 0
+2024-09-19 12:04:23 INFO [django.server:212] "GET /admin/shop/faq/ HTTP/1.1" 200 13480
+2024-09-19 12:04:23 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-09-19 12:04:24 INFO [django.server:212] "GET /admin/shop/faq/2/change/ HTTP/1.1" 200 15016
+2024-09-19 12:04:26 INFO [shop:75] faq
+2024-09-19 12:04:26 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2553
+2024-09-19 12:04:28 INFO [django.server:212] "GET /faq/1 HTTP/1.1" 200 3792
+2024-09-19 12:04:30 INFO [django.server:212] "GET /faq/2 HTTP/1.1" 200 3586
+2024-09-19 12:05:34 INFO [django.server:212] "GET /employees HTTP/1.1" 200 3275
+2024-09-19 12:05:34 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-09-19 12:05:34 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-09-19 12:05:58 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 2373
+2024-09-19 12:06:10 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 4161
+2024-09-19 12:06:28 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2872
+2024-09-19 12:06:56 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 2373
+2024-09-19 12:11:09 ERROR [django.request:241] Internal Server Error: /reviews/
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 272, in review_list
+    return render(request, 'reviews.html', {'reviews': reviews})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_review' not found. 'create_review' is not a valid view function or pattern name.
+2024-09-19 12:11:09 ERROR [django.server:212] "GET /reviews/ HTTP/1.1" 500 152382
+2024-09-19 12:11:42 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 4207
+2024-09-19 12:11:43 INFO [django.server:212] "GET /review_create HTTP/1.1" 200 2872
+2024-09-19 12:11:54 INFO [django.server:212] "GET /logout HTTP/1.1" 302 0
+2024-09-19 12:11:54 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2031
+2024-09-19 12:11:59 INFO [django.server:212] "GET /reviews/ HTTP/1.1" 200 3444
+2024-09-19 12:12:00 INFO [django.server:212] "GET /review_create HTTP/1.1" 302 0
+2024-09-19 12:12:00 INFO [django.server:212] "GET /login?next=/review_create HTTP/1.1" 301 0
+2024-09-19 12:12:00 INFO [django.server:212] "GET /login/?next=/review_create HTTP/1.1" 200 2094
+2024-09-19 12:12:02 INFO [shop:33] index
+2024-09-19 12:12:03 INFO [django.server:212] "GET / HTTP/1.1" 200 2664
+2024-09-19 12:12:07 INFO [django.server:212] "GET /login/ HTTP/1.1" 200 2031
+2024-09-19 12:12:12 INFO [django.server:212] "POST /login/ HTTP/1.1" 302 0
+2024-09-19 12:12:12 INFO [shop:81] profile
+2024-09-19 12:12:12 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2024
+2024-09-19 12:12:18 INFO [shop:70] news
+2024-09-19 12:12:18 INFO [django.server:212] "GET /news HTTP/1.1" 200 2552
+2024-09-19 12:12:19 INFO [shop:75] faq
+2024-09-19 12:12:19 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2553
+2024-09-19 12:12:41 INFO [shop:33] index
+2024-09-19 12:12:42 INFO [django.server:212] "GET / HTTP/1.1" 200 3343
+2024-09-19 12:12:43 INFO [shop:70] news
+2024-09-19 12:12:43 INFO [django.server:212] "GET /news HTTP/1.1" 200 2552
+2024-09-19 12:12:43 INFO [shop:33] index
+2024-09-19 12:12:44 INFO [django.server:212] "GET / HTTP/1.1" 200 3289
+2024-09-19 13:21:30 INFO [shop:33] index
+2024-09-19 13:21:31 INFO [django.server:212] "GET / HTTP/1.1" 200 3386
+2024-09-19 13:21:32 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-09-19 14:01:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:01:34 INFO [shop:33] index
+2024-09-19 14:01:34 ERROR [django.request:241] Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001B6C23A2300>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001B6C23A2300>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001B6C23A2300>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-09-19 14:01:34 ERROR [django.server:212] "GET / HTTP/1.1" 500 163873
+2024-09-19 14:01:34 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-19 14:01:34 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 6929
+2024-09-19 14:02:08 INFO [shop:33] index
+2024-09-19 14:02:21 INFO [django.server:212] "GET / HTTP/1.1" 200 3454
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-19 14:02:21 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-19 14:02:24 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 14:02:27 INFO [shop:65] about
+2024-09-19 14:02:27 INFO [django.server:212] "GET /about HTTP/1.1" 200 12075
+2024-09-19 14:02:27 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:03:18 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3611
+2024-09-19 14:03:21 INFO [django.server:212] "GET /payment HTTP/1.1" 200 2165
+2024-09-19 14:04:18 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55335)
+2024-09-19 14:11:17 INFO [django.server:212] "GET /payment HTTP/1.1" 200 2165
+2024-09-19 14:11:17 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 14:11:19 INFO [shop:65] about
+2024-09-19 14:11:19 INFO [django.server:212] "GET /about HTTP/1.1" 200 12388
+2024-09-19 14:11:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:11:39 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55540)
+2024-09-19 14:11:42 INFO [shop:65] about
+2024-09-19 14:11:42 INFO [django.server:212] "GET /about HTTP/1.1" 200 12419
+2024-09-19 14:11:43 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:12:02 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55541)
+2024-09-19 14:13:21 INFO [shop:65] about
+2024-09-19 14:13:21 INFO [django.server:212] "GET /about HTTP/1.1" 200 12417
+2024-09-19 14:13:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:13:40 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55556)
+2024-09-19 14:17:45 INFO [shop:65] about
+2024-09-19 14:17:45 INFO [django.server:212] "GET /about HTTP/1.1" 200 12666
+2024-09-19 14:17:46 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:17:46 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 14:17:54 INFO [shop:65] about
+2024-09-19 14:17:54 INFO [django.server:212] "GET /about HTTP/1.1" 200 12662
+2024-09-19 14:17:54 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55580)
+2024-09-19 14:17:55 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:17:58 INFO [shop:65] about
+2024-09-19 14:17:58 INFO [django.server:212] "GET /about HTTP/1.1" 200 12662
+2024-09-19 14:17:58 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55581)
+2024-09-19 14:17:59 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:18:14 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55587)
+2024-09-19 14:18:30 INFO [shop:65] about
+2024-09-19 14:18:30 INFO [django.server:212] "GET /about HTTP/1.1" 200 12691
+2024-09-19 14:18:31 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:18:46 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55591)
+2024-09-19 14:21:38 INFO [shop:65] about
+2024-09-19 14:21:38 INFO [django.server:212] "GET /about HTTP/1.1" 200 12790
+2024-09-19 14:21:39 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:21:55 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55639)
+2024-09-19 14:25:53 INFO [shop:65] about
+2024-09-19 14:25:53 INFO [django.server:212] "GET /about HTTP/1.1" 200 12918
+2024-09-19 14:25:54 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:25:54 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 14:26:10 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55652)
+2024-09-19 14:29:30 INFO [shop:65] about
+2024-09-19 14:29:30 INFO [django.server:212] "GET /about HTTP/1.1" 200 13100
+2024-09-19 14:29:31 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:29:42 INFO [shop:65] about
+2024-09-19 14:29:42 INFO [django.server:212] "GET /about HTTP/1.1" 200 13101
+2024-09-19 14:29:42 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55653)
+2024-09-19 14:29:43 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:30:00 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55684)
+2024-09-19 14:40:27 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-19 14:40:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:45:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-19 14:45:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:46:53 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\models.py changed, reloading.
+2024-09-19 14:46:54 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:50:54 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\shop\views.py changed, reloading.
+2024-09-19 14:50:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:51:20 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 14:51:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 14:51:47 INFO [shop:65] about
+2024-09-19 14:51:47 INFO [django.server:212] "GET /about HTTP/1.1" 200 13285
+2024-09-19 14:51:48 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 14:51:48 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 14:51:55 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2656
+2024-09-19 14:52:55 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 55794)
+2024-09-19 14:59:37 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2729
+2024-09-19 14:59:39 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-09-19 15:07:27 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2729
+2024-09-19 15:07:27 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 15:07:28 INFO [shop:65] about
+2024-09-19 15:07:28 INFO [django.server:212] "GET /about HTTP/1.1" 200 13468
+2024-09-19 15:07:29 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 15:07:44 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 59697)
+2024-09-19 15:08:20 INFO [shop:65] about
+2024-09-19 15:08:20 INFO [django.server:212] "GET /about HTTP/1.1" 200 13762
+2024-09-19 15:08:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 15:08:39 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 59698)
+2024-09-19 15:09:45 INFO [shop:65] about
+2024-09-19 15:09:45 INFO [django.server:212] "GET /about HTTP/1.1" 200 14048
+2024-09-19 15:09:46 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 15:10:03 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 59718)
+2024-09-19 15:12:13 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 15:12:24 INFO [django.server:212] "GET /store HTTP/1.1" 200 4014
+2024-09-19 15:12:27 INFO [shop:33] index
+2024-09-19 15:12:41 INFO [django.server:212] "GET / HTTP/1.1" 200 3462
+2024-09-19 15:13:09 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2729
+2024-09-19 15:13:24 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 59729)
+2024-09-19 15:14:10 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2802
+2024-09-19 15:14:49 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2889
+2024-09-19 15:15:17 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2914
+2024-09-19 15:15:39 INFO [django.server:212] "GET /privay HTTP/1.1" 200 2926
+2024-09-19 15:16:02 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR1\carshop\carshop\urls.py changed, reloading.
+2024-09-19 15:16:03 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 17:33:25 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-09-19 17:33:44 INFO [shop:33] index
+2024-09-19 17:33:56 INFO [django.server:212] "GET / HTTP/1.1" 200 3453
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 304 0
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 304 0
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 304 0
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 304 0
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 304 0
+2024-09-19 17:33:56 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 304 0
+2024-09-19 17:34:00 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3904
+2024-09-19 17:35:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3988
+2024-09-19 17:35:25 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 17:35:54 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3925
+2024-09-19 17:36:02 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3883
+2024-09-19 17:37:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3909
+2024-09-19 17:37:42 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3936
+2024-09-19 17:37:43 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3936
+2024-09-19 17:38:29 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 3987
+2024-09-19 17:39:17 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4032
+2024-09-19 17:39:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4032
+2024-09-19 17:40:01 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4032
+2024-09-19 17:40:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4026
+2024-09-19 17:40:47 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4092
+2024-09-19 17:43:21 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4092
+2024-09-19 17:43:25 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4092
+2024-09-19 17:43:26 INFO [shop:65] about
+2024-09-19 17:43:26 INFO [django.server:212] "GET /about HTTP/1.1" 200 14063
+2024-09-19 17:43:27 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:43:46 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61841)
+2024-09-19 17:45:24 INFO [shop:65] about
+2024-09-19 17:45:24 INFO [django.server:212] "GET /about HTTP/1.1" 200 14063
+2024-09-19 17:45:25 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:45:43 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61925)
+2024-09-19 17:46:00 INFO [shop:65] about
+2024-09-19 17:46:00 INFO [django.server:212] "GET /about HTTP/1.1" 200 14119
+2024-09-19 17:46:01 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:46:16 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61926)
+2024-09-19 17:46:55 INFO [shop:65] about
+2024-09-19 17:46:55 INFO [django.server:212] "GET /about HTTP/1.1" 200 14132
+2024-09-19 17:46:55 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:47:10 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61931)
+2024-09-19 17:47:40 INFO [shop:65] about
+2024-09-19 17:47:40 INFO [django.server:212] "GET /about HTTP/1.1" 200 14132
+2024-09-19 17:47:40 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4092
+2024-09-19 17:47:41 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15972
+2024-09-19 17:47:41 WARNING [django.request:241] Not Found: /favicon.ico
+2024-09-19 17:47:41 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7052
+2024-09-19 17:47:43 INFO [shop:70] news
+2024-09-19 17:47:43 INFO [django.server:212] "GET /news HTTP/1.1" 200 2718
+2024-09-19 17:47:43 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 304 0
+2024-09-19 17:47:43 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 304 0
+2024-09-19 17:48:31 INFO [shop:70] news
+2024-09-19 17:48:31 INFO [django.server:212] "GET /news HTTP/1.1" 200 2766
+2024-09-19 17:48:40 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61936)
+2024-09-19 17:48:52 INFO [shop:81] profile
+2024-09-19 17:48:52 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2190
+2024-09-19 17:50:23 INFO [shop:70] news
+2024-09-19 17:50:23 INFO [django.server:212] "GET /news HTTP/1.1" 200 2766
+2024-09-19 17:50:25 INFO [shop:65] about
+2024-09-19 17:50:25 INFO [django.server:212] "GET /about HTTP/1.1" 200 14142
+2024-09-19 17:50:26 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:50:42 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61944)
+2024-09-19 17:51:15 INFO [shop:65] about
+2024-09-19 17:51:15 INFO [django.server:212] "GET /about HTTP/1.1" 200 14142
+2024-09-19 17:51:16 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:51:18 INFO [shop:65] about
+2024-09-19 17:51:18 INFO [django.server:212] "GET /about HTTP/1.1" 200 14142
+2024-09-19 17:51:18 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61955)
+2024-09-19 17:51:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:51:37 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61980)
+2024-09-19 17:54:07 INFO [shop:65] about
+2024-09-19 17:54:07 INFO [django.server:212] "GET /about HTTP/1.1" 200 14162
+2024-09-19 17:54:08 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 17:54:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4138
+2024-09-19 17:54:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4138
+2024-09-19 17:55:11 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61999)
+2024-09-19 17:55:19 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4156
+2024-09-19 17:56:01 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4173
+2024-09-19 17:56:17 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4173
+2024-09-19 17:56:35 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4172
+2024-09-19 17:56:36 INFO [shop:33] index
+2024-09-19 17:56:44 INFO [django.server:212] "GET / HTTP/1.1" 200 3434
+2024-09-19 17:56:54 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4172
+2024-09-19 18:01:51 INFO [shop:65] about
+2024-09-19 18:01:52 INFO [django.server:212] "GET /about HTTP/1.1" 200 14162
+2024-09-19 18:01:52 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:02:07 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 61998)
+2024-09-19 18:04:00 INFO [shop:65] about
+2024-09-19 18:04:00 INFO [django.server:212] "GET /about HTTP/1.1" 200 14162
+2024-09-19 18:04:00 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:04:00 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 18:04:03 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 4252
+2024-09-19 18:04:04 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-09-19 18:04:18 INFO [shop:33] index
+2024-09-19 18:04:29 INFO [django.server:212] "GET / HTTP/1.1" 200 3416
+2024-09-19 18:05:03 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62159)
+2024-09-19 18:12:17 INFO [shop:33] index
+2024-09-19 18:12:18 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5216
+2024-09-19 18:12:18 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 18:12:27 INFO [django.server:212] "GET / HTTP/1.1" 200 3420
+2024-09-19 18:13:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5384
+2024-09-19 18:13:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 18:14:39 INFO [django.server:212] "GET /store HTTP/1.1" 200 4015
+2024-09-19 18:14:42 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 4315
+2024-09-19 18:14:48 INFO [shop:33] index
+2024-09-19 18:14:56 INFO [django.server:212] "GET / HTTP/1.1" 200 3533
+2024-09-19 18:22:19 INFO [shop:33] index
+2024-09-19 18:22:20 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5568
+2024-09-19 18:22:20 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 18:22:32 INFO [django.server:212] "GET / HTTP/1.1" 200 3434
+2024-09-19 18:29:30 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5568
+2024-09-19 18:29:30 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 18:29:32 INFO [shop:33] index
+2024-09-19 18:29:33 INFO [shop:65] about
+2024-09-19 18:29:33 INFO [django.server:212] "GET /about HTTP/1.1" 200 14164
+2024-09-19 18:29:34 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:29:35 INFO [shop:33] index
+2024-09-19 18:29:39 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5568
+2024-09-19 18:29:39 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62462)
+2024-09-19 18:29:42 INFO [django.server:212] "GET / HTTP/1.1" 200 3380
+2024-09-19 18:29:42 INFO [django.server:212] "GET / HTTP/1.1" 200 3455
+2024-09-19 18:32:56 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-09-19 18:32:57 INFO [shop:33] index
+2024-09-19 18:32:59 INFO [shop:65] about
+2024-09-19 18:32:59 INFO [django.server:212] "GET /about HTTP/1.1" 200 14164
+2024-09-19 18:33:00 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:33:00 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5577
+2024-09-19 18:33:02 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15972
+2024-09-19 18:33:04 INFO [shop:70] news
+2024-09-19 18:33:04 INFO [django.server:212] "GET /news HTTP/1.1" 200 2773
+2024-09-19 18:33:05 INFO [django.server:212] "GET / HTTP/1.1" 200 3727
+2024-09-19 18:33:05 INFO [shop:75] faq
+2024-09-19 18:33:05 INFO [django.server:212] "GET /faq HTTP/1.1" 200 2715
+2024-09-19 18:33:07 INFO [shop:92] supplier_list
+2024-09-19 18:33:07 INFO [django.server:212] "GET /suppliers HTTP/1.1" 200 8656
+2024-09-19 18:33:09 INFO [django.server:212] "GET /cart HTTP/1.1" 200 3700
+2024-09-19 18:33:12 INFO [shop:65] about
+2024-09-19 18:33:12 INFO [django.server:212] "GET /about HTTP/1.1" 200 14164
+2024-09-19 18:33:12 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 5577
+2024-09-19 18:33:13 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62508)
+2024-09-19 18:33:13 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:34:24 INFO [shop:70] news
+2024-09-19 18:34:24 INFO [django.server:212] "GET /news HTTP/1.1" 200 2908
+2024-09-19 18:34:26 INFO [shop:33] index
+2024-09-19 18:34:34 INFO [django.server:212] "GET / HTTP/1.1" 200 3436
+2024-09-19 18:38:45 INFO [shop:33] index
+2024-09-19 18:38:46 INFO [shop:65] about
+2024-09-19 18:38:47 INFO [django.server:212] "GET /about HTTP/1.1" 200 14282
+2024-09-19 18:38:47 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:38:47 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-09-19 18:38:54 INFO [django.server:212] "GET / HTTP/1.1" 200 3459
+2024-09-19 18:39:02 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62599)
+2024-09-19 18:39:18 INFO [shop:65] about
+2024-09-19 18:39:18 INFO [django.server:212] "GET /about HTTP/1.1" 200 14353
+2024-09-19 18:39:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-09-19 18:39:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 62601)

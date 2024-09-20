@@ -5,10 +5,14 @@
 {% block title %}Деталь{% endblock title %}
 
 {% block content %}
-    <h1>Detail</h1>
-    <p>{{detail.name}}</p>
-    <p>{{detail.description}}</p>
-    <p>{{detail_info.price}}</p>
-    <p>{{detail_info.quantity}}</p>
+<h1 itemprop="name">Detail</h1>
+<div itemscope itemtype="http://schema.org/Product">
+    <p itemprop="productName">{{detail.name}}</p>
+    <p itemprop="description">{{detail.description}}</p>
+    <p itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+        <span itemprop="price">{{detail_info.price}}</span>
+    </p>
+    <p itemprop="quantity">{{detail_info.quantity}}</p>
+</div>
     <a><i class="fas fa-shopping-cart"></i></a>  
 {% endblock %}

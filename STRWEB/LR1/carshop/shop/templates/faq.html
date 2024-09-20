@@ -2,8 +2,11 @@
 {% block title %}FAQ{% endblock title %}
 {% block content%}
 {% for f in faq  %}
-    <h1><a href="{% url 'single_faq' f.id %}">{{f.question}}</a></h1>
-    <p>{{f.answer|truncatewords:15 }}</p>
-    <p>{{f.date_added}}</p>
-{% endfor %}
+<details>
+    <summary><a href="{% url 'single_faq' f.id %}">{{f.question}}</a>
+   <br>{{f.date_added}}
+    </summary>
+    <p>{{f.answer}}</p>
+    </details>
+    {% endfor %}
 {% endblock%}

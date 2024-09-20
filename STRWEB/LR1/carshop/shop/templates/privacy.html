@@ -61,39 +61,42 @@
     <source src="/media/audio.mp3" type="audio/mpeg">
 </audio>
 
-<form>
-    <label>Текст:</label>
-    <input type="text" id="text" name="text" required>
+<form enctype="multipart/form-data" method="POST">
+    <fieldset>
+        <legend>Inputs</legend>
+        <label>Текст:</label>
+        <input type="text" id="text" name="text" required>
 
-    <label>Пароль:</label>
-    <input type="password" id="password" name="password" required minlength="6">
+        <label>Пароль:</label>
+        <input type="password" id="password" name="password" required minlength="6">
 
-    <label>Email:</label>
-    <input type="email" id="email" name="email" required>
+        <label>Email:</label>
+        <input type="email" id="email" name="email" required>
 
-    <label>Телефон:</label>
-    <input type="tel" id="phone" name="phone" required pattern="\+?[0-9]{1,15}">
+        <label>Телефон:</label>
+        <input type="tel" id="phone" name="phone" required pattern="\+?[0-9]{1,15}">
 
-    <label>Дата:</label>
-    <input type="date" id="date" name="date" required>
+        <label>Дата:</label>
+        <input type="date" id="date" name="date" required>
 
-    <label>Число:</label>
-    <input type="number" id="number" name="number" required min="1" max="100">
+        <label>Число:</label>
+        <input type="number" id="number" name="number" required min="1" max="100">
 
-    <label>Выберите файл:</label>
-    <input type="file" id="file" name="file" accept=".jpg, .png, .pdf" required>
+        <label>Выберите файл:</label>
+        <input type="file" id="file" name="file" accept=".jpg, .png, .pdf" required>
 
-    <label>
-        <input type="radio" name="gender" value="male" required> Мужчина
-    </label>
-    <label>
-        <input type="radio" name="gender" value="female"> Женщина
-    </label>
-    <label>
-        <input type="checkbox" name="subscribe" value="yes"> Подписаться на рассылку
-    </label>
+        <label>
+            <input type="radio" name="gender" value="male" required> Мужчина
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female"> Женщина
+        </label>
+        <label>
+            <input type="checkbox" name="subscribe" value="yes"> Подписаться на рассылку
+        </label>
 
-    <button type="submit">Отправить</button>
+        <button type="submit">Отправить</button>
+    </fieldset>
 </form>
 
     <p><a href="https://example.com" target="_blank" >Site</a></p>
@@ -129,10 +132,39 @@
         There are different kinds of triathlon - sprint, Olympic and so on. I am aiming for Olympic, which consists of the following:
       </details>
       
+      <select size="1" name="s2">
+        <option disabled>Choose a hero:</option>
+        <option value="iron">Iron Man</option>
+        <option selected value="captain">Captain America</option>
+        <option value="thor">Thor</option>
+      </select>
+     
+      <br>
+     
+      <form method="post">
+        <p>
+         Fruit: <input list="fruitlist" id="fave" name="fave" />
+        </p>
+        <button type="submit">Submit Vote</button>
+      </form>
+      
+      <datalist id="fruitlist">
+        <option value="Apples" label="Lovely Apples" />
+        <option value="Oranges">Refreshing Oranges</option>
+        <option value="Cherries" />
+      </datalist>
+      
+       
 
+
+  
 <div>
     <iframe src='https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0' width="800" height="600"></iframe>
 </div>
 
+
+<footer>
+    ABOBA 123
+</footer>
 
 {% endblock %}

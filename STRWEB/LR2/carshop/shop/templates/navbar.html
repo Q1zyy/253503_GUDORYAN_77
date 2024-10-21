@@ -2,14 +2,17 @@
 <html lang="ru">
 <head>
     <title>{% block title %}Carshop{% endblock title %}</title>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="author" content="Гудорьян Евгений Святославович" />
     <meta name="descrtiption" content="Лабы по STRWEB" />
     <meta name="keywords" content="Ум, большой айкью, сеньор, html, css, js, python, django" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Arial&display=swap" rel="stylesheet">
     <link rel="icon" href="/media/icona.png" type="image/png">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="media/styles.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <ul>
             <li>
                 <a href="{% url 'home' %}">Home</a>

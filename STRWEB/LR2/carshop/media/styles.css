@@ -1,76 +1,652 @@
+/* Общие стили */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20230707/pngtree-white-background-3d-render-of-car-parts-scattered-on-the-floor-image_3804923.jpg') no-repeat center center fixed; /* Устанавливаем изображение фона */
+  background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь экран */
+}
+
+/* Полупрозрачный фон */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85); /* Белый цвет с прозрачностью 50% */
+  z-index: -1; /* Размещаем фон позади основного контента */
+}
+
+/* Стили навигации */
+.navbar {
+  position: fixed; /* Фиксированная позиция */
+  top: 0; /* Привязка к верхней части экрана */
+  left: 0; /* Привязка к левой части экрана */
+  right: 0; /* Привязка к правой части экрана */
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Обеспечивает, что навбар будет выше других элементов */
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #495057;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .navbar ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navbar li {
+      margin: 10px 0;
+  }
+}
+
+/* news */
+/* Стили для контейнера статей */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Центрирование статей */
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Стили для статьи */
+.news-container article {
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 23%; /* По умолчанию показываем 4 статьи в строке */
+}
+
+.news-container h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* Стили для краткой информации о статье */
+.news-container p {
+    flex: 1;
+    font-size: 1em;
+    color: #666;
+    line-height: 1.4;
+    max-height: 4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+
+/* Стили для изображений */
+.news-container img {
+    width: 100%;
+    height: 200px; /* Устанавливаем фиксированную высоту */
+    object-fit: cover; /* Масштабирование изображения, сохраняя пропорции */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Стили для кнопки "Читать далее" */
+.news-container a {
+    align-self: center; /* Центрирование кнопки */
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: auto; /* Сдвигает кнопку вниз */
+}
+
+.news-container a:hover {
+    background-color: #0056b3;
+}
+
+/* Адаптивные стили */
+
+/* Для экранов меньше 1200px – показываем 3 статьи в строке */
+@media (max-width: 1200px) {
+    .news-container article {
+        width: 31%;
+    }
+}
+
+/* Для экранов меньше 992px – показываем 2 статьи в строке */
+@media (max-width: 992px) {
+    .news-container article {
+        width: 48%;
+    }
+}
+
+/* Для экранов меньше 576px – показываем 1 статью в строке */
+@media (max-width: 576px) {
+    .news-container article {
+        width: 100%;
+    }
+}
+
+
+/* INDEX */
+/* Стили для контейнера основной страницы */
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Центрирование контейнера */
+  padding: 20px;
+}
+
+/* Стили для заголовка */
+h1, h2, h3 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Стили для контейнера с партнерами */
+.partners-container {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет оборачивать блоки при необходимости */
+  justify-content: center; /* Центрирование блоков */
+  padding: 20px; /* Отступ внутри контейнера */
+}
+
+/* Стили для блока с партнером */
+.partner-card {
+  width: 200px; /* Ширина блока */
+  height: 200px; /* Высота блока */
+  margin: 15px; /* Отступ между блоками */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование содержимого */
+  justify-content: flex-start; /* Выравнивание содержимого по верхнему краю */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный эффект при наведении */
+}
+
+/* Эффект при наведении */
+.partner-card:hover {
+  transform: translateY(-5px); /* Подъем блока вверх */
+}
+
+/* Стили для изображения партнера */
+.partner-card img {
+  width: 150px; /* Фиксированная ширина для изображения */
+  height: 150px; /* Фиксированная высота для изображения */
+  border-radius: 50%; /* Круглая форма изображения */
+  object-fit: cover; /* Масштабирование изображения для заполнения круга */
+  margin-top: 20px; /* Отступ сверху для изображения */
+  background-color: white; /* Фоновый цвет для области изображения */
+}
+
+/* Стили для имени компании */
+.partner-card p {
+  font-size: 1.2em; /* Размер шрифта */
+  font-weight: bold; /* Жирное начертание */
+  letter-spacing: 1px; /* Кернинг */
+  color: #333; /* Цвет текста */
+  margin-top: 15px; /* Отступ сверху для текста */
+  text-align: center; /* Центрирование текста */
+}
+
+/* Стили для информации о последней статье */
+.latest-news {
+  position: relative; /* Позволяет использовать абсолютное позиционирование для вложенных элементов */
+  margin-top: 40px; /* Отступ сверху */
+  padding: 15px;
+  background-color: #f1f1f1; /* Цвет фона для блока с новостями */
+  border-radius: 8px; /* Закругленные углы */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+/* Стили для заголовка последней статьи */
+.latest-news h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+/* Стили для ссылки "Читать далее" */
+.latest-news a {
+  display: inline-block;
+  margin-top: 15px; /* Отступ сверху */
+  text-decoration: none;
+  color: white;
+  background-color: #007bff; /* Цвет фона */
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.latest-news a:hover {
+  background-color: #0056b3; /* Цвет фона при наведении */
+}
+
+/* ABOUT */
+
+/* LIST */
+/* Стили для нумерованного списка */
+.styled-list {
+  align-items: center;
+  margin: 20px auto;
+  padding-left: 0;
+  max-width: 800px;
+  list-style-type: none;
+}
+
+.styled-list li {
+  margin: 10px 0;
+  padding: 10px;
+  transition: background-color 0.3s;
+  counter-increment: li;
+}
+
+.styled-list li::before {
+  content: counter(li);
+  margin-right: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.styled-list a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.styled-list a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* LOGO */
+.logo-container {
+  display: flex; /* Используем flexbox для центровки */
+  justify-content: center; /* Горизонтальная центровка */
+  align-items: center; /* Вертикальная центровка */
+  margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+.logo-container img {
+  height: 300px; /* Высота логотипа */
+  width: 300px; /* Ширина логотипа */
+  border-radius: 50%; /* Скругление углов для создания круглого логотипа */
+  transition: transform 0.3s; /* Плавный эффект при наведении */
+}
+
+.logo-container img:hover {
+  transform: scale(1.1); /* Увеличение логотипа при наведении */
+}
+
+
+/* VIDEO */
+.video-section {
+  text-align: center; /* Центрируем текст */
+  margin: 20px 0; /* Отступ сверху и снизу */
+}
+
+.video-section h2 {
+  font-size: 24px; /* Размер шрифта для заголовка */
+  margin-bottom: 15px; /* Отступ снизу заголовка */
+  color: #333; /* Цвет текста */
+}
+
+video {
+  max-width: 100%; /* Максимальная ширина видео */
+  height: auto; /* Авто-высота для сохранения пропорций */
+  border: 2px solid #007bff; /* Обводка вокруг видео */
+  border-radius: 8px; /* Скругленные углы */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для видео */
+}
+
+/* HISTORY */
+/* Основные стили для секции с историей */
+.history-section {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* Стили для заголовков */
+.history-section h1 {
+  font-size: 1.8em;
+  color: #333;
+  border-bottom: 2px solid #007bff; /* Нижняя линия под заголовком */
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.history-section p {
+  text-indent: 30px; /* Отступ для красной строки */
+  font-size: 1.3em; /* Увеличенный размер шрифта */
+  line-height: 1.8; /* Увеличенный интервал между строками */
+  margin: 0px;
+  color: #000000;
+}
+
+
+.history-section p:first-of-type {
+  margin-top: 0;
+}
+
+/* Дополнительные стили для ссылок */
+.history-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.history-section a:hover {
+  text-decoration: underline;
+}
+
+/* Общие стили для сертификата */
+.certificate {
+  width: 90%; /* Увеличена ширина сертификата */
+  max-width: 1000px; /* Максимальная ширина */
+  margin: 40px auto; /* Центрирование сертификата на странице */
+  padding: 100px; /* Отступы внутри сертификата */
+  border: 20px solid transparent; /* Границы для добавления фонового изображения */
+  background-color: rgba(226, 223, 223, 0.5); /* Полупрозрачный фон */
+  background-image: url('https://img.freepik.com/premium-vector/diploma-certificate_1020-2265.jpg');
+  background-size: cover; /* Заполнение всего фона */
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Избегаем повторений */
+  border-image-source: url('border-image.png'); /* Замените 'border-image.png' на ваше изображение для границ */
+  border-image-slice: 30; /* Настройка, как изображение будет обрезано */
+  border-image-width: 20px; /* Ширина границы */
+  border-image-repeat: repeat; /* Как изображение будет растягиваться */
+  position: relative; /* Позиционирование для z-index */
+  z-index: 1; /* Уровень наложения */
+  font-family: 'Arial', sans-serif; /* Шрифт для текста */
+  text-align: center; /* Центрирование текста */
+}
+
+/* Стили для заголовков */
+.certificate h1 {
+  font-size: 2.5em; /* Размер шрифта заголовка */
+  margin: 10px 0; /* Отступы */
+  color: #333; /* Цвет текста */
+}
+
+.certificate h2 {
+  font-size: 2em; /* Размер шрифта подзаголовка */
+  margin: 5px 0; /* Отступы */
+  color: #007bff; /* Цвет текста */
+}
+
+.certificate h3 {
+  font-size: 1.5em; /* Размер шрифта третьего заголовка */
+  margin: 5px 0; /* Отступы */
+  color: #555; /* Цвет текста */
+}
+
+/* Стили для параграфов */
+.certificate p {
+  font-size: 1.2em; /* Размер шрифта для параграфов */
+  margin: 5px 0; /* Отступы */
+  color: #666; /* Цвет текста */
+}
+
+/* Стили для расположения города и даты */
+.certificate .location-date {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/* Стили для имени и фамилии */
+.certificate .signature {
+  margin-top: 40px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 3px solid #ccc;
+}
+
+.bottom-section .image-container {
+  flex: 1;
+  text-align: left;
+}
+
+.bottom-section .image-container img {
+  max-width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+.bottom-section .contact-info {
+  flex: 1;
+  text-align: right;
+}
+
+.bottom-section .contact-info h4 {
+  margin-bottom: 10px;
+}
+
+.bottom-section .contact-info p {
+  margin: 5px 0;
+}
+
+
+.certificate {
+  -webkit-border-image: url('border-image.png') 500 stretch; /* Для Chrome/Safari */
+  -moz-border-image: url('border-image.png') 30 stretch; /* Для Firefox */
+}
+
+
+/* CONTACT INFO */
+/* Общие стили для секций */
+.requisites {
+  margin: 20px auto;
+  max-width: 600px; /* Максимальная ширина для центрирования */
+  padding: 15px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.requisites h2 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.requisite-list {
+  list-style-type: none; /* Убираем стандартные маркеры */
+  padding-left: 0; /* Убираем отступ слева */
+}
+
+.requisite-list li {
+  list-style-type: none; /* Убираем стандартные маркеры */
+  font-size: 1.2em;
+  padding-left: 0; /* Убираем отступ слева */
+}
+
+.requisite-list li::before {
+  content: "🔹 "; /* Уникод для маркера */
+  font-size: 1.2em; /* Размер маркера */
+  color: #007BFF; /* Цвет маркера */
+}
+
+
+/* FAQ */
+/* Стили для каждого FAQ блока */
+.page-container details {
+  margin-bottom: 10px; /* Отступ между блоками */
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+}
+
+/* Стили для границы сверху, кроме последнего блока */
+.page-container details:not(:last-of-type) {
+  border-bottom: 2px solid #000000;
+}
+
+/* Стили для элемента summary */
+.page-container summary {
+  font-size: 1.2em; /* Увеличенный шрифт для заголовка вопроса */
+  font-weight: bold; /* Жирное начертание */
+  cursor: pointer; /* Курсор указывает, что элемент кликабельный */
+  color: #007bff; /* Цвет текста */
+  margin-bottom: 5px; /* Отступ снизу */
+  padding-bottom: 5px;
+}
+
+/* Стили при наведении на summary */
+.page-container summary:hover {
+  color: #0056b3; /* Более темный оттенок синего при наведении */
+}
+
+/* Стили для текста ответа */
+.page-container details p {
+  font-size: 1.2em;
+  color: #000000; /* Темно-серый цвет текста */
+  line-height: 1.5; /* Межстрочный интервал */
+  margin-top: 10px; /* Отступ сверху */
+}
+
+/* Стили для ссылки на FAQ */
+.page-container summary a {
+  text-decoration: none; /* Убираем подчеркивание у ссылки */
+  color: inherit; /* Наследуем цвет от родительского элемента */
+}
+
 
 th, td {
     border: 1px solid #ddd;
 }
 
-/* Контейнер для анимации */
-.animation-container {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  background: linear-gradient(135deg, #283048, #859398);
-  overflow: hidden;
-}
-
 .box {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background-color: #474747;
-  border: 5px solid #999;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-}
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #474747;
+    border: 5px solid #999;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    animation: openBox 1s ease-in-out forwards;
+  }
 
-.lid {
-  position: absolute;
-  width: 100%;
-  height: 20%;
-  top: -40px;
-  left: 0;
-  background-color: #999;
-  border-radius: 10px 10px 0 0;
-  transform-origin: left;
-  animation: openLid 1s ease-in-out forwards;
-}
+  .lid {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: -40px;
+    left: 0;
+    background-color: #999;
+    border-radius: 10px 10px 0 0;
+    transform-origin: bottom;
+    animation: openLid 1s ease-in-out forwards;
+  }
 
-/* Шары */
-.part {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #ff5722;
-  border-radius: 50%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  animation-name: jumpAndFall;
-  animation-duration: 20s;
-  animation-timing-function: ease-in-out forwards;
-}
+  .part {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: flyOut 4s ease-out forwards, fadeOut 5s ease-in-out forwards;
+  }
 
-.part:nth-child(1) { top: 0; left: 80px; animation-delay: 0.5s; }
-.part:nth-child(2) { top: 0; left: 100px; animation-delay: 0.6s; }
-.part:nth-child(3) { top: 0; left: 60px; animation-delay: 0.7s; }
-.part:nth-child(4) { top: 0; left: 140px; animation-delay: 0.8s; }
+  .part:nth-child(1) { top: 50px; left: 50px; animation-delay: 1s; }
+  .part:nth-child(2) { top: 50px; left: 120px; animation-delay: 1.2s; }
+  .part:nth-child(3) { top: 120px; left: 50px; animation-delay: 1.4s; }
+  .part:nth-child(4) { top: 120px; left: 120px; animation-delay: 1.6s; }
 
-@keyframes openLid {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(250px) rotate(45deg); opacity: 0; }
-}
+  .company-name {
+    position: absolute;
+    top: 350px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    animation: appear 2s ease-in-out forwards;
+    animation-delay: 3.5s;
+    transform: scale(0.8);
+  }
 
-@keyframes jumpAndFall {
-  0% { transform: translate(0, 0) scale(1); opacity: 0; }
-  10% { opacity: 1; transform: translate(-10px, -50px); }
-  20% { transform: translate(-20px, -100px); }
-  30% { transform: translate(10px, -75px); }
-  40% { transform: translate(30px, -30px); }
-  50% { transform: translate(50px, 0); }
-  60% { transform: translate(70px, 50px); }
-  70% { transform: translate(90px, 100px); }
-  80% { transform: translate(110px, 150px); }
-  90% { transform: translate(120px, 200px); }
-  100% { transform: translate(100px, 300px); }
-}
+  @keyframes openBox {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+  }
+
+  @keyframes openLid {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(-45deg); }
+  }
+
+  @keyframes flyOut {
+    0% { transform: translateY(0) scale(1) rotate(0); opacity: 0; }
+    50% { opacity: 1; transform: translateY(-100px) scale(1.2) rotate(180deg); }
+    100% { transform: translateY(300px) scale(1) rotate(360deg); opacity: 0; }
+  }
+
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes appear {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+  }

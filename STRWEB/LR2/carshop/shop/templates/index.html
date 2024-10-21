@@ -1,33 +1,42 @@
 {% extends "navbar.html" %}
 {% block title %}Автзапчатси{% endblock title %}
 {% block content %}
-    <div>
+    <div class="page-container">
         <h1>Logo</h1>
         <img style="height: 200px; width: 200px" src="/media/logo.jpg">
+        
+        <div>
+            <img style="height: 200px; width: 200px" src="/media/baner1.webp">
+            <img style="height: 200px; width: 200px" src="/media/baner2.webp">
+        </div>
+        
+        <h2>Partners</h2>
+        <div class="partners-container">
+            {% for partner in partners %}
+                <div class="partner-card">
+                    <a href="{{partner.site}}">
+                        <img src="{{ partner.photo.url }}" alt="{{ partner.name }}">
+                    </a>
+                    <p>{{ partner.name }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <h2>Cat Fact of the Day</h2>
+        <p>{{ cat_fact.fact }}</p>
+        <h2>Random Dog Image</h2> 
+        <img src="{{ dog_image.message }}" alt="Random dog image">
+
+        <p>{{ user_timezone }}</p>
+        <p>{{ current_date_formatted }}</p>
+        <pre>{{ calendar_text }}</pre>
+        <p>{{ utc_time }}</p>
+
+        <div class="latest-news">
+            <h2>{{ latest_news.title }}</h2>
+            <p>{{ latest_news.content|truncatewords:15 }}</p>
+            <img src="{{ latest_news.image.url }}">
+            <a href="{% url 'single_news' latest_news.id %}">Читать далее</a>
+        </div>
     </div>
-    <div>
-        <img style="height: 200px; width: 200px" src="/media/baner1.webp">
-        <img style="height: 200px; width: 200px" src="/media/baner2.webp">
-    </div>
-
-    {% for partner in partners %}
-        <a href="{{partner.site}}"><p>{{ partner.name }}</p></a>
-        <img src="{{ partner.photo.url }}">
-    {% endfor %}
-
-    <h2>Cat Fact of the Day</h2>
-    <p>{{ cat_fact.fact }}</p>
-    <h2>Random Dog Image</h2> 
-    <img src="{{ dog_image.message }}" alt="Random dog image">
-
-
-    <p>{{ user_timezone }}</p>
-    <p>{{ current_date_formatted }}</p>
-    <pre>{{ calendar_text }}</pre>
-    <p>{{ utc_time }}</p>
-
-    <h2>{{ latest_news.title }}</h2>
-    <p>{{latest_news.content|truncatewords:15 }}</p>
-    <img src={{latest_news.image.url}}>
-    <a href="{% url 'single_news' latest_news.id %}">Читать далее</a>
-{%endblock%}
+{% endblock %}

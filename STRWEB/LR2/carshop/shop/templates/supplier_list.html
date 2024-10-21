@@ -1,0 +1,41 @@
+{% extends "navbar.html" %}
+{% block title %}Поставщики{% endblock title %}
+{% block content %}
+
+{% for supplier in suppliers %}
+  <h2>{{ supplier.name }}</h2>
+  <p>{{ supplier.address }}</p>
+  <p>{{ supplier.phone }}</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Part</th>
+        <th>Article</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for supplier_detail in supplier_details %}
+      <tr>
+        {% if supplier_detail.supplier.name == supplier.name%}
+          <td>{{ supplier_detail.detail.name }}</td>
+          <td>{{ supplier_detail.detail.article }}</td>
+          <td>{{ supplier_detail.price }}</td>
+          <td>{{ supplier_detail.quantity }}</td>
+          <td>
+            <form method="post">
+              {% csrf_token %}
+              <input type="hidden" name="supplier_detail_id" value="{{ supplier_detail.id }}">
+              <input type="number" name="quantity" min="1" max="{{ supplier_detail.quantity }}" value="1">
+              <button type="submit">Buy</button>
+            </form>
+          </td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
+
+{% endblock %}

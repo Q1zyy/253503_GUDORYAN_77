@@ -1,0 +1,22 @@
+{% extends "navbar.html" %}
+{% block title %}Промокоды{% endblock title %}
+{% block content %}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Promocode</th>
+            <th>Discount</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for promo in promos %}
+        <tr>
+            <td>{{ promo.code }}</td>
+            <td>{{ promo.discount }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

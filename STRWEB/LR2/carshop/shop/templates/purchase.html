@@ -1,0 +1,40 @@
+{% extends 'navbar.html' %}
+{% block title %}Покупка{% endblock title %}
+{% block content %}
+  <h1>Purchase</h1>
+
+  <form method="post">
+    {% csrf_token %}
+
+    <div>
+      <label for="location">Location:</label>
+      <select id="location" name="location">
+        {% for location in locations %}
+          <option value="{{ location.id }}">{{ location.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div>
+      <label for="promocode">Promocode:</label>
+      <select id="promocode" name="promocode">
+        <option value="">None</option>
+        {% for promocode in promocodes %}
+          <option value="{{ promocode.id }}">{{ promocode.code }} ({{ promocode.discount }}% off)</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div>
+      <h3>Items:</h3>
+      {% for item in store_items %}
+        <div>
+          <input type="checkbox" name="items[]" value="{{ item.id }}"> {{ item.detail.name }} - {{ item.price }}
+          <input type="number" name="quantities[]" value="1" min="1" max="{{ item.quantity }}" required>
+        </div>
+      {% endfor %}
+    </div>
+
+    <button type="submit">Purchase</button>
+  </form>
+{% endblock %}

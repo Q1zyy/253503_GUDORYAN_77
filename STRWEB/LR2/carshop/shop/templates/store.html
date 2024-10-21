@@ -1,0 +1,41 @@
+{% extends 'navbar.html' %}
+{% block title %}Магазин{% endblock title %}
+{% block content %}
+<h1>Магазин</h1>
+
+<form method="GET" action="{% url 'store' %}">
+    <div class="form-group">
+        <label for="min_price">Минимальная цена:</label>
+        <input type="number" class="form-control" id="min_price" name="min_price" value="{{ min_price }}">
+    </div>
+    <div class="form-group">
+        <label for="max_price">Максимальная цена:</label>
+        <input type="number" class="form-control" id="max_price" name="max_price" value="{{ max_price }}">
+    </div>
+    <button type="submit" class="btn btn-primary">Фильтровать</button>
+    <div class="btn-group">
+        <a href="?sort=quantity" class="btn btn-secondary">Сортировать по количеству</a>
+        <a href="?sort=price" class="btn btn-secondary">Сортировать по цене</a>
+    </div>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Деталь</th>
+            <th>Количество</th>
+            <th>Цена<th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in store_items %}
+        <tr>
+            <td><a href="/detail/{{item.id}}">{{ item.detail.name }}</a></td>
+            <td>{{ item.quantity }}</td>
+            <td>{{ item.price }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

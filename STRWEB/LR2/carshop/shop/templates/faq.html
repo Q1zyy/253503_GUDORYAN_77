@@ -1,0 +1,12 @@
+{% extends "navbar.html" %}
+{% block title %}FAQ{% endblock title %}
+{% block content%}
+{% for f in faq  %}
+<details>
+    <summary><a href="{% url 'single_faq' f.id %}">{{f.question}}</a>
+   <br>{{f.date_added}}
+    </summary>
+    <p>{{f.answer}}</p>
+    </details>
+    {% endfor %}
+{% endblock%}

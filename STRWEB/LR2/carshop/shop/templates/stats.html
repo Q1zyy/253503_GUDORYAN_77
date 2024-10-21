@@ -1,0 +1,29 @@
+{% extends 'navbar.html' %}
+{% block title %}Статистика{% endblock title %}
+{% block content %}
+  <h1>Stats</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Count</th>
+        <th>TotalPrice</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for stats in user_orders_stats %}
+        <tr>
+          <td>{{ stats.user__username }}</td>
+          <td>{{ stats.total_quantity }}</td>
+          <td>{{ stats.total_spent|floatformat:2 }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p>AverageOrdersPrice = {{ average_order_price|floatformat:2 }}</p>
+  <p>MaxOrderPrice = {{ max_order_price|floatformat:2 }}</p>
+  <p>MinOrderPrice = {{ min_order_price|floatformat:2 }}</p>
+  <h1>Статистика заказов по ценовым диапазонам</h1>
+  <img src="{{ plot_url }}">
+{% endblock %}

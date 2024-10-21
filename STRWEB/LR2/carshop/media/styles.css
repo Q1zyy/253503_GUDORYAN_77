@@ -1,0 +1,76 @@
+
+th, td {
+    border: 1px solid #ddd;
+}
+
+/* Контейнер для анимации */
+.animation-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: linear-gradient(135deg, #283048, #859398);
+  overflow: hidden;
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #474747;
+  border: 5px solid #999;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lid {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: -40px;
+  left: 0;
+  background-color: #999;
+  border-radius: 10px 10px 0 0;
+  transform-origin: left;
+  animation: openLid 1s ease-in-out forwards;
+}
+
+/* Шары */
+.part {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  animation-name: jumpAndFall;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out forwards;
+}
+
+.part:nth-child(1) { top: 0; left: 80px; animation-delay: 0.5s; }
+.part:nth-child(2) { top: 0; left: 100px; animation-delay: 0.6s; }
+.part:nth-child(3) { top: 0; left: 60px; animation-delay: 0.7s; }
+.part:nth-child(4) { top: 0; left: 140px; animation-delay: 0.8s; }
+
+@keyframes openLid {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(250px) rotate(45deg); opacity: 0; }
+}
+
+@keyframes jumpAndFall {
+  0% { transform: translate(0, 0) scale(1); opacity: 0; }
+  10% { opacity: 1; transform: translate(-10px, -50px); }
+  20% { transform: translate(-20px, -100px); }
+  30% { transform: translate(10px, -75px); }
+  40% { transform: translate(30px, -30px); }
+  50% { transform: translate(50px, 0); }
+  60% { transform: translate(70px, 50px); }
+  70% { transform: translate(90px, 100px); }
+  80% { transform: translate(110px, 150px); }
+  90% { transform: translate(120px, 200px); }
+  100% { transform: translate(100px, 300px); }
+}

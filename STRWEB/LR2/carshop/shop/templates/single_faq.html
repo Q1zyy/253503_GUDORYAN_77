@@ -1,0 +1,7 @@
+{% extends "navbar.html" %}
+{% block title %}Вопрос{% endblock title %}
+{% block content%}
+    <h1>{{cur_faq.question}}</h1>
+    <p>{{cur_faq.answer}}</p>
+    <p>{{cur_faq.date_added}}</p>
+{% endblock%}

@@ -1,0 +1,13 @@
+{% extends 'navbar.html' %}
+{% block title %}Список работ{% endblock title %}
+{% block content %}
+  <h1>All Jobs</h1>
+  <ul>
+    {% for job in jobs %}
+      <li>
+        <h2>{{ job.title }}</h2>
+        <p>{{ job.description }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

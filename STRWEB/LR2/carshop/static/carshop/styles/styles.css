@@ -1,0 +1,83 @@
+
+th, td {
+    border: 1px solid #ddd;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #474747;
+    border: 5px solid #999;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    animation: openBox 1s ease-in-out forwards;
+  }
+
+  .lid {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: -40px;
+    left: 0;
+    background-color: #999;
+    border-radius: 10px 10px 0 0;
+    transform-origin: bottom;
+    animation: openLid 1s ease-in-out forwards;
+  }
+
+  .part {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff5722;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    animation: flyOut 4s ease-out forwards, fadeOut 5s ease-in-out forwards;
+  }
+
+  .part:nth-child(1) { top: 50px; left: 50px; animation-delay: 1s; }
+  .part:nth-child(2) { top: 50px; left: 120px; animation-delay: 1.2s; }
+  .part:nth-child(3) { top: 120px; left: 50px; animation-delay: 1.4s; }
+  .part:nth-child(4) { top: 120px; left: 120px; animation-delay: 1.6s; }
+
+  .company-name {
+    position: absolute;
+    top: 350px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    animation: appear 2s ease-in-out forwards;
+    animation-delay: 3.5s;
+    transform: scale(0.8);
+  }
+
+  @keyframes openBox {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+  }
+
+  @keyframes openLid {
+    0% { transform: rotate(0); }
+    100% { transform: rotate(-45deg); }
+  }
+
+  @keyframes flyOut {
+    0% { transform: translateY(0) scale(1) rotate(0); opacity: 0; }
+    50% { opacity: 1; transform: translateY(-100px) scale(1.2) rotate(180deg); }
+    100% { transform: translateY(300px) scale(1) rotate(360deg); opacity: 0; }
+  }
+
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes appear {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+  }

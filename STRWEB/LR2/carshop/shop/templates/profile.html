@@ -1,0 +1,41 @@
+{% extends "navbar.html" %}
+{% block title %}Провиль{% endblock title %}
+{% block content %}
+  <h1>Your Profile</h1>
+
+  <h2>Your Store Orders</h2>
+  {% if store_orders %}
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Quantity</th>
+          <th>Location</th>
+          <th>Promo</th>
+          <th>Created At</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for order in store_orders %}
+          <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ order.quantity }}</td>
+            <td>{{ order.location.name }}</td>
+            <td>
+              {% if order.promo %}
+                {{ order.promo.code }}
+              {% else %}
+                N/A
+              {% endif %}
+            </td>
+            <td>{{ order.created_at }}</td>
+            <td>{{ order.total_price }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>You haven't placed any orders yet.</p>
+  {% endif %}
+{% endblock %}

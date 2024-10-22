@@ -572,81 +572,209 @@ th, td {
     border: 1px solid #ddd;
 }
 
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Высота экрана для центровки по вертикали */
+  margin-top: 0; /* Удаляем отступ сверху */
+}
+
 .box {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: #474747;
-    border: 5px solid #999;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-    animation: openBox 1s ease-in-out forwards;
-  }
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #474747;
+  border: 5px solid #999;
+  border-radius: 10px;
+  z-index: 2; /* Убедитесь, что значение z-index выше чем у .part */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  animation: fadeOut 1s linear forwards 12.5s;
+}
 
-  .lid {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    top: -40px;
-    left: 0;
-    background-color: #999;
-    border-radius: 10px 10px 0 0;
-    transform-origin: bottom;
-    animation: openLid 1s ease-in-out forwards;
-  }
+.details-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  z-index: 3; 
+  animation: fadeOut 1s linear forwards 12.5s;
+}
 
-  .part {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: #ff5722;
-    border-radius: 50%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    animation: flyOut 4s ease-out forwards, fadeOut 5s ease-in-out forwards;
-  }
+.lid {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: -40px;
+  left: 0;
+  background-color: #999;
+  border-radius: 10px 10px 0 0;
+  transform-origin: bottom;
+  animation: openLid 1s linear forwards, fadeOut 1s linear forwards;
+  z-index: 3; /* Задаем более высокий z-index для крышки */
+}
 
-  .part:nth-child(1) { top: 50px; left: 50px; animation-delay: 1s; }
-  .part:nth-child(2) { top: 50px; left: 120px; animation-delay: 1.2s; }
-  .part:nth-child(3) { top: 120px; left: 50px; animation-delay: 1.4s; }
-  .part:nth-child(4) { top: 120px; left: 120px; animation-delay: 1.6s; }
+.part {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  opacity: 0;
+  z-index: 1;
+  animation: flyOut 6s linear 1.5s forwards, fadeOut 1s ease-in-out 7.5s forwards;
+}
 
-  .company-name {
-    position: absolute;
-    top: 350px;
-    font-size: 32px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    opacity: 0;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    animation: appear 2s ease-in-out forwards;
-    animation-delay: 3.5s;
-    transform: scale(0.8);
-  }
+.part1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  opacity: 0;
+  z-index: 1;
+  animation: flyOutLeft 6s linear 2.5s forwards, fadeOut 1s ease-in-out 8.5s forwards;
+}
 
-  @keyframes openBox {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-  }
+.part2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  opacity: 0;
+  z-index: 1;
+  animation: flyOutLeft2 6s linear 4.5s forwards, fadeOut 1s ease-in-out 10.5s forwards;
+}
 
-  @keyframes openLid {
-    0% { transform: rotate(0); }
-    100% { transform: rotate(-45deg); }
-  }
+.part3 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 100px;
+  opacity: 0;
+  margin-left: 100px;
+  z-index: 1;
+  animation: flyOut2 6s linear 5.5s forwards, fadeOut 1s ease-in-out 11.5s forwards;
+}
 
-  @keyframes flyOut {
-    0% { transform: translateY(0) scale(1) rotate(0); opacity: 0; }
-    50% { opacity: 1; transform: translateY(-100px) scale(1.2) rotate(180deg); }
-    100% { transform: translateY(300px) scale(1) rotate(360deg); opacity: 0; }
-  }
+.company-name {
+  position: absolute;
+  top: 350px;
+  font-size: 128px;
+  font-weight: bold;
+  color: #ff0000;
+  z-index: 3;
+  text-transform: uppercase;
+  opacity: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  animation: appear 2s ease-in-out forwards;
+  animation-delay: 12.5s;
+  transform: scale(0.8);
+}
 
-  @keyframes fadeOut {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
-  }
+@keyframes openLid {
+  0% { transform: rotate(0); }
+  100% { transform: translateX(-50px) rotate(-45deg); }
+}
 
-  @keyframes appear {
-    0% { opacity: 0; transform: scale(0.8); }
-    100% { opacity: 1; transform: scale(1); }
-  }
+@keyframes flyOut {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  20% { transform: translate(75px, -150px) rotate(90deg); opacity: 1; }
+  40% { transform: translate(150px, -75px) rotate(180deg); opacity: 1; }
+  60% { transform: translate(225px, 0px) rotate(270deg); opacity: 1;}
+  80% { transform: translate(300px, 75px) rotate(360deg); opacity: 1;}
+  100% { transform: translate(375px, 150px) rotate(450deg); opacity: 1;}
+}
+
+@keyframes flyOut2 {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  20% { transform: translate(50px, -150px) rotate(90deg); opacity: 1; }
+  40% { transform: translate(100px, -75px) rotate(180deg); opacity: 1; }
+  60% { transform: translate(150px, 0px) rotate(270deg); opacity: 1;}
+  80% { transform: translate(200px, 75px) rotate(360deg); opacity: 1;}
+  100% { transform: translate(250px, 150px) rotate(450deg); opacity: 1;}
+}
+
+
+@keyframes flyOutLeft {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  20% { transform: translate(-75px, -150px) rotate(-90deg); opacity: 1; }
+  40% { transform: translate(-150px, -75px) rotate(-180deg); opacity: 1; }
+  60% { transform: translate(-225px, -0px) rotate(-27deg); opacity: 1;}
+  80% { transform: translate(-300px, 75px) rotate(-360deg); opacity: 1;}
+  100% { transform: translate(-375px, 150px) rotate(-450deg); opacity: 1;}
+}
+
+@keyframes flyOutLeft2 {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  20% { transform: translate(-50px, -150px) rotate(-90deg); opacity: 1; }
+  40% { transform: translate(-100px, -75px) rotate(-180deg); opacity: 1; }
+  60% { transform: translate(-150px, -0px) rotate(-270deg); opacity: 1;}
+  80% { transform: translate(-200px, 75px) rotate(-360deg); opacity: 1;}
+  100% { transform: translate(-250px, 150px) rotate(-450deg); opacity: 1;}
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes appear {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+
+/* PRELOADER */
+.preloader {
+  position: relative;
+  width: 100px; /* Размер контейнера */
+  height: 100px; /* Размер контейнера */
+  border-radius: 50%; /* Делаем его кругом */
+  animation: rotate 1.5s linear infinite; /* Применяем анимацию вращения */
+  overflow: hidden; /* Скрываем все, что выходит за пределы */
+}
+
+/* Общие стили для всех арок */
+.arc {
+  position: absolute;
+  border: 8px solid transparent; /* Прозрачная граница */
+  border-top-left-radius: 100px; /* Сглаживание краев */
+  border-top-right-radius: 100px; /* Сглаживание краев */
+  box-sizing: border-box;
+  transform-origin: 50% 100%; /* Указываем точку вращения */
+}
+
+/* arc1 - первая часть */
+.arc1 {
+  width: 60px; /* Ширина первой части */
+  height: 60px; /* Высота первой части */
+  border-top-color: #007bff; /* Цвет для первой части */
+  transform: rotate(0deg); /* Поворачиваем на 0 градусов */
+}
+
+/* arc2 - вторая часть */
+.arc2 {
+  width: 80px; /* Ширина второй части */
+  height: 80px; /* Высота второй части */
+  border-top-color: #5c5c74; /* Цвет для второй части */
+  transform: rotate(120deg); /* Поворачиваем на 120 градусов */
+}
+
+/* arc3 - третья часть */
+.arc3 {
+  width: 100px; /* Ширина третьей части */
+  height: 100px; /* Высота третьей части */
+  border-top-color: #f57c20; /* Цвет для третьей части */
+  transform: rotate(240deg); /* Поворачиваем на 240 градусов */
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

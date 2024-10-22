@@ -58,6 +58,7 @@ body::before {
   background-color: #495057;
 }
 
+
 .content {
   max-width: 1000px;
   margin: 20px auto;
@@ -78,104 +79,612 @@ body::before {
   }
 }
 
+/* CAPITEL */
+.text-capitalized {
+  font-size: 16px; /* Размер основного текста */
+  line-height: 1.6; /* Высота строки */
+  word-spacing: 0.4em; /* Интервал между словами */
+  letter-spacing: 0.05em; /* Интервал между символами */
+  overflow-wrap: break-word; /* Перенос длинных слов */
+  word-break: break-all; /* Разрыв слов */
+}
+
+.capitalized {
+  font-variant: small-caps; /* Использование капителя */
+  font-weight: bold; /* Жирный шрифт для большей выразительности */
+  color: #007bff; /* Цвет текста */
+  
+}
+
+/* LINKS */
+/* Стили для ссылок с классом privacy-links */
+/* Общие стили для контейнера ссылок */
+.link-container {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Стили для ссылок с классом privacy-links */
+.privacy-links {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #007bff; /* Цвет текста для не посещенных ссылок */
+  transition: color 0.3s, background-color 0.3s; /* Плавный переход для эффектов */
+}
+
+/* Стили для посещенных ссылок */
+.privacy-links:visited {
+  color: #6c757d; /* Цвет текста для посещенных ссылок */
+}
+
+/* Стили при наведении курсора */
+.privacy-links:hover {
+  color: #0056b3; /* Цвет текста при наведении */
+  background-color: #e0f7fa; /* Фон при наведении */
+  border-radius: 4px; /* Скругление углов */
+}
+
+/* Стили при нажатии на ссылку */
+.privacy-links:active {
+  color: #003366; /* Цвет текста при нажатии */
+  transform: scale(0.95); /* Уменьшение размера при нажатии */
+}
+
+/* Стили для ссылок в фокусе */
+.privacy-links:focus {
+  outline: 2px solid #007bff; /* Обводка при фокусе */
+  background-color: #f0f9ff; /* Фон при фокусе */
+}
+
+/* Стили для последней ссылки */
+.privacy-links:last-child {
+  font-size: 1.5em; /* Увеличенный шрифт для последней ссылки */
+  font-weight: bold; /* Полужирный текст */
+}
+
+/* FORM */
+/* Стили для контейнера формы */
+.form-container {
+  max-width: 600px; /* Максимальная ширина формы */
+  margin: 20px auto; /* Центрирование формы */
+  padding: 20px; /* Отступ внутри формы */
+  border: 1px solid #ced4da; /* Светло-серый бордер */
+  border-radius: 8px; /* Закругленные углы */
+  background-color: #f8f9fa; /* Светлый фон */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень */
+  font-family: Arial, sans-serif; /* Шрифт для формы */
+}
+
+/* Стили для всех полей ввода внутри формы */
+.form-container input {
+  width: 100%; /* Занимаем всю ширину контейнера */
+  padding: 10px; /* Отступ внутри полей ввода */
+  margin: 10px 0; /* Отступы сверху и снизу */
+  border: 1px solid #ced4da; /* Светло-серый бордер для полей ввода */
+  border-radius: 4px; /* Закругленные углы */
+}
+
+/* Обязательные элементы */
+.form-container input[required] {
+  border: 2px solid #007bff; /* Синий бордер для обязательных полей */
+  background-color: #e0f7fa; /* Светло-голубой фон */
+}
+
+/* Элементы со значениями вне диапазона */
+.form-container input[type="number"]:invalid {
+  border: 2px solid #dc3545; /* Красный бордер для недопустимых значений */
+  background-color: #f8d7da; /* Светло-красный фон */
+}
+
+/* Включенные флажки и переключатели */
+.form-container input[type="checkbox"]:checked,
+.form-container input[type="radio"]:checked {
+  accent-color: #28a745; /* Зелёный цвет для включенных чекбоксов и радиокнопок */
+}
+
+/* Заблокированные элементы */
+.form-container input:disabled {
+  background-color: #e9ecef; /* Серый фон для заблокированных элементов */
+  color: #6c757d; /* Серый текст */
+  border: 2px solid #ced4da; /* Светло-серый бордер */
+}
+
+/* Элементы в фокусе */
+.form-container input:focus {
+  outline: none; /* Убираем стандартный фокус */
+  border: 2px solid #aeff00; /* Синий бордер при фокусе */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Тень при фокусе */
+}
+
+
+/* BLOC QUOTES */
+blockquote[lang="en"] {
+  quotes: '"' '"';
+}
+
+blockquote[lang="fr"] {
+  quotes: '« ' ' »';
+}
+
+blockquote[lang="de"] {
+  quotes: '„' '“';
+}
+
+blockquote:before {
+  content: open-quote;
+}
+
+blockquote:after {
+  content: close-quote;
+}
+
+/* TEXT ABZAC */
+.text-mission {
+  position: relative; /* Позволяет позиционировать псевдоэлементы относительно абзаца */
+  font-size: 1.2em; /* Размер шрифта для абзаца */
+  line-height: 1.6; /* Высота строки для лучшей читаемости */
+  margin: 20px 0; /* Отступы вокруг абзаца */
+}
+
+/* Псевдоэлемент для первой буквы */
+.text-mission::first-letter {
+  font-size: 2.2em; /* Увеличенный размер первой буквы */
+  font-weight: bold; /* Жирное начертание */
+  color: #007bff; /* Синий цвет */
+  margin-right: 5px; /* Отступ справа от буквы */
+}
+
+/* Псевдоэлемент для контекста в начале текста */
+.text-mission::before {
+  content: 'В начале пути, '; /* Контекст в начале текста */
+  font-style: italic; /* Курсив для выделения контекста */
+  color: #666; /* Серый цвет для контекста */
+}
+
+/* Псевдоэлемент для контекста в конце текста */
+.text-mission::after {
+  content: ' — это наше кредо.'; /* Контекст в конце текста */
+  font-style: italic; /* Курсив для выделения контекста */
+  color: #666; /* Серый цвет для контекста */
+}
+
+/* Изменение стиля при выделении текста */
+.text-mission::selection {
+  background-color: #ff0404; /* Цвет фона выделенного текста */
+  color: white; /* Цвет текста при выделении */
+}
+
+/* Для браузеров WebKit (Chrome, Safari) */
+.text-mission::-moz-selection {
+  background-color: #ff4d00; /* Цвет фона выделенного текста */
+  color: white; /* Цвет текста при выделении */
+}
+
+
+/* reviews */
+/* Основной контейнер страницы */
+.reviews-container {
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 20px auto; /* Центрирование контейнера */
+  padding: 20px; /* Внутренние отступы */
+}
+
+/* Заголовок страницы */
+.reviews-title {
+  font-size: 2em; /* Размер шрифта */
+  margin-bottom: 20px; /* Отступ снизу */
+  color: #333; /* Цвет текста */
+}
+
+/* Стили для таблицы */
+.reviews-table {
+  width: 100%; /* Ширина таблицы */
+  background-color: #ffffff;
+  border-collapse: collapse; /* Убираем отступы между ячейками */
+}
+
+/* Стили для заголовков таблицы */
+.table-header {
+  background-color: #007bff; /* Цвет фона заголовков */
+  color: white; /* Цвет текста */
+  padding: 10px; /* Внутренние отступы */
+}
+
+/* Стили для ячеек таблицы */
+.review-row td {
+  padding: 10px; /* Внутренние отступы */
+  border: 2px solid #b47171; /* Цвет границы */
+  color: #666; /* Цвет текста */
+}
+
+/* Псевдоклассы для эффекта наведения */
+.review-actions a {
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #007bff; /* Цвет ссылок */
+  font-weight: bold; /* Жирный шрифт */
+  transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.review-actions a:hover {
+  color: #0056b3; /* Цвет ссылок при наведении */
+}
+
+/* Стили для кнопки создания отзыва */
+.create-review-link {
+  display: inline-block; /* Блок для выравнивания */
+  margin-top: 20px; /* Отступ сверху */
+  padding: 10px 20px; /* Внутренние отступы */
+  background-color: #28a745; /* Цвет фона */
+  color: white; /* Цвет текста */
+  border-radius: 4px; /* Закругление углов */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-weight: bold; /* Жирный шрифт */
+  transition: background-color 0.3s ease; /* Плавный переход цвета */
+}
+
+.create-review-link:hover {
+  background-color: #218838; /* Цвет кнопки при наведении */
+}
+
+/* CREATE REVIEW */
+/* Основной контейнер страницы */
+.review-form-container {
+  max-width: 600px; /* Максимальная ширина контейнера */
+  margin: 20px auto; /* Центрирование контейнера */
+  padding: 20px; /* Внутренние отступы */
+}
+
+/* Заголовок страницы */
+.review-form-title {
+  font-size: 2em; /* Размер шрифта */
+  margin-bottom: 20px; /* Отступ снизу */
+  color: #333; /* Цвет текста */
+}
+
+/* Стили для группы полей */
+.form-group {
+  margin-bottom: 15px; /* Отступ снизу для группы полей */
+}
+
+/* Стили для меток */
+label {
+  font-size: 1.1em; /* Размер шрифта меток */
+  margin-bottom: 5px; /* Отступ снизу */
+  display: block; /* Блок для правильного размещения */
+}
+
+/* Стили для полей ввода и текстовых областей */
+.form-control {
+  width: 100%; /* Ширина полей ввода */
+  padding: 10px; /* Внутренние отступы */
+  border: 2px solid #ccc; /* Граница */
+  border-radius: 4px; /* Закругление углов */
+  font-size: 1em; /* Размер шрифта */
+  transition: border-color 0.3s ease; /* Плавный переход цвета границы */
+}
+
+/* Стили для псевдокласса :focus */
+.form-control:focus {
+  border-color: #007bff; /* Цвет границы при фокусе */
+  outline: none; /* Убираем стандартное выделение */
+}
+
+/* Стили для кнопки */
+.submit-button {
+  background-color: #28a745; /* Цвет фона кнопки */
+  color: white; /* Цвет текста кнопки */
+  padding: 10px 15px; /* Внутренние отступы */
+  border: none; /* Убираем стандартную границу */
+  border-radius: 4px; /* Закругление углов */
+  font-size: 1em; /* Размер шрифта */
+  cursor: pointer; /* Курсор при наведении */
+  transition: background-color 0.3s ease; /* Плавный переход цвета */
+}
+
+/* Псевдокласс :hover для кнопки */
+.submit-button:hover {
+  background-color: #218838; /* Цвет кнопки при наведении */
+}
+
+/* PROMOCODE */
+/* Стили для основной таблицы */
+.promo-table {
+  width: 100%; /* Ширина таблицы */
+  border-collapse: collapse; /* Убираем двойные границы */
+  margin-top: 20px; /* Отступ сверху */
+}
+
+/* Стили для заголовка таблицы */
+.promo-table thead {
+  background-color: #007bff; /* Цвет фона заголовка */
+  color: white; /* Цвет текста заголовка */
+}
+
+/* Стили для ячеек заголовка */
+.promo-header {
+  padding: 15px; /* Внутренние отступы */
+  text-align: left; /* Выравнивание текста по левому краю */
+  font-size: 1.1em; /* Размер шрифта */
+}
+
+/* Стили для ячеек таблицы */
+.promo-row td {
+  padding: 15px; /* Внутренние отступы */
+  border: 1px solid #ddd; /* Граница ячеек */
+  font-size: 1em; /* Размер шрифта */
+}
+
+/* Чередование фона строк для улучшения читаемости */
+.promo-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Цвет фона для четных строк */
+}
+
+/* Псевдокласс :hover для строк таблицы */
+.promo-row:hover {
+  background-color: #e9ecef; /* Цвет фона строки при наведении */
+}
+
+/* Стили для пустого состояния таблицы */
+.promo-table tbody tr:empty {
+  display: none; /* Скрываем пустые строки */
+}
+
+
+/* EMPLOYEE LIST */
+.employee-container {
+  display: flex;
+  flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+  justify-content: space-between; /* Распределение пространства между элементами */
+  margin: 20px; /* Отступы вокруг контейнера */
+}
+
+.employee-card {
+  background: #f9f9f9; /* Светлый фон для карточки */
+  border: 1px solid #ddd; /* Рамка вокруг карточки */
+  border-radius: 8px; /* Скругленные углы */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта */
+  margin: 10px; /* Отступы между карточками */
+  padding: 15px; /* Внутренние отступы */
+  width: calc(33% - 40px); /* Ширина карточки с учетом отступов */
+  box-sizing: border-box; /* Учитывает отступы и границы в ширине */
+  display: flex;
+  align-items: center; /* Центрирование элементов по вертикали */
+}
+
+.employee-photo {
+  flex-shrink: 0; 
+  margin-right: 15px; /* Отступ справа от фото */
+}
+
+.employee-photo img {
+  width: 80px; /* Ширина изображения */
+  height: 80px; /* Высота изображения */
+}
+
+.no-photo {
+  width: 80px; /* Ширина блока без фото */
+  height: 80px; /* Высота блока без фото */
+  border-radius: 50%; /* Круглая форма блока */
+  background: #ddd; /* Цвет фона для блока без фото */
+  display: flex; /* Использование Flexbox для центрирования текста */
+  align-items: center; /* Центрирование по вертикали */
+  justify-content: center; /* Центрирование по горизонтали */
+}
+
+.employee-info {
+  flex-grow: 1; /* Позволяет этому блоку занимать оставшееся пространство */
+}
+
+.employee-info h2 {
+  margin: 0 0 5px; /* Отступы для заголовка */
+}
+
+.employee-info p {
+  margin: 3px 0; /* Отступы для параграфов */
+}
+
+/* JOBS */
+/* Стили для основного контейнера вакансий */
+.job-list {
+  list-style-type: none; /* Убираем маркеры списка */
+  padding: 0; /* Убираем отступы у списка */
+  margin: 0; /* Убираем внешние отступы у списка */
+}
+
+/* Стили для каждого элемента вакансии */
+.job-item {
+  border: 1px solid #ddd; /* Граница вокруг вакансии */
+  border-radius: 8px; /* Закругленные углы */
+  padding: 15px; /* Внутренние отступы */
+  margin: 10px; /* Внешние отступы между вакансиями */
+  overflow: hidden; /* Скрыть переполнение */
+  float: left; /* Плаваем элемент влево */
+  width: 300px;
+  background: linear-gradient(to bottom, rgb(218, 218, 244), #fff); /* Синий в белый градиент */
+}
+
+/* Стили для заголовка вакансии */
+.job-title {
+  font-size: 1.5em; /* Размер шрифта заголовка */
+  margin: 0 0 10px; /* Отступы под заголовком */
+  color: #333; /* Цвет текста заголовка */
+}
+
+/* Стили для описания вакансии */
+.job-description {
+  font-size: 1em; /* Размер шрифта описания */
+  color: #666; /* Цвет текста описания */
+  line-height: 1.4; /* Высота строки */
+}
+
+/* Очистка плавающих блоков */
+.clear {
+  clear: both; /* Очистка плавающих элементов */
+}
+
+
+
+
+
+/* TABLE */
+.table-container {
+  max-width: 800px; /* Максимальная ширина контейнера */
+  margin: 20px auto; /* Центрирование контейнера */
+  padding: 20px; /* Внутренние отступы контейнера */
+  border: 1px solid #ddd; /* Граница контейнера */
+  border-radius: 8px; /* Скругление углов контейнера */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень контейнера */
+}
+
+/* Заголовок таблицы */
+.table-title {
+  text-align: center; /* Выравнивание заголовка по центру */
+  font-size: 1.8em; /* Размер шрифта заголовка */
+  margin-bottom: 20px; /* Отступ снизу */
+}
+
+/* Стили для таблицы */
+.user-table {
+  width: 100%; /* Ширина таблицы */
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+
+/* Стили для заголовка таблицы */
+.table-header {
+  background-color: #007bff; /* Цвет фона заголовка */
+  color: white; /* Цвет текста заголовка */
+  padding: 15px; /* Внутренние отступы */
+  text-align: center; /* Выравнивание текста по центру */
+}
+
+/* Стили для ячеек таблицы */
+.user-table td {
+  padding: 10px; /* Внутренние отступы */
+  border: 1px solid #ddd; /* Граница ячеек */
+  vertical-align: middle; /* Вертикальное выравнивание по центру */
+  text-align: center; /* Горизонтальное выравнивание по центру */
+  background-color: #f9f9f9; /* Цвет фона ячеек */
+}
+
+/* Стили для пустых ячеек */
+.user-table td:empty {
+  background-color: #ffeeba; /* Цвет фона для пустых ячеек */
+}
+
+/* Стили для четных строк */
+.user-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Цвет фона для четных строк */
+}
+
+/* Стили для строк при наведении */
+.user-table tr:hover {
+  background-color: #e0f7fa; /* Цвет фона для строки при наведении */
+}
+
+
+
 /* news */
 /* Стили для контейнера статей */
+
+/* Стили для контейнера статей */
 .news-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Центрирование статей */
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 10px;
+  box-sizing: border-box; /* Учитываем границы и отступы */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; 
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: 20px auto; /* Центрирование контейнера */
+  padding: 10px;
 }
 
 /* Стили для статьи */
 .news-container article {
-    border: 1px solid;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 15px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    position: relative;
-    width: 23%; /* По умолчанию показываем 4 статьи в строке */
+  box-sizing: border-box; /* Учитываем границы и отступы */
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px; /* Отступы между статьями */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: calc(25% - 30px); /* Учитываем отступы */
 }
 
 .news-container h1 {
-    font-size: 1.5em;
-    margin: 0 0 10px;
-    color: #333;
+  font-size: 1.5em;
+  margin: 0 0 10px;
+  color: #333;
 }
 
 /* Стили для краткой информации о статье */
 .news-container p {
-    flex: 1;
-    font-size: 1em;
-    color: #666;
-    line-height: 1.4;
-    max-height: 4em;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-bottom: 15px;
+  flex: 1;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.4;
+  max-height: 4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
 }
 
 /* Стили для изображений */
 .news-container img {
-    width: 100%;
-    height: 200px; /* Устанавливаем фиксированную высоту */
-    object-fit: cover; /* Масштабирование изображения, сохраняя пропорции */
-    border-radius: 8px;
-    margin-bottom: 10px;
+  width: 100%;
+  height: 200px; /* Устанавливаем фиксированную высоту */
+  object-fit: cover; /* Масштабирование изображения, сохраняя пропорции */
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 /* Стили для кнопки "Читать далее" */
 .news-container a {
-    align-self: center; /* Центрирование кнопки */
-    text-decoration: none;
-    color: white;
-    background-color: #007bff;
-    padding: 8px 12px;
-    border-radius: 4px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-    margin-top: auto; /* Сдвигает кнопку вниз */
+  align-self: center; /* Центрирование кнопки */
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: auto; /* Сдвигает кнопку вниз */
 }
 
 .news-container a:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Адаптивные стили */
 
 /* Для экранов меньше 1200px – показываем 3 статьи в строке */
 @media (max-width: 1200px) {
-    .news-container article {
-        width: 31%;
-    }
+  .news-container article {
+      width: calc(31% - 30px); /* Корректируйте отступы */
+  }
 }
 
 /* Для экранов меньше 992px – показываем 2 статьи в строке */
 @media (max-width: 992px) {
-    .news-container article {
-        width: 48%;
-    }
+  .news-container article {
+      width: calc(48% - 30px); /* Корректируйте отступы */
+  }
 }
 
 /* Для экранов меньше 576px – показываем 1 статью в строке */
 @media (max-width: 576px) {
-    .news-container article {
-        width: 100%;
-    }
+  .news-container article {
+      width: 100%;
+  }
 }
-
 
 /* INDEX */
 /* Стили для контейнера основной страницы */
 .page-container {
   max-width: 1200px;
   margin: 0 auto; /* Центрирование контейнера */
+  margin-top: 40px;
   padding: 20px;
 }
 
@@ -538,7 +1047,7 @@ video {
   border-bottom: 2px solid #000000;
 }
 
-/* Стили для элемента summary */
+/* Стили для элемента mmary */
 .page-container summary {
   font-size: 1.2em; /* Увеличенный шрифт для заголовка вопроса */
   font-weight: bold; /* Жирное начертание */
@@ -736,45 +1245,85 @@ th, td {
   width: 100px; /* Размер контейнера */
   height: 100px; /* Размер контейнера */
   border-radius: 50%; /* Делаем его кругом */
-  animation: rotate 1.5s linear infinite; /* Применяем анимацию вращения */
   overflow: hidden; /* Скрываем все, что выходит за пределы */
 }
 
-/* Общие стили для всех арок */
-.arc {
+.circle {
+  position: relative;
+  width: 200px; /* Ширина круга */
+  height: 200px; /* Высота круга */
+  border-radius: 50%; /* Сделать элемент кругом */
+  animation: rotate 1.5s linear infinite; 
+  background: transparent; /* Прозрачный фон */
+}
+
+.circle::before {
+  content: '';
   position: absolute;
-  border: 8px solid transparent; /* Прозрачная граница */
-  border-top-left-radius: 100px; /* Сглаживание краев */
-  border-top-right-radius: 100px; /* Сглаживание краев */
-  box-sizing: border-box;
-  transform-origin: 50% 100%; /* Указываем точку вращения */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: conic-gradient(
+      rgb(224, 197, 230) 0deg 60deg,
+      transparent 60deg 80deg,
+      rgb(208, 142, 223) 80deg 120deg,
+      transparent 120deg 140deg,
+      rgb(194, 81, 219) 140deg 160deg,
+      transparent 160deg 360deg
+  );
+  mask: radial-gradient(circle, transparent 50px, black 51px);
 }
 
-/* arc1 - первая часть */
-.arc1 {
-  width: 60px; /* Ширина первой части */
-  height: 60px; /* Высота первой части */
-  border-top-color: #007bff; /* Цвет для первой части */
-  transform: rotate(0deg); /* Поворачиваем на 0 градусов */
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%; /* Центрирование по вертикали */
+  left: 50%; /* Центрирование по горизонтали */
+  transform: translate(-50%, -50%); /* Центрирование точки */
 }
 
-/* arc2 - вторая часть */
-.arc2 {
-  width: 80px; /* Ширина второй части */
-  height: 80px; /* Высота второй части */
-  border-top-color: #5c5c74; /* Цвет для второй части */
-  transform: rotate(120deg); /* Поворачиваем на 120 градусов */
+.dot1 {
+  background-color: rgb(224, 197, 230);
+  animation: move 5s linear infinite; /* Длительность анимации */
+  animation-delay: 0s; /* Без задержки */
+  transform: translate(-50%, -50%) translateY(-15px); /* Верхняя точка */
 }
 
-/* arc3 - третья часть */
-.arc3 {
-  width: 100px; /* Ширина третьей части */
-  height: 100px; /* Высота третьей части */
-  border-top-color: #f57c20; /* Цвет для третьей части */
-  transform: rotate(240deg); /* Поворачиваем на 240 градусов */
+.dot2 {
+  background-color: rgb(194, 81, 219);
+  animation: move 5s linear infinite; /* Длительность анимации */
+  animation-delay: 0s; /* Задержка для второго элемента */
+  transform: translate(-50%, -50%) translateY(15px); /* Нижняя точка */
+}
+
+.dot3 {
+  background-color: rgb(208, 142, 223);
+  transform: translate(-50%, -50%); /* Центральная точка */
 }
 
 @keyframes rotate {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+@keyframes move1 {
+  0% {
+      transform: translate(-50%, -50%) translateY(35px) rotate(0deg); /* Вращение вокруг центра */
+  }
+  100% {
+      transform: translate(-50%, -50%) translateY(35px) rotate(360deg); /* Полный оборот */
+  }
+}
+
+@keyframes move2 {
+  0% {
+      transform: translate(-50%, -50%) translateY(-35px) rotate(0deg); /* Вращение вокруг центра */
+  }
+  100% {
+      transform: translate(-50%, -50%) translateY(-35px) rotate(360deg); /* Полный оборот */
+  }
 }

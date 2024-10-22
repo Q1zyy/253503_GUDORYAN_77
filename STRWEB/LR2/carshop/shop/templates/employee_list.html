@@ -4,38 +4,23 @@
 
 {% block content %}
     <h1>Employees</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Photo</th>
-                <th>Position</th>
-                <th>Job desciption</th>
-                <th>Phone</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for employee in employees %}
-            <tr>
-                <td>{{ employee.user.username }}</td>
-                <td>
-                    {% if employee.photo %}
-                        <img src="{{ employee.photo.url }}" alt="{{ employee.user.username }}" width="100">
-                    {% else %}
-                        No photo
-                    {% endif %}
-                </td>
-                <td>
-                    {{employee.position}}
-                </td>
-                <td>
-                    {{employee.job_description}}
-                </td>
-                <td>
-                    {{employee.phone}}
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="employee-container">
+        {% for employee in employees %}
+        <div class="employee-card">
+            <div class="employee-photo">
+                {% if employee.photo %}
+                    <img src="{{ employee.photo.url }}" alt="{{ employee.user.username }}">
+                {% else %}
+                    <div class="no-photo">No photo</div>
+                {% endif %}
+            </div>
+            <div class="employee-info">
+                <h2>{{ employee.user.username }}</h2>
+                <p><strong>Position:</strong> {{ employee.position }}</p>
+                <p><strong>Job Description:</strong> {{ employee.job_description }}</p>
+                <p><strong>Phone:</strong> {{ employee.phone }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 {% endblock %}

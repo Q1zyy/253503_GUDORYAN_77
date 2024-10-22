@@ -19,18 +19,11 @@
         </div>
     </div>
 
-    <div class="preloader">
-        <div class="arc arc1"></div>
-        <div class="arc arc2"></div>
-        <div class="arc arc3"></div>
-        </div>
-        <div class="dots">
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
-      </div>
+    <div class="circle">
+        <div class="dot dot1"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+    </div>
       
       
 
@@ -88,7 +81,7 @@
         <source src="/media/audio.mp3" type="audio/mpeg">
     </audio>
 
-    <form enctype="multipart/form-data" method="POST">
+    <form class="form-container" enctype="multipart/form-data" method="POST">
         <fieldset>
             <legend>Inputs</legend>
             <label>Текст:</label>
@@ -98,7 +91,7 @@
             <input type="password" id="password" name="password" required minlength="6">
 
             <label>Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input disabled type="email" id="email" name="email" required>
 
             <label>Телефон:</label>
             <input type="tel" id="phone" name="phone" required pattern="\+?[0-9]{1,15}">
@@ -125,11 +118,11 @@
             <button type="submit">Отправить</button>
         </fieldset>
     </form>
-
-        <p><a href="https://example.com" target="_blank" >Site</a></p>
-        <p><a href="mailto:gudoryanjackson@mail.ru">Email</a></p>
-        <p><a href="tel:+375445894444">Call</a></p>
-
+        <div class="link-container">
+            <a class="privacy-links" href="https://example.com" target="_blank" >Site</a>
+            <a class="privacy-links" href="mailto:gudoryanjackson@mail.ru">Email</a>
+            <a class="privacy-links" href="tel:+375445894444">Call</a>
+        </div>
         <p>
             В <strong>математике</strong> и <em>науке</em> часто используют <code>x = y + 2</code> для обозначения <abbr title="переменная">var</abbr>. 
             Например, если <var>x</var> — это <s>значение</s> <strong>числа</strong>, то <small>y</small> может быть <sub>меньшим</sub> или <sup>большим</sup> в зависимости от контекста.
@@ -199,9 +192,69 @@
             <img src="/media/500.jfif" alt="Picture">
         </picture>
 
+        <div class="table-container">
+            <h1 class="table-title">Список Пользователей</h1>
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th class="table-header">Имя</th>
+                        <th class="table-header">Возраст</th>
+                        <th class="table-header">Город</th>
+                        <th class="table-header">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Иван</td>
+                        <td>25</td>
+                        <td>Москва</td>
+                        <td>ivan@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Мария</td>
+                        <td>30</td>
+                        <td></td>
+                        <td>maria@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Петр</td>
+                        <td>22</td>
+                        <td>Санкт-Петербург</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Анна</td>
+                        <td></td>
+                        <td>Екатеринбург</td>
+                        <td>anna@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Сергей</td>
+                        <td>35</td>
+                        <td>Казань</td>
+                        <td>sergey@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <footer>
-        ABOBA 123
-    </footer>
+
+        <blockquote lang="en">
+            fasdfdasasdfdassadfasdfd
+        </blockquote>
+        <blockquote lang="fr">
+            fasdfdasasdfdassadfasdfd
+        </blockquote>
+        <blockquote lang="de">
+            fasdfdasasdfdassadfasdfd
+        </blockquote>
+
+        <p class="text-mission">
+            Умные решения для будущего. Технологии развиваются стремительно, и мы должны идти в ногу со временем, используя самые современные подходы в разработке программного обеспечения.
+        </p>
+
+        <p class="text-capitalized">Это пример текста, в котором Это пример текста, в котором Это пример текста, в котором Это пример текста, в котором Это пример текста, в котором Это пример текста, в котором <span class="capitalized">капитель</span> используется для выделения фрагмента.</p>
+
+
 </div>
 {% endblock %}

@@ -1,33 +1,37 @@
-{% extends 'navbar.html' %}
+{% extends "navbar.html" %}
 {% block title %}Отзывы{% endblock title %}
 {% block content %}
-    <h1>Reviews</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>User</th>
-                <th>Rating</th>
-                <th>Text</th>
-                <th>Date</th>
-                <th>  </th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for review in reviews %}
-                <tr>
-                    <td>{{ review.user.username }}</td>
-                    <td>{{ review.rating }}</td>
-                    <td>{{ review.text }}</td>
-                    <td>{{ review.created_at }}</td>
-                    <td>
-                        {% if review.user == request.user %}
-                            <a href="{% url 'review_update' review.pk %}">Edit</a>
-                            <a href="{% url 'review_delete' review.pk %}">Delete</a>
-                        {% endif %}
-                    </td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    <a href="{% url 'review_create' %}">CreateReview</a>
+    <div class="page-container">
+        <div class="reviews-container">
+            <h1 class="reviews-title">Отзывы</h1>
+            <table class="reviews-table">
+                <thead>
+                    <tr>
+                        <th class="table-header">Пользователь</th>
+                        <th class="table-header">Рейтинг</th>
+                        <th class="table-header">Текст</th>
+                        <th class="table-header">Дата</th>
+                        <th class="table-header">Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for review in reviews %}
+                    <tr class="review-row">
+                        <td class="review-user">{{ review.user.username }}</td>
+                        <td class="review-rating">{{ review.rating }}</td>
+                        <td class="review-text">{{ review.text }}</td>
+                        <td class="review-date">{{ review.created_at }}</td>
+                        <td class="review-actions">
+                            {% if review.user == request.user %}
+                            <a class="edit-link" href="{% url 'review_update' review.pk %}">Редактировать</a>
+                            <a class="delete-link" href="{% url 'review_delete' review.pk %}">Удалить</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a class="create-review-link" href="{% url 'review_create' %}">Создать отзыв</a>
+        </div>
+    </div>
 {% endblock %}

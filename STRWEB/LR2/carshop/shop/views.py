@@ -370,8 +370,8 @@ def detail(request, id):
     return render(request, "detail.html", context)
 
 def cart(request):
-    cur_detail = Detail.objects.all()[:3]
-    detail_info = Store.objects.all()[:3] 
+    cur_detail = Detail.objects.all()[:5]
+    detail_info = Store.objects.all()[:5] 
     total_price = 0
     for i in range(len(cur_detail)):
         total_price += detail_info[i].price * detail_info[i].quantity

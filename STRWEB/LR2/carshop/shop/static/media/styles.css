@@ -72,7 +72,7 @@ body::before {
 /* CAPITEL */
 .text-capitalized {
   font-size: 16px; 
-  line-height: 1.6; 
+  line-height: 1.6em; 
   word-spacing: 0.4em; 
   letter-spacing: 0.05em; 
   overflow-wrap: break-word;
@@ -80,11 +80,40 @@ body::before {
 }
 
 .capitalized {
-  font-variant: small-caps; 
+  font-variant: small-caps; /* Использование капителя */
   font-weight: bold; 
   color: #007bff;
   
 }
+
+/* SINGLE NEWS*/
+/* SINGLE NEWS */
+.single-news {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.single-news h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.single-news p {
+  column-count: 3; /* Количество колонок */
+  column-gap: 30px; /* Расстояние между колонками */
+  text-align: justify;
+}
+
+.single-news img {
+  width: 200px; /* Ширина изображения */
+  float: left; /* Обтекание слева */
+  shape-outside: circle(); /* Настраиваем обтекание по форме */
+  margin: 0 20px 20px 0; /* Отступы вокруг изображения */
+  object-fit: contain; /* чтобы текст не сместился при выводе */
+}
+
 
 /* LINKS */
 /* Стили для ссылок с классом privacy-links */
@@ -159,7 +188,7 @@ body::before {
 }
 
 /* Стили для всех полей ввода внутри формы */
-.form-container > input {
+.form-container input {
   width: 100%; 
   padding: 10px; 
   margin: 10px 0; 
@@ -168,32 +197,32 @@ body::before {
 }
 
 /* Обязательные элементы */
-.form-container > input[required] {
+.form-container input[required] {
   border: 2px solid #007bff; 
   background-color: #e0f7fa; 
 }
 
 /* Элементы со значениями вне диапазона */
-.form-container > input[type="number"]:invalid {
+.form-container input[type="number"]:invalid {
   border: 2px solid #dc3545; 
   background-color: #f8d7da; 
 }
 
 /* Включенные флажки и переключатели */
-.form-container > input[type="checkbox"]:checked,
-.form-container > input[type="radio"]:checked {
+.form-container input[type="checkbox"]:checked,
+.form-container input[type="radio"]:checked {
   accent-color: #28a745; 
 }
 
 /* Заблокированные элементы */
-.form-container > input:disabled {
+.form-container input:disabled {
   background-color: #e9ecef; 
   color: #6c757d; 
   border: 2px solid #ced4da; 
 }
 
 /* Элементы в фокусе */
-.form-container > input:focus {
+.form-container input:focus {
   outline: none; 
   border: 2px solid #aeff00; 
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
@@ -448,7 +477,7 @@ label {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   margin: 10px; 
   padding: 15px; 
-  width: calc(33% - 40px); 
+  width: 300px; 
   box-sizing: border-box; 
   display: flex;
   align-items: center; 
@@ -503,7 +532,7 @@ label {
   overflow: hidden; 
   float: left;
   width: 300px;
-  background: linear-gradient(to bottom, rgb(218, 218, 244), #fff); /* Синий в белый градиент */
+  background: linear-gradient(to bottom, rgb(152, 152, 224), #fff); /* Синий в белый градиент */
 }
 
 /* Стили для заголовка вакансии */
@@ -612,7 +641,7 @@ label {
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  width: calc(25% - 30px); 
+  width: calc(25% - 30px); /* Учитываем отступы */
 }
 
 .news-container h1 {
@@ -664,14 +693,14 @@ label {
 /* Для экранов меньше 1200px – показываем 3 статьи в строке */
 @media (max-width: 1200px) {
   .news-container article {
-      width: calc(31% - 30px); /* Корректируйте отступы */
+      width: calc(31% - 30px); 
   }
 }
 
 /* Для экранов меньше 992px – показываем 2 статьи в строке */
 @media (max-width: 992px) {
   .news-container article {
-      width: calc(48% - 30px); /* Корректируйте отступы */
+      width: calc(48% - 30px); 
   }
 }
 
@@ -681,10 +710,6 @@ label {
       width: 100%;
   }
 }
-
-
-
-
 
 /* INDEX */
 /* Стили для контейнера основной страницы */
@@ -963,7 +988,7 @@ video {
 .history-section p {
   text-indent: 30px; /* Отступ для красной строки */
   font-size: 1.3em; 
-  line-height: 1.8; 
+  line-height: 1.8em; 
   margin: 0px;
   color: #000000;
 }
@@ -1179,13 +1204,18 @@ th, td {
   position: relative;
   width: 200px;
   height: 200px;
-  background-color: #474747;
-  border: 5px solid #999;
-  border-radius: 10px;
+  background-image: url("CRATE.png");
+  background-size: cover; /* Растягивает изображение на весь элемент */
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: 150%; 
   z-index: 2; 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   animation: fadeOut 1s linear forwards 12.5s;
+  margin: 0; /* Убираем отступы */
+  padding: 0; /* Убираем внутренние отступы */
+  border: none; /* Убираем границы, если они есть */
 }
+
 
 .details-label {
   position: absolute;
@@ -1206,8 +1236,11 @@ th, td {
   height: 20%;
   top: -40px;
   left: 0;
-  background-color: #999;
-  border-radius: 10px 10px 0 0;
+  background-image: url("CRATE.png");
+  background-size: cover; /* Растягивает изображение на весь элемент */
+  background-repeat: no-repeat; 
+  background-position: top center; 
+  background-size: 150%; 
   transform-origin: bottom;
   animation: openLid 1s linear forwards, fadeOut 1s linear forwards;
   z-index: 3; 

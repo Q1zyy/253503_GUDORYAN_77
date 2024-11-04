@@ -1,40 +1,43 @@
 {% extends 'navbar.html' %}
 {% block title %}Покупка{% endblock title %}
 {% block content %}
-  <h1>Purchase</h1>
+  <div class="purchase-container">
+    <h1>Purchase</h1>
 
-  <form method="post">
-    {% csrf_token %}
+    <form method="post" class="purchase-form">
+      {% csrf_token %}
 
-    <div>
-      <label for="location">Location:</label>
-      <select id="location" name="location">
-        {% for location in locations %}
-          <option value="{{ location.id }}">{{ location.name }}</option>
+      <div class="form-group">
+        <label for="location">Location:</label>
+        <select id="location" name="location">
+          {% for location in locations %}
+            <option value="{{ location.id }}">{{ location.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="promocode">Promocode:</label>
+        <select id="promocode" name="promocode">
+          <option value="">None</option>
+          {% for promocode in promocodes %}
+            <option value="{{ promocode.id }}">{{ promocode.code }} ({{ promocode.discount }}% off)</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <div class="items-grid">
+        {% for item in store_items %}
+          <div class="item-card">
+            <input type="checkbox" name="items[]" value="{{ item.id }}"> 
+            <span>{{ item.detail.name }} - {{ item.price }}</span>
+            <img src="media/detail1.png" alt="{{ item.detail.name }}">
+            <input type="number" name="quantities[]" value="1" min="1" max="{{ item.quantity }}" required>
+          </div>
         {% endfor %}
-      </select>
-    </div>
+      </div>
 
-    <div>
-      <label for="promocode">Promocode:</label>
-      <select id="promocode" name="promocode">
-        <option value="">None</option>
-        {% for promocode in promocodes %}
-          <option value="{{ promocode.id }}">{{ promocode.code }} ({{ promocode.discount }}% off)</option>
-        {% endfor %}
-      </select>
-    </div>
-
-    <div>
-      <h3>Items:</h3>
-      {% for item in store_items %}
-        <div>
-          <input type="checkbox" name="items[]" value="{{ item.id }}"> {{ item.detail.name }} - {{ item.price }}
-          <input type="number" name="quantities[]" value="1" min="1" max="{{ item.quantity }}" required>
-        </div>
-      {% endfor %}
-    </div>
-
-    <button type="submit">Purchase</button>
-  </form>
+      <button type="submit" class="submit-button">Purchase</button>
+    </form>
+  </div>
 {% endblock %}

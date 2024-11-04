@@ -11347,3 +11347,1744 @@ django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'st
 2024-10-23 00:10:05 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46298
 2024-10-23 00:10:26 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13633
 2024-10-23 00:10:26 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46298
+2024-10-23 13:50:56 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 13:50:59 WARNING [django.request:241] Not Found: /
+2024-10-23 13:50:59 WARNING [django.server:212] "GET / HTTP/1.1" 404 7004
+2024-10-23 13:50:59 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-23 13:50:59 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7055
+2024-10-23 13:51:05 INFO [shop:33] index
+2024-10-23 13:51:07 INFO [django.server:212] "GET /home HTTP/1.1" 200 4909
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46355
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-23 13:51:07 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 13:51:26 INFO [shop:65] about
+2024-10-23 13:51:26 INFO [django.server:212] "GET /about HTTP/1.1" 200 16564
+2024-10-23 13:51:26 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 13:51:26 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-23 13:51:26 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-23 13:51:26 INFO [django.server:212] "GET /media/border-image.png HTTP/1.1" 200 63274
+2024-10-23 13:51:26 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 13:51:41 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 60786)
+2024-10-23 13:52:25 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13645
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/1500.jfif HTTP/1.1" 304 0
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-23 13:52:25 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 304 0
+2024-10-23 13:55:29 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13645
+2024-10-23 13:55:29 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46412
+2024-10-23 13:55:29 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 304 0
+2024-10-23 14:00:04 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13645
+2024-10-23 14:00:04 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46473
+2024-10-23 14:40:19 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13645
+2024-10-23 14:40:19 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 14:49:44 INFO [django.server:212] "GET /cart HTTP/1.1" 200 4402
+2024-10-23 14:49:44 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 14:50:08 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 3414
+2024-10-23 14:50:12 INFO [shop:70] news
+2024-10-23 14:50:12 INFO [django.server:212] "GET /news HTTP/1.1" 200 6829
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 14:50:12 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 14:51:29 INFO [django.server:212] "GET /store HTTP/1.1" 200 4514
+2024-10-23 14:51:44 INFO [django.server:212] "GET /store?min_price=123&max_price=321 HTTP/1.1" 200 3622
+2024-10-23 14:51:49 INFO [shop:33] index
+2024-10-23 14:51:51 INFO [django.server:212] "GET /home HTTP/1.1" 200 5048
+2024-10-23 14:52:00 INFO [shop:65] about
+2024-10-23 14:52:00 INFO [django.server:212] "GET /about HTTP/1.1" 200 16564
+2024-10-23 14:52:00 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 14:52:15 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 63541)
+2024-10-23 14:53:04 INFO [django.server:212] "GET /cart HTTP/1.1" 200 4402
+2024-10-23 14:53:06 INFO [django.server:212] "GET /cart HTTP/1.1" 200 4402
+2024-10-23 14:53:44 INFO [django.server:212] "GET /cart HTTP/1.1" 200 4402
+2024-10-23 14:54:31 INFO [django.server:212] "GET /admin/ HTTP/1.1" 200 15988
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2024-10-23 14:54:31 INFO [django.server:212] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2024-10-23 14:54:33 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+2024-10-23 14:54:33 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+2024-10-23 14:54:33 INFO [django.server:212] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2024-10-23 14:54:35 INFO [django.server:212] "GET /admin/shop/detail/1/change/ HTTP/1.1" 200 14113
+2024-10-23 14:54:35 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 14:54:35 INFO [django.server:212] "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+2024-10-23 14:54:35 INFO [django.server:212] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+2024-10-23 14:54:35 INFO [django.server:212] "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+2024-10-23 14:54:35 INFO [django.server:212] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+2024-10-23 14:54:37 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-10-23 14:54:38 INFO [django.server:212] "GET /admin/shop/detail/4/change/ HTTP/1.1" 200 14119
+2024-10-23 14:54:38 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 14:54:39 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-10-23 14:54:40 INFO [django.server:212] "GET /admin/shop/detail/6/change/ HTTP/1.1" 200 14081
+2024-10-23 14:54:40 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 14:54:41 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-10-23 14:54:43 INFO [django.server:212] "GET /admin/shop/detail/6/change/ HTTP/1.1" 200 14081
+2024-10-23 14:54:43 INFO [django.server:212] "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+2024-10-23 14:54:45 INFO [django.server:212] "GET /admin/shop/detail/ HTTP/1.1" 200 15098
+2024-10-23 14:55:04 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py changed, reloading.
+2024-10-23 14:55:05 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 14:55:11 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py changed, reloading.
+2024-10-23 14:55:12 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 14:55:23 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py changed, reloading.
+2024-10-23 14:55:24 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 14:55:29 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py changed, reloading.
+2024-10-23 14:55:29 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 14:56:37 WARNING [django.request:241] Not Found: /
+2024-10-23 14:56:37 WARNING [django.server:212] "GET / HTTP/1.1" 404 7004
+2024-10-23 14:56:40 INFO [shop:33] index
+2024-10-23 14:56:41 INFO [django.server:212] "GET /home HTTP/1.1" 200 4768
+2024-10-23 14:56:41 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46473
+2024-10-23 14:56:43 INFO [django.server:212] "GET /cart HTTP/1.1" 200 5704
+2024-10-23 14:56:43 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 14:57:05 INFO [django.server:212] "GET /store HTTP/1.1" 200 4514
+2024-10-23 14:57:05 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 14:57:19 INFO [django.server:212] "GET /detail/1 HTTP/1.1" 200 3110
+2024-10-23 14:57:19 WARNING [django.request:241] Not Found: /detail/media/styles.css
+2024-10-23 14:57:19 WARNING [django.server:212] "GET /detail/media/styles.css HTTP/1.1" 404 7091
+2024-10-23 14:57:27 INFO [django.server:212] "GET /purchase/ HTTP/1.1" 200 4814
+2024-10-23 14:57:27 WARNING [django.request:241] Not Found: /purchase/media/styles.css
+2024-10-23 14:57:27 WARNING [django.server:212] "GET /purchase/media/styles.css HTTP/1.1" 404 7097
+2024-10-23 14:57:50 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\urls.py changed, reloading.
+2024-10-23 14:57:50 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 14:58:25 INFO [django.server:212] "GET /store HTTP/1.1" 200 4513
+2024-10-23 14:58:25 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 14:58:26 INFO [django.server:212] "GET /store HTTP/1.1" 200 4513
+2024-10-23 14:58:27 INFO [django.server:212] "GET /store HTTP/1.1" 200 4513
+2024-10-23 14:58:29 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 4813
+2024-10-23 14:59:08 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5053
+2024-10-23 14:59:08 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:02:11 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5740
+2024-10-23 15:02:11 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48187
+2024-10-23 15:02:13 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5740
+2024-10-23 15:02:13 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:02:31 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5745
+2024-10-23 15:02:31 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48187
+2024-10-23 15:02:32 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5745
+2024-10-23 15:02:32 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:02:42 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:02:42 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:03:16 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:03:16 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48214
+2024-10-23 15:03:16 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:03:16 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:47:14 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 15:47:33 WARNING [django.request:241] Not Found: /
+2024-10-23 15:47:33 WARNING [django.server:212] "GET / HTTP/1.1" 404 7003
+2024-10-23 15:47:34 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-23 15:47:34 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7054
+2024-10-23 15:48:04 INFO [shop:33] index
+2024-10-23 15:48:04 ERROR [django.request:241] Internal Server Error: /home
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001F932E2EDB0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F932E2EDB0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F932E2EDB0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-10-23 15:48:04 ERROR [django.server:212] "GET /home HTTP/1.1" 500 164366
+2024-10-23 15:48:05 INFO [shop:33] index
+2024-10-23 15:48:05 ERROR [django.request:241] Internal Server Error: /home
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001F932E825D0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F932E825D0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py", line 34, in index
+    response = requests.get('https://catfact.ninja/fact')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='catfact.ninja', port=443): Max retries exceeded with url: /fact (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F932E825D0>: Failed to resolve 'catfact.ninja' ([Errno 11001] getaddrinfo failed)"))
+2024-10-23 15:48:05 ERROR [django.server:212] "GET /home HTTP/1.1" 500 164092
+2024-10-23 15:48:31 INFO [shop:33] index
+2024-10-23 15:48:34 INFO [django.server:212] "GET /home HTTP/1.1" 200 4908
+2024-10-23 15:48:34 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48214
+2024-10-23 15:48:51 INFO [shop:65] about
+2024-10-23 15:48:51 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 15:48:51 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:48:52 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 15:49:07 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51382)
+2024-10-23 15:49:10 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 15:49:10 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:50:21 INFO [shop:70] news
+2024-10-23 15:50:21 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 15:50:21 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:50:55 INFO [django.server:212] "GET /news/3 HTTP/1.1" 200 3317
+2024-10-23 15:50:55 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 15:50:55 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 15:51:25 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4864
+2024-10-23 15:51:25 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:51:25 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-10-23 15:51:25 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-10-23 15:51:25 INFO [django.server:212] "GET /media/employee_photos/78687678768.jfif HTTP/1.1" 200 6697
+2024-10-23 15:51:25 INFO [django.server:212] "GET /media/employee_photos/33131231221321.jpg HTTP/1.1" 200 82861
+2024-10-23 15:51:40 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6422
+2024-10-23 15:51:51 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3358
+2024-10-23 15:52:23 INFO [django.server:212] "GET /store HTTP/1.1" 200 4513
+2024-10-23 15:52:23 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:52:25 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:52:47 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:52:48 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:52:50 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:54:11 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5716
+2024-10-23 15:54:11 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48056
+2024-10-23 15:54:20 INFO [shop:65] about
+2024-10-23 15:54:20 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 15:54:20 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 15:54:20 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 15:54:35 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51507)
+2024-10-23 16:11:02 INFO [shop:65] about
+2024-10-23 16:11:02 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:03 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 36241
+2024-10-23 16:11:03 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:19 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51904)
+2024-10-23 16:11:20 INFO [shop:65] about
+2024-10-23 16:11:20 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:20 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:11:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:31 INFO [shop:65] about
+2024-10-23 16:11:31 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:31 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51905)
+2024-10-23 16:11:31 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 39485
+2024-10-23 16:11:32 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:34 INFO [shop:65] about
+2024-10-23 16:11:34 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51910)
+2024-10-23 16:11:34 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 39485
+2024-10-23 16:11:34 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:42 INFO [shop:65] about
+2024-10-23 16:11:42 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:42 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51919)
+2024-10-23 16:11:42 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 42039
+2024-10-23 16:11:43 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:45 INFO [shop:65] about
+2024-10-23 16:11:45 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:45 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51922)
+2024-10-23 16:11:45 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:11:46 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:52 INFO [shop:65] about
+2024-10-23 16:11:52 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:52 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51925)
+2024-10-23 16:11:52 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 45017
+2024-10-23 16:11:52 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:11:53 INFO [shop:65] about
+2024-10-23 16:11:53 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:11:53 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51927)
+2024-10-23 16:11:53 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:11:53 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:12:04 INFO [shop:65] about
+2024-10-23 16:12:04 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:12:04 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51929)
+2024-10-23 16:12:04 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 48056
+2024-10-23 16:12:04 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-23 16:12:04 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-23 16:12:05 INFO [django.server:212] "GET /media/border-image.png HTTP/1.1" 200 63274
+2024-10-23 16:12:05 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:12:06 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:12:21 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51936)
+2024-10-23 16:12:55 INFO [shop:65] about
+2024-10-23 16:12:55 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:12:55 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 47324
+2024-10-23 16:12:55 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:13:12 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51931)
+2024-10-23 16:13:51 INFO [shop:65] about
+2024-10-23 16:13:51 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:13:51 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 46239
+2024-10-23 16:13:51 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:13:53 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6422
+2024-10-23 16:13:53 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:13:55 INFO [django.server:212] "GET /cart HTTP/1.1" 200 5703
+2024-10-23 16:13:55 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:13:55 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 304 0
+2024-10-23 16:13:58 INFO [shop:33] index
+2024-10-23 16:14:00 INFO [django.server:212] "GET /home HTTP/1.1" 200 4757
+2024-10-23 16:14:00 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:14:53 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 51935)
+2024-10-23 16:20:34 INFO [shop:33] index
+2024-10-23 16:20:36 INFO [django.server:212] "GET /home HTTP/1.1" 200 4759
+2024-10-23 16:20:36 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 40163
+2024-10-23 16:20:43 INFO [shop:65] about
+2024-10-23 16:20:43 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:20:44 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:20:44 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:20:47 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 16:20:47 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:20:47 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 304 0
+2024-10-23 16:20:47 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 304 0
+2024-10-23 16:20:47 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 304 0
+2024-10-23 16:21:47 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52095)
+2024-10-23 16:21:47 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6422
+2024-10-23 16:21:47 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 39481
+2024-10-23 16:21:52 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4864
+2024-10-23 16:21:52 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:21:53 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6422
+2024-10-23 16:21:53 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:21:54 INFO [shop:75] faq
+2024-10-23 16:21:54 INFO [django.server:212] "GET /faq HTTP/1.1" 200 10307
+2024-10-23 16:21:54 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:22:02 INFO [django.server:212] "GET /faq/3 HTTP/1.1" 200 4482
+2024-10-23 16:22:02 WARNING [django.request:241] Not Found: /faq/media/styles.css
+2024-10-23 16:22:02 WARNING [django.server:212] "GET /faq/media/styles.css HTTP/1.1" 404 7081
+2024-10-23 16:23:40 INFO [shop:75] faq
+2024-10-23 16:23:40 INFO [django.server:212] "GET /faq HTTP/1.1" 200 10307
+2024-10-23 16:23:40 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 37695
+2024-10-23 16:23:43 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 3413
+2024-10-23 16:23:43 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:23:47 INFO [shop:65] about
+2024-10-23 16:23:47 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:23:47 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:23:47 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:23:50 INFO [shop:33] index
+2024-10-23 16:23:52 INFO [django.server:212] "GET /home HTTP/1.1" 200 4896
+2024-10-23 16:23:52 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:23:54 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 16:23:54 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:24:52 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52106)
+2024-10-23 16:25:06 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4864
+2024-10-23 16:25:06 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 36446
+2024-10-23 16:26:45 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4864
+2024-10-23 16:26:45 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 37743
+2024-10-23 16:26:48 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4864
+2024-10-23 16:26:48 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 37743
+2024-10-23 16:28:26 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3358
+2024-10-23 16:28:26 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 35582
+2024-10-23 16:32:12 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3358
+2024-10-23 16:32:12 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:32:12 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 16:32:12 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:32:21 INFO [shop:65] about
+2024-10-23 16:32:21 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:32:21 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:32:21 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:32:22 INFO [shop:65] about
+2024-10-23 16:32:22 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:32:22 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52105)
+2024-10-23 16:32:22 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:32:22 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:32:31 INFO [shop:70] news
+2024-10-23 16:32:31 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:32:31 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:32:32 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:32:32 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:32:32 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:32:56 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:32:56 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:32:56 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:32:57 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:32:57 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:32:57 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:33:01 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:33:01 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:33:31 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52261)
+2024-10-23 16:33:32 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\urls.py changed, reloading.
+2024-10-23 16:33:33 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:33:49 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\urls.py changed, reloading.
+2024-10-23 16:33:50 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:36:01 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:01 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:01 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:01 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:01 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:01 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:02 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:02 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:02 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:04 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:04 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:04 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:05 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:05 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:33 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:34 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:34 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:34 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:36:34 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:36:34 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:34 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:36:34 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:34 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:35 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:36:39 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:36:39 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:36:39 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:36:39 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:36:39 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:37:01 INFO [shop:33] index
+2024-10-23 16:37:03 INFO [django.server:212] "GET /home HTTP/1.1" 200 4795
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-23 16:37:03 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:37:18 INFO [shop:70] news
+2024-10-23 16:37:18 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:37:18 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 16:37:20 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 3273
+2024-10-23 16:37:20 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:37:20 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:37:20 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:37:26 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:37:26 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:37:26 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:37:26 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:37:36 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:37:36 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:37:36 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:37:37 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:37:37 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:37:37 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:37:37 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:38:00 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-23 16:38:01 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-23 16:38:02 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-23 16:38:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13644
+2024-10-23 16:38:11 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-23 16:38:25 INFO [shop:70] news
+2024-10-23 16:38:25 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:38:38 INFO [shop:70] news
+2024-10-23 16:38:38 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:38:38 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:38:41 INFO [shop:70] news
+2024-10-23 16:38:41 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:38:43 INFO [shop:70] news
+2024-10-23 16:38:43 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:38:52 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3361
+2024-10-23 16:38:52 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:38:52 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:38:52 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:39:05 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3433
+2024-10-23 16:39:05 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:39:05 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:39:05 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:39:05 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:39:05 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:39:25 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52371)
+2024-10-23 16:40:56 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:40:56 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:40:56 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:40:56 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:40:56 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:40:56 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:43:54 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:43:55 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:44:48 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:44:49 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:44:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:44:56 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:44:58 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:44:58 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:45:12 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:45:13 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:45:21 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:45:42 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:45:43 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:45:50 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:45:50 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:46:30 ERROR [django.request:241] Internal Server Error: /news/2
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'media'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\shop\views.py", line 402, in news_detail
+    return render(request, 'single_news.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Asus\AppData\Roaming\Python\Python312\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'media', expected 'endblock'. Did you forget to register or load this tag?
+2024-10-23 16:46:30 ERROR [django.server:212] "GET /news/2 HTTP/1.1" 500 171573
+2024-10-23 16:46:30 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-23 16:46:30 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7054
+2024-10-23 16:46:43 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:46:43 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:46:43 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:46:43 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:46:43 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:46:44 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:46:44 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:46:44 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:46:44 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:46:44 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:46:47 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:46:47 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:46:47 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:46:47 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:46:47 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:46:55 INFO [shop:33] index
+2024-10-23 16:46:57 INFO [django.server:212] "GET /home HTTP/1.1" 200 4875
+2024-10-23 16:46:57 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:47:16 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:47:18 WARNING [django.request:241] Not Found: /
+2024-10-23 16:47:18 WARNING [django.server:212] "GET / HTTP/1.1" 404 7003
+2024-10-23 16:47:20 INFO [shop:33] index
+2024-10-23 16:47:22 INFO [django.server:212] "GET /home HTTP/1.1" 200 4786
+2024-10-23 16:47:24 INFO [shop:70] news
+2024-10-23 16:47:24 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:47:25 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:47:25 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:47:25 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:47:25 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:47:26 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:47:26 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:47:26 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:47:36 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:47:36 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:47:55 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:47:56 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:48:08 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:48:08 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:48:08 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:48:08 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:48:08 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:48:08 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:48:18 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:48:18 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:48:18 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:48:18 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:48:18 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:48:18 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:48:46 INFO [shop:65] about
+2024-10-23 16:48:46 INFO [django.server:212] "GET /about HTTP/1.1" 200 16563
+2024-10-23 16:48:46 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:48:46 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-23 16:48:46 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-23 16:48:46 INFO [django.server:212] "GET /media/border-image.png HTTP/1.1" 200 63274
+2024-10-23 16:48:47 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:48:51 INFO [shop:70] news
+2024-10-23 16:48:51 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 16:48:51 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 16:48:52 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 16:48:52 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 16:48:52 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:48:54 INFO [django.server:212] "GET /news/1 HTTP/1.1" 200 3346
+2024-10-23 16:48:54 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:48:54 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:48:54 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:48:54 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:48:58 INFO [shop:33] index
+2024-10-23 16:49:00 INFO [django.server:212] "GET /home HTTP/1.1" 200 4767
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-23 16:49:00 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:49:16 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:49:17 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:50:05 INFO [shop:81] profile
+2024-10-23 16:50:05 INFO [django.server:212] "GET /profile HTTP/1.1" 200 2688
+2024-10-23 16:50:05 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:50:05 INFO [shop:70] news
+2024-10-23 16:50:06 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:50:06 INFO [shop:70] news
+2024-10-23 16:50:06 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 16:50:06 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:50:07 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:50:07 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:50:07 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:50:07 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:50:07 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:50:26 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:50:27 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:50:36 INFO [shop:33] index
+2024-10-23 16:50:38 INFO [django.server:212] "GET /home HTTP/1.1" 200 4774
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-23 16:50:38 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:51:10 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:51:11 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:51:15 INFO [shop:70] news
+2024-10-23 16:51:15 INFO [django.server:212] "GET /news HTTP/1.1" 200 6828
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-23 16:51:15 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-23 16:51:16 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:51:16 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:51:16 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:51:16 WARNING [django.server:212] "GET /static/media/styles.css HTTP/1.1" 404 1807
+2024-10-23 16:51:16 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:53:27 INFO [django.utils.autoreload:266] D:\253503_GUDORYAN_7\STRWEB\LR2\carshop\carshop\settings.py changed, reloading.
+2024-10-23 16:53:28 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-23 16:53:30 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3434
+2024-10-23 16:53:30 WARNING [django.request:241] Not Found: /news/media/styles.css
+2024-10-23 16:53:30 WARNING [django.server:212] "GET /news/media/styles.css HTTP/1.1" 404 7084
+2024-10-23 16:53:30 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-23 16:53:30 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-23 16:53:30 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-23 16:54:04 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3369
+2024-10-23 16:54:04 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:54:06 INFO [shop:33] index
+2024-10-23 16:54:07 INFO [django.server:212] "GET /home HTTP/1.1" 200 5021
+2024-10-23 16:54:09 INFO [shop:65] about
+2024-10-23 16:54:09 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-23 16:54:09 WARNING [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 404 1825
+2024-10-23 16:54:09 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-23 16:54:10 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-23 16:54:10 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-23 16:54:46 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-23 16:54:46 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:54:46 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-23 16:55:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-23 16:55:09 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-23 16:55:10 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 53434)
+2024-10-23 16:57:58 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-23 16:57:58 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-23 16:57:58 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:07:08 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-25 15:07:59 WARNING [django.request:241] Not Found: /
+2024-10-25 15:07:59 WARNING [django.server:212] "GET / HTTP/1.1" 404 7003
+2024-10-25 15:07:59 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-25 15:07:59 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7054
+2024-10-25 15:08:01 INFO [shop:33] index
+2024-10-25 15:08:03 INFO [django.server:212] "GET /home HTTP/1.1" 200 4950
+2024-10-25 15:08:03 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-25 15:08:03 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-25 15:08:19 INFO [shop:65] about
+2024-10-25 15:08:19 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:08:19 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:08:19 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:08:19 WARNING [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 404 1825
+2024-10-25 15:08:19 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:08:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 64845)
+2024-10-25 15:08:35 INFO [shop:65] about
+2024-10-25 15:08:35 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:08:35 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:08:35 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:08:50 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 64842)
+2024-10-25 15:08:52 INFO [shop:65] about
+2024-10-25 15:08:52 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:08:52 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:08:52 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:08:52 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:08:52 WARNING [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 404 1825
+2024-10-25 15:08:52 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:08:52 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:08:59 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/1500.jfif HTTP/1.1" 200 6461
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:08:59 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:09:59 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 64829)
+2024-10-25 15:10:10 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:10:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:10:28 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:10:37 INFO [shop:65] about
+2024-10-25 15:10:37 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:10:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:10:37 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:10:37 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:10:37 WARNING [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 404 1825
+2024-10-25 15:10:37 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:10:38 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:10:38 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:10:38 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:10:38 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:10:38 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:10:38 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:10:38 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:10:39 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:10:42 INFO [shop:65] about
+2024-10-25 15:10:42 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:10:42 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:10:42 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:10:42 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:10:42 WARNING [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 404 1825
+2024-10-25 15:10:43 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:10:59 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 65072)
+2024-10-25 15:11:25 INFO [shop:65] about
+2024-10-25 15:11:25 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:11:25 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:11:25 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:11:25 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:11:25 INFO [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 200 63274
+2024-10-25 15:11:25 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:11:25 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:11:38 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 64912)
+2024-10-25 15:11:42 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 65127)
+2024-10-25 15:12:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:12:29 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:13:42 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:13:42 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:13:45 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13652
+2024-10-25 15:13:45 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:15:22 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:15:22 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:15:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:15:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:15:32 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:15:32 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/1500.jfif HTTP/1.1" 200 6461
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:15:32 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:18:14 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:18:14 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:18:14 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:18:15 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:18:33 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 65375)
+2024-10-25 15:21:45 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:21:45 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:21:45 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:21:46 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:21:49 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:21:49 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 65376)
+2024-10-25 15:21:49 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:21:49 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:21:50 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:27:26 INFO [shop:65] about
+2024-10-25 15:27:26 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 15:27:26 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:27:26 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 15:27:26 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 15:27:27 INFO [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 200 63274
+2024-10-25 15:27:27 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 15:27:43 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50402)
+2024-10-25 15:28:50 INFO [shop:33] index
+2024-10-25 15:28:51 INFO [django.server:212] "GET /home HTTP/1.1" 200 4845
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/logo.jpg HTTP/1.1" 200 41003
+2024-10-25 15:28:51 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/baner1.webp HTTP/1.1" 200 484224
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/partners/vk.jfif HTTP/1.1" 200 3322
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/baner2.webp HTTP/1.1" 200 530924
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/partners/aviasales.jpg HTTP/1.1" 200 12081
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/partners/tbank.jfif HTTP/1.1" 200 3347
+2024-10-25 15:28:51 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-25 15:29:37 INFO [shop:70] news
+2024-10-25 15:29:37 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 15:29:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/bob.jpg HTTP/1.1" 200 11155
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/chel.png HTTP/1.1" 200 3530
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/logo4_ZeSjZgF.jfif HTTP/1.1" 200 18733
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news5.jfif HTTP/1.1" 200 7667
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news10.jfif HTTP/1.1" 200 14770
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news7.webp HTTP/1.1" 200 96402
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news8.webp HTTP/1.1" 200 18482
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news6.jpg HTTP/1.1" 200 306029
+2024-10-25 15:29:37 INFO [django.server:212] "GET /media/articles/news9.png HTTP/1.1" 200 553446
+2024-10-25 15:33:08 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4872
+2024-10-25 15:33:08 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-10-25 15:33:08 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-10-25 15:33:08 INFO [django.server:212] "GET /media/employee_photos/78687678768.jfif HTTP/1.1" 200 6697
+2024-10-25 15:33:08 INFO [django.server:212] "GET /media/employee_photos/33131231221321.jpg HTTP/1.1" 200 82861
+2024-10-25 15:33:25 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6430
+2024-10-25 15:33:26 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4872
+2024-10-25 15:33:27 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3366
+2024-10-25 15:33:36 INFO [django.server:212] "GET /reviews HTTP/1.1" 200 6430
+2024-10-25 15:33:42 INFO [shop:75] faq
+2024-10-25 15:33:42 INFO [django.server:212] "GET /faq HTTP/1.1" 200 10315
+2024-10-25 15:33:45 INFO [django.server:212] "GET /promocodes HTTP/1.1" 200 3421
+2024-10-25 15:34:12 INFO [shop:70] news
+2024-10-25 15:34:12 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 15:34:32 INFO [django.server:212] "GET /cart HTTP/1.1" 200 5711
+2024-10-25 15:34:38 INFO [django.server:212] "GET /store HTTP/1.1" 200 4521
+2024-10-25 15:34:48 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5724
+2024-10-25 15:34:59 INFO [shop:33] index
+2024-10-25 15:35:00 INFO [django.server:212] "GET /home HTTP/1.1" 200 4952
+2024-10-25 15:39:20 INFO [shop:33] index
+2024-10-25 15:39:21 INFO [shop:70] news
+2024-10-25 15:39:21 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 15:39:21 INFO [django.server:212] "GET /home HTTP/1.1" 200 4796
+2024-10-25 15:39:22 INFO [shop:70] news
+2024-10-25 15:39:22 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 15:39:23 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:24 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:26 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:47 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:47 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:39:47 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:39:47 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:39:48 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:48 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:39:48 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:39:48 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:39:49 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:39:49 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:39:49 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 32539
+2024-10-25 15:39:50 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:40:36 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:40:36 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:40:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33030
+2024-10-25 15:40:36 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:40:41 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3422
+2024-10-25 15:40:41 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:40:58 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:40:58 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:42:53 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:42:53 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33028
+2024-10-25 15:42:53 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:42:53 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:43:10 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:43:10 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:43:10 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33031
+2024-10-25 15:43:10 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:43:11 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:43:11 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:43:14 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:43:14 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:44:50 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:44:50 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:44:50 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33341
+2024-10-25 15:44:50 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:44:51 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:44:51 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:44:51 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33341
+2024-10-25 15:44:51 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:44:51 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:44:51 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:44:54 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:45:02 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:45:02 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:45:02 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33341
+2024-10-25 15:45:02 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:45:03 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:45:03 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 15:45:03 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33341
+2024-10-25 15:45:03 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:45:07 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:45:08 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:45:09 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:45:09 INFO [django.server:212] "GET /news/2 HTTP/1.1" 200 3486
+2024-10-25 15:45:11 INFO [shop:70] news
+2024-10-25 15:45:11 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 15:45:11 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:45:12 INFO [django.server:212] "GET /news/6 HTTP/1.1" 200 4964
+2024-10-25 15:45:13 INFO [django.server:212] "GET /news/6 HTTP/1.1" 200 4964
+2024-10-25 15:45:13 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:45:18 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:48:06 INFO [django.server:212] "GET /news/6 HTTP/1.1" 200 4964
+2024-10-25 15:48:06 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:22 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5724
+2024-10-25 15:49:22 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33378
+2024-10-25 15:49:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:23 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:49:23 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:49:23 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:49:23 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:49:23 WARNING [django.server:212] "GET /static/media/box.png HTTP/1.1" 404 1798
+2024-10-25 15:49:23 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33348
+2024-10-25 15:49:33 WARNING [django.server:212] "GET /static/media/box.png HTTP/1.1" 404 1798
+2024-10-25 15:49:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:34 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:34 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:34 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:35 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:35 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:35 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:35 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:35 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:35 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:36 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:36 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:36 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:36 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:38 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:38 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:38 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:39 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:39 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:39 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:39 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:39 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:40 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:40 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:40 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:50 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:50 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33350
+2024-10-25 15:49:50 WARNING [django.server:212] "GET /static/media/crate.png HTTP/1.1" 404 1804
+2024-10-25 15:49:50 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:50 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:50 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52093)
+2024-10-25 15:49:50 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:49:50 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:49:54 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:49:54 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33350
+2024-10-25 15:49:54 WARNING [django.server:212] "GET /static/media/crate.png HTTP/1.1" 404 1804
+2024-10-25 15:49:54 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:50:02 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:50:02 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33350
+2024-10-25 15:50:02 WARNING [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 404 1804
+2024-10-25 15:50:02 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:50:04 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 15:50:10 WARNING [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 404 1804
+2024-10-25 15:50:12 WARNING [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 404 1804
+2024-10-25 15:50:18 WARNING [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 404 1804
+2024-10-25 15:50:18 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-25 15:50:18 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7054
+2024-10-25 15:50:37 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:50:37 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33350
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:50:37 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:50:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:50:38 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:50:57 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52159)
+2024-10-25 15:51:16 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:16 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33393
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:16 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:51:16 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:51:17 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:17 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52131)
+2024-10-25 15:51:17 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33393
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:17 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:17 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:51:18 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:51:29 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:29 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:51:29 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:29 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:29 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:29 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:29 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:32 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:32 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:32 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:51:32 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:51:55 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:55 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:55 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:51:55 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:51:57 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:57 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:57 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:57 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:51:58 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:51:59 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:51:59 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:51:59 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:51:59 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:52:00 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:52:03 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:52:03 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:52:03 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:52:03 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:52:04 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:52:07 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:52:07 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:52:07 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:52:07 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:52:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:52:11 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33346
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:52:11 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:52:11 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:52:12 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:53:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:09 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:09 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:09 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:53:21 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:21 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:21 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:22 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:22 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:53:22 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:53:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:23 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:23 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:24 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:53:24 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 52439)
+2024-10-25 15:53:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33509
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:53:24 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:53:24 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:54:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:54:28 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33630
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:54:28 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:54:28 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:54:30 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:54:30 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33630
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:54:30 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:54:30 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:54:32 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:54:32 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33630
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:54:32 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:54:32 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:54:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:54:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33630
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:54:33 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:54:33 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 15:54:46 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 15:54:46 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33632
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 15:54:46 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 15:54:46 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:03:02 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:02 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33657
+2024-10-25 16:03:02 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 16:03:02 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:04 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:04 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:04 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:08 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:08 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:08 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:09 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:09 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:09 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:09 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:09 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:09 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:10 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:10 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:10 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:10 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:10 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:10 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:10 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:10 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:11 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:11 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:11 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:11 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 53298)
+2024-10-25 16:03:11 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:12 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:12 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:12 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:12 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:12 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:12 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:12 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:13 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:13 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:13 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:13 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:13 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:13 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:13 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:57 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:57 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:03:57 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:58 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:58 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:58 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:58 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:03:58 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:03:58 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:23 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33838
+2024-10-25 16:04:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:24 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:24 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:24 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:25 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:25 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:25 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:26 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:26 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:26 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33838
+2024-10-25 16:04:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:34 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:34 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:34 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:35 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:35 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 53469)
+2024-10-25 16:04:35 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:35 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:36 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:36 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:36 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:36 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:36 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:37 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:40 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:40 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:41 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:04:42 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:04:42 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:04:42 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:20 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:20 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:20 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 16:05:20 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:21 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:21 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:05:21 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:22 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:05:23 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:25 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:05:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:28 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:28 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:28 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:29 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:29 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:29 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:29 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:33 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:33 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 53568)
+2024-10-25 16:05:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:33 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:34 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:34 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:34 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:34 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:35 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:35 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:05:35 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:05:35 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:05:36 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:05:41 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:05:41 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:05:41 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:07:33 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:07:33 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:07:33 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 16:07:33 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:07:43 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:07:43 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:07:43 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:07:43 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:07:43 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:07:43 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:07:43 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:07:44 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:07:44 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:07:44 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:15:13 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:15:13 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/detail2.png HTTP/1.1" 200 204590
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/detail1.png HTTP/1.1" 200 200369
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/detail3.png HTTP/1.1" 200 225401
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/detail4.png HTTP/1.1" 200 248578
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/500.jfif HTTP/1.1" 200 3948
+2024-10-25 16:15:13 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 200 1001
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:15:13 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:15:15 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4872
+2024-10-25 16:15:15 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:15:15 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-10-25 16:15:15 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-10-25 16:15:15 INFO [django.server:212] "GET /media/employee_photos/78687678768.jfif HTTP/1.1" 200 6697
+2024-10-25 16:15:15 INFO [django.server:212] "GET /media/employee_photos/33131231221321.jpg HTTP/1.1" 200 82861
+2024-10-25 16:15:36 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4872
+2024-10-25 16:15:36 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-10-25 16:15:36 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-10-25 16:15:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33842
+2024-10-25 16:15:36 INFO [django.server:212] "GET /media/employee_photos/78687678768.jfif HTTP/1.1" 200 6697
+2024-10-25 16:15:36 INFO [django.server:212] "GET /media/employee_photos/33131231221321.jpg HTTP/1.1" 200 82861
+2024-10-25 16:15:36 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:16:10 INFO [django.server:212] "GET /employees HTTP/1.1" 200 4872
+2024-10-25 16:16:10 INFO [django.server:212] "GET /media/employee_photos/negr.jpg HTTP/1.1" 200 19029
+2024-10-25 16:16:10 INFO [django.server:212] "GET /media/employee_photos/director.jpg HTTP/1.1" 200 43486
+2024-10-25 16:16:10 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33831
+2024-10-25 16:16:10 INFO [django.server:212] "GET /media/employee_photos/78687678768.jfif HTTP/1.1" 200 6697
+2024-10-25 16:16:10 INFO [django.server:212] "GET /media/employee_photos/33131231221321.jpg HTTP/1.1" 200 82861
+2024-10-25 16:16:10 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:16:27 INFO [shop:33] index
+2024-10-25 16:16:28 INFO [django.server:212] "GET /home HTTP/1.1" 200 4758
+2024-10-25 16:16:28 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:16:36 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:19:01 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:19:01 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33831
+2024-10-25 16:19:01 INFO [django.server:212] "GET /media/1500.jfif HTTP/1.1" 200 6461
+2024-10-25 16:19:01 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 16:19:01 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:40:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:40:28 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33833
+2024-10-25 16:40:28 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 16:40:28 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 16:40:28 INFO [django.server:212] "GET /media/icona.png HTTP/1.1" 200 838
+2024-10-25 16:40:30 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 16:40:30 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 16:40:30 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:22:06 INFO [django.utils.autoreload:668] Watching for file changes with StatReloader
+2024-10-25 17:22:14 WARNING [django.request:241] Not Found: /
+2024-10-25 17:22:14 WARNING [django.server:212] "GET / HTTP/1.1" 404 7003
+2024-10-25 17:22:15 WARNING [django.request:241] Not Found: /favicon.ico
+2024-10-25 17:22:15 WARNING [django.server:212] "GET /favicon.ico HTTP/1.1" 404 7054
+2024-10-25 17:22:20 INFO [shop:33] index
+2024-10-25 17:22:21 INFO [django.server:212] "GET /home HTTP/1.1" 200 4843
+2024-10-25 17:22:22 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33833
+2024-10-25 17:22:53 INFO [shop:70] news
+2024-10-25 17:22:53 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 17:22:53 INFO [django.server:212] "GET /media/articles/ball.png HTTP/1.1" 200 12562
+2024-10-25 17:23:28 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:23:28 INFO [django.server:212] "GET /media/1500.jfif HTTP/1.1" 200 6461
+2024-10-25 17:23:28 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 17:23:28 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:23:30 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:23:30 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:23:32 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:23:32 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:29:26 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:29:26 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33739
+2024-10-25 17:29:26 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:29:29 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:29:29 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49734)
+2024-10-25 17:29:29 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:30:04 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:30:04 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33740
+2024-10-25 17:30:04 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:32:16 INFO [shop:65] about
+2024-10-25 17:32:16 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:32:16 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:32:16 INFO [django.server:212] "GET /media/logo.png HTTP/1.1" 200 113076
+2024-10-25 17:32:16 INFO [django.server:212] "GET /media/detail.webp HTTP/1.1" 200 720844
+2024-10-25 17:32:16 INFO [django.server:212] "GET /static/media/border-image.png HTTP/1.1" 200 63274
+2024-10-25 17:32:16 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:32:34 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49777)
+2024-10-25 17:35:23 INFO [shop:65] about
+2024-10-25 17:35:23 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:35:23 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33742
+2024-10-25 17:35:23 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:35:38 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49779)
+2024-10-25 17:37:50 INFO [shop:65] about
+2024-10-25 17:37:50 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:37:50 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 200 33742
+2024-10-25 17:37:50 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:37:55 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3366
+2024-10-25 17:37:55 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:38:55 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49874)
+2024-10-25 17:39:41 INFO [shop:65] about
+2024-10-25 17:39:41 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:39:41 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:39:42 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:39:43 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:39:43 INFO [django.server:212] "GET /static/media/CRATE.png HTTP/1.1" 304 0
+2024-10-25 17:39:43 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:40:43 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49875)
+2024-10-25 17:42:27 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:42:27 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:42:27 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:42:51 INFO [shop:65] about
+2024-10-25 17:42:51 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:42:52 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:43:12 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49947)
+2024-10-25 17:43:42 INFO [django.server:212] "GET /jobs HTTP/1.1" 200 3366
+2024-10-25 17:43:42 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:44:16 INFO [shop:65] about
+2024-10-25 17:44:16 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:44:16 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:44:17 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:44:17 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:45:17 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 49952)
+2024-10-25 17:46:34 INFO [shop:70] news
+2024-10-25 17:46:34 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 17:46:34 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:47:12 INFO [shop:70] news
+2024-10-25 17:47:12 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 17:47:15 INFO [shop:70] news
+2024-10-25 17:47:15 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 17:47:17 INFO [django.server:212] "GET /privacy HTTP/1.1" 200 13643
+2024-10-25 17:47:17 INFO [django.server:212] "GET /media/audio.mp3 HTTP/1.1" 200 4415320
+2024-10-25 17:47:17 INFO [shop:65] about
+2024-10-25 17:47:17 INFO [django.server:212] "GET /about HTTP/1.1" 200 16571
+2024-10-25 17:47:18 INFO [django.server:212] "GET /media/vidos.mp4 HTTP/1.1" 200 36922885
+2024-10-25 17:47:35 INFO [django.server:81] - Broken pipe from ('127.0.0.1', 50073)
+2024-10-25 17:47:41 INFO [django.server:212] "GET /purchase HTTP/1.1" 200 5724
+2024-10-25 17:47:41 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:49:06 INFO [shop:33] index
+2024-10-25 17:49:07 INFO [django.server:212] "GET /home HTTP/1.1" 200 4800
+2024-10-25 17:49:07 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
+2024-10-25 17:50:46 INFO [shop:70] news
+2024-10-25 17:50:46 INFO [django.server:212] "GET /news HTTP/1.1" 200 6836
+2024-10-25 17:50:46 INFO [django.server:212] "GET /static/media/styles.css HTTP/1.1" 304 0
